@@ -1,23 +1,24 @@
-import { getPageBySlug, SITE_NAME } from "@/lib/data";
-import { notFound } from "next/navigation";
+import { SITE_NAME } from "@/lib/data";
 import type { Metadata } from "next";
+import TipForm from "@/components/TipForm";
 
 export const metadata: Metadata = {
   title: `Submit a Tip | ${SITE_NAME}`,
-  description: "Submit a tip to The Ethics Reporter.",
+  description:
+    "Have you witnessed an ethics violation? Submit a confidential tip to The Ethics Reporter.",
 };
 
 export default function TipPage() {
-  const page = getPageBySlug("tip");
-  if (!page) notFound();
-
   return (
-    <div className="max-w-3xl mx-auto px-4 py-10">
-      <h1 className="text-3xl font-bold mb-8 font-sans">{page.title}</h1>
-      <div
-        className="page-content"
-        dangerouslySetInnerHTML={{ __html: page.content }}
-      />
+    <div className="max-w-2xl mx-auto px-4 py-16">
+      <h1 className="text-3xl font-bold mb-4 font-sans text-center">
+        Got A Tip?
+      </h1>
+      <p className="text-gray-600 font-serif text-center mb-10 leading-relaxed">
+        Have you seen an ethics violation and want us to write about it? Submit
+        your tip below. You can remain anonymous — we never reveal our sources.
+      </p>
+      <TipForm />
     </div>
   );
 }
