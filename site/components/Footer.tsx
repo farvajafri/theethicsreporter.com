@@ -47,6 +47,11 @@ export default function Footer() {
                   TikTok
                 </a>
               </li>
+              <li>
+                <a href="https://www.youtube.com/@theethicsReporter" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  YouTube
+                </a>
+              </li>
             </ul>
             <div className="mt-4">
               <a href="/feed.xml" className="text-sm hover:text-white transition-colors">RSS Feed</a>
