@@ -53,11 +53,6 @@ export default function ArticleCard({ post }: { post: Post }) {
           </div>
         )}
         <div className="flex items-center gap-2 mb-2">
-          {post.categories.length > 0 && (
-            <span className="text-xs font-semibold uppercase tracking-wide text-brand font-sans">
-              {post.categories[0]}
-            </span>
-          )}
           <span className="text-xs text-gray-400 font-sans">{formatDate(post.date)}</span>
         </div>
         <h2 className="text-lg font-bold leading-snug mb-2 group-hover:text-brand transition-colors font-sans">

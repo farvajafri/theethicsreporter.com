@@ -106,11 +106,6 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
       <article className="max-w-3xl mx-auto px-4 py-10">
         <header className="mb-8">
           <div className="flex items-center gap-3 mb-4 text-sm font-sans">
-            {post.categories.map((cat) => (
-              <span key={cat} className="text-brand font-semibold uppercase tracking-wide text-xs">
-                {cat}
-              </span>
-            ))}
             <span className="text-gray-400">{formatDate(post.date)}</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-4 font-sans">
