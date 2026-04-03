@@ -26,6 +26,14 @@ function XIcon() {
   );
 }
 
+function TikTokIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15.2a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.89a8.28 8.28 0 0 0 4.76 1.5V6.94a4.84 4.84 0 0 1-1-.25z" />
+    </svg>
+  );
+}
+
 export default function Header() {
   return (
     <header className="bg-[#1a1a1a] text-white">
@@ -40,6 +48,9 @@ export default function Header() {
             </a>
             <a href="https://x.com/EthicsThe79114" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="X (Twitter)">
               <XIcon />
+            </a>
+            <a href="https://www.tiktok.com/@ethics_reporter234" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="TikTok">
+              <TikTokIcon />
             </a>
           </div>
           <div className="text-sm text-gray-400">

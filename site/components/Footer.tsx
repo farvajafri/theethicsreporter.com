@@ -42,6 +42,11 @@ export default function Footer() {
                   X (Twitter)
                 </a>
               </li>
+              <li>
+                <a href="https://www.tiktok.com/@ethics_reporter234" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  TikTok
+                </a>
+              </li>
             </ul>
             <div className="mt-4">
               <a href="/feed.xml" className="text-sm hover:text-white transition-colors">RSS Feed</a>
