@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
     const replyTo = !anonymous && email ? email : undefined;
 
     const { error } = await resend.emails.send({
-      from: "Ethics Reporter Tips <tips@theethicsreporter.com>",
+      from: "Ethics Reporter Tips <onboarding@resend.dev>",
       to: "theethicsreporter@gmail.com",
       subject: subject || "New Ethics Reporter Tip",
       replyTo,
