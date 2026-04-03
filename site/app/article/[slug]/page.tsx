@@ -3,8 +3,30 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 
+function decodeEntities(text: string): string {
+  const entities: Record<string, string> = {
+    "&#038;": "&", "&amp;": "&",
+    "&#8217;": "\u2019", "&rsquo;": "\u2019",
+    "&#8216;": "\u2018", "&lsquo;": "\u2018",
+    "&#8220;": "\u201C", "&ldquo;": "\u201C",
+    "&#8221;": "\u201D", "&rdquo;": "\u201D",
+    "&#8211;": "\u2013", "&ndash;": "\u2013",
+    "&#8212;": "\u2014", "&mdash;": "\u2014",
+    "&quot;": '"', "&#034;": '"',
+    "&lt;": "<", "&gt;": ">",
+    "&#039;": "'", "&apos;": "'",
+  };
+  let result = text;
+  for (const [entity, char] of Object.entries(entities)) {
+    result = result.split(entity).join(char);
+  }
+  result = result.replace(/&#(\d+);/g, (_, n) => String.fromCharCode(parseInt(n)));
+  result = result.replace(/&#x([0-9a-fA-F]+);/g, (_, n) => String.fromCharCode(parseInt(n, 16)));
+  return result;
+}
+
 function stripHtml(html: string): string {
-  return html.replace(/<[^>]*>/g, "").trim();
+  return decodeEntities(html.replace(/<[^>]*>/g, "").trim());
 }
 
 function formatDate(dateStr: string): string {
@@ -92,7 +114,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
             <span className="text-gray-400">{formatDate(post.date)}</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-4 font-sans">
-            {post.title}
+            {decodeEntities(post.title)}
           </h1>
           {post.featured_image && (
             <img
