@@ -1,4 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
+import { Resend } from "resend";
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: NextRequest) {
   try {
@@ -12,45 +15,37 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const accessKey = process.env.WEB3FORMS_KEY;
-    if (!accessKey) {
-      return NextResponse.json(
-        { error: "Form service not configured" },
-        { status: 500 }
-      );
-    }
+    const senderName = anonymous ? "Anonymous Tipster" : name || "Anonymous";
+    const replyTo = !anonymous && email ? email : undefined;
 
-    const payload: Record<string, string> = {
-      access_key: accessKey,
+    const { error } = await resend.emails.send({
+      from: "Ethics Reporter Tips <tips@theethicsreporter.com>",
+      to: "theethicsreporter@gmail.com",
       subject: subject || "New Ethics Reporter Tip",
-      from_name: anonymous ? "Anonymous Tipster" : name || "Anonymous",
-      message: message,
-    };
-
-    if (!anonymous && email) {
-      payload.email = email;
-      payload.replyto = email;
-    } else {
-      payload.email = "anonymous@tip.theethicsreporter.com";
-    }
-
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
+      replyTo,
+      html: `
+        <h2>New Tip Submission</h2>
+        <p><strong>From:</strong> ${senderName}</p>
+        ${replyTo ? `<p><strong>Email:</strong> ${replyTo}</p>` : "<p><em>Submitted anonymously</em></p>"}
+        <p><strong>Subject:</strong> ${subject || "N/A"}</p>
+        <hr />
+        <div style="white-space: pre-wrap; font-family: Georgia, serif; line-height: 1.6;">
+${message}
+        </div>
+      `,
     });
 
-    const data = await res.json();
-
-    if (data.success) {
-      return NextResponse.json({ success: true });
-    } else {
+    if (error) {
+      console.error("Resend error:", error);
       return NextResponse.json(
         { error: "Failed to send tip" },
         { status: 500 }
       );
     }
-  } catch {
+
+    return NextResponse.json({ success: true });
+  } catch (err) {
+    console.error("Tip API error:", err);
     return NextResponse.json(
       { error: "Internal server error" },
       { status: 500 }
