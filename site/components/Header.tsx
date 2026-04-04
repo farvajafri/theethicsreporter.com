@@ -83,7 +83,6 @@ export default function Header() {
           <Link href="/about" className="text-gray-300 hover:text-white transition-colors">About</Link>
           <Link href="/tip" className="text-gray-300 hover:text-white transition-colors">Tip</Link>
           <Link href="/donate" className="text-gray-300 hover:text-white transition-colors">Donate</Link>
-          <Link href="/privacy-policy" className="text-gray-300 hover:text-white transition-colors">Privacy Policy</Link>
         </nav>
       </div>
     </header>
