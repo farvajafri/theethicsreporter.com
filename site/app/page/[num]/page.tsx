@@ -4,7 +4,7 @@ import Pagination from "@/components/Pagination";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
-const PER_PAGE = 12;
+const PER_PAGE = 30;
 
 export function generateStaticParams() {
   const totalPages = Math.ceil(getAllPosts().length / PER_PAGE);
