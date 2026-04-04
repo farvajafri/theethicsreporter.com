@@ -56,6 +56,41 @@ export function getPageBySlug(slug: string): Page | undefined {
   return pages.find((p) => p.slug === slug);
 }
 
+export function getRecentPosts(excludeSlug?: string, limit: number = 3): Post[] {
+  return posts.filter((p) => p.slug !== excludeSlug).slice(0, limit);
+}
+
+export function getRelatedPosts(post: Post, limit: number = 3): Post[] {
+  // Score posts by shared tags and categories
+  const scored = posts
+    .filter((p) => p.slug !== post.slug)
+    .map((p) => {
+      let score = 0;
+      for (const tag of p.tags) {
+        if (post.tags.includes(tag)) score += 2;
+      }
+      for (const cat of p.categories) {
+        if (post.categories.includes(cat)) score += 1;
+      }
+      return { post: p, score };
+    })
+    .filter((s) => s.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map((s) => s.post);
+
+  // If not enough related, backfill with recent posts
+  if (scored.length < limit) {
+    const slugs = new Set([post.slug, ...scored.map((p) => p.slug)]);
+    const backfill = posts
+      .filter((p) => !slugs.has(p.slug))
+      .slice(0, limit - scored.length);
+    return [...scored, ...backfill];
+  }
+
+  return scored;
+}
+
 export const SITE_URL = "https://theethicsreporter.com";
 export const SITE_NAME = "The Ethics Reporter";
 export const SITE_DESCRIPTION =

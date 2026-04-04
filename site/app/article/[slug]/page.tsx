@@ -1,7 +1,8 @@
-import { getAllPosts, getPostBySlug, SITE_URL, SITE_NAME } from "@/lib/data";
+import { getAllPosts, getPostBySlug, getRecentPosts, getRelatedPosts, SITE_URL, SITE_NAME } from "@/lib/data";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
+import ArticleSidebar from "@/components/ArticleSidebar";
 
 function decodeEntities(text: string): string {
   const entities: Record<string, string> = {
@@ -97,58 +98,76 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
     },
   };
 
+  const recentPosts = getRecentPosts(post.slug, 3);
+  const relatedPosts = getRelatedPosts(post, 3);
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <article className="max-w-3xl mx-auto px-4 py-10">
-        <header className="mb-8">
-          <div className="flex items-center gap-3 mb-4 text-sm font-sans">
-            <span className="text-gray-400">{formatDate(post.date)}</span>
+      <div className="max-w-6xl mx-auto px-4 py-10">
+        <div className="flex flex-col lg:flex-row lg:gap-10">
+          {/* Sidebar — left on desktop, bottom on mobile */}
+          <div className="hidden lg:block lg:w-72 flex-shrink-0 order-1">
+            <ArticleSidebar recentPosts={recentPosts} relatedPosts={relatedPosts} />
           </div>
-          <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-4 font-sans">
-            {decodeEntities(post.title)}
-          </h1>
-          {post.featured_image && (
-            <img
-              src={post.featured_image}
-              alt={post.title}
-              className="w-full rounded-lg mt-4"
+
+          {/* Article */}
+          <article className="flex-1 min-w-0 order-2">
+            <header className="mb-8">
+              <div className="flex items-center gap-3 mb-4 text-sm font-sans">
+                <span className="text-gray-400">{formatDate(post.date)}</span>
+              </div>
+              <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-4 font-sans">
+                {decodeEntities(post.title)}
+              </h1>
+              {post.featured_image && (
+                <img
+                  src={post.featured_image}
+                  alt={post.title}
+                  className="w-full rounded-lg mt-4"
+                />
+              )}
+            </header>
+
+            <div
+              className="article-content"
+              dangerouslySetInnerHTML={{ __html: post.content }}
             />
-          )}
-        </header>
 
-        <div
-          className="article-content"
-          dangerouslySetInnerHTML={{ __html: post.content }}
-        />
+            {post.tags.length > 0 && (
+              <div className="mt-10 pt-6 border-t border-gray-200">
+                <div className="flex flex-wrap gap-2">
+                  {post.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="text-xs px-3 py-1 bg-gray-100 text-gray-600 rounded-full font-sans"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
 
-        {post.tags.length > 0 && (
-          <div className="mt-10 pt-6 border-t border-gray-200">
-            <div className="flex flex-wrap gap-2">
-              {post.tags.map((tag) => (
-                <span
-                  key={tag}
-                  className="text-xs px-3 py-1 bg-gray-100 text-gray-600 rounded-full font-sans"
-                >
-                  {tag}
-                </span>
-              ))}
+            <div className="mt-8 pt-6 border-t border-gray-200">
+              <Link
+                href="/"
+                className="text-brand hover:text-brand-dark font-semibold text-sm font-sans"
+              >
+                &larr; Back to all articles
+              </Link>
             </div>
-          </div>
-        )}
+          </article>
 
-        <div className="mt-8 pt-6 border-t border-gray-200">
-          <Link
-            href="/"
-            className="text-brand hover:text-brand-dark font-semibold text-sm font-sans"
-          >
-            &larr; Back to all articles
-          </Link>
+          {/* Sidebar — bottom on mobile */}
+          <div className="lg:hidden mt-10 order-3">
+            <ArticleSidebar recentPosts={recentPosts} relatedPosts={relatedPosts} />
+          </div>
         </div>
-      </article>
+      </div>
     </>
   );
 }
