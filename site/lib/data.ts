@@ -37,7 +37,7 @@ export function getPostBySlug(slug: string): Post | undefined {
   return posts.find((p) => p.slug === slug);
 }
 
-export function getPaginatedPosts(page: number, perPage: number = 12) {
+export function getPaginatedPosts(page: number, perPage: number = 24) {
   const start = (page - 1) * perPage;
   const end = start + perPage;
   return {
