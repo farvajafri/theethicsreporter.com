@@ -1,6 +1,17 @@
 {
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "theethicsreporter.com"
+        }
+      ],
+      "destination": "https://www.theethicsreporter.com/:path*",
+      "permanent": true
+    },
+    {
       "source": "/:year(\\d{4})/:month(\\d{2})/:day(\\d{2})/:slug*",
       "destination": "/article/:slug*",
       "permanent": true
