@@ -91,7 +91,7 @@ export function getRelatedPosts(post: Post, limit: number = 3): Post[] {
   return scored;
 }
 
-export const SITE_URL = "https://theethicsreporter.com";
+export const SITE_URL = "https://www.theethicsreporter.com";
 export const SITE_NAME = "The Ethics Reporter";
 export const SITE_DESCRIPTION =
   "Independent legal ethics journalism — holding the legal profession accountable.";
