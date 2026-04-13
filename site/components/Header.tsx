@@ -82,7 +82,7 @@ export default function Header() {
           <Link href="/" className="text-gray-300 hover:text-white transition-colors">Home</Link>
           <Link href="/about" className="text-gray-300 hover:text-white transition-colors">About</Link>
           <Link href="/podcast" className="text-gray-300 hover:text-white transition-colors">Podcast</Link>
-          <Link href="/products" className="text-gray-300 hover:text-white transition-colors">Templates</Link>
+          <Link href="/products" className="text-gray-300 hover:text-white transition-colors">Products</Link>
           <Link href="/tip" className="text-gray-300 hover:text-white transition-colors">Tip</Link>
           <Link href="/donate" className="text-gray-300 hover:text-white transition-colors">Donate</Link>
         </nav>
