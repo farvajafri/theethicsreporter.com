@@ -116,9 +116,7 @@ export default function TabArticlePage({
         </header>
 
         <div
-          className="prose prose-lg max-w-none font-serif text-gray-800 leading-relaxed
-            prose-h2:font-sans prose-h2:text-2xl prose-h2:font-bold prose-h2:mt-8 prose-h2:mb-4
-            prose-p:mb-5 prose-a:text-[#8B0000] prose-a:no-underline hover:prose-a:underline"
+          className="article-content"
           dangerouslySetInnerHTML={{ __html: article.content }}
         />
 
