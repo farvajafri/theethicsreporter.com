@@ -14,7 +14,7 @@ const products = productsData as {
   slug: string;
 }[];
 
-const states = [...new Set(products.map((p) => p.state))].sort();
+const states = Array.from(new Set(products.map((p) => p.state))).sort();
 
 function ProductCard({ product }: { product: typeof products[0] }) {
   const [loading, setLoading] = useState(false);
