@@ -81,6 +81,9 @@ export default function Header() {
         <nav className="flex items-center justify-center gap-6 pb-4 text-sm font-sans font-medium">
           <Link href="/" className="text-gray-300 hover:text-white transition-colors">Home</Link>
           <Link href="/take-america-back" className="text-white font-bold border-b-2 border-[#8B0000] pb-0.5 hover:text-red-300 transition-colors">Take America Back</Link>
+          <Link href="/state" className="text-gray-300 hover:text-white transition-colors">By State</Link>
+          <Link href="/topics" className="text-gray-300 hover:text-white transition-colors">Topics</Link>
+          <Link href="/how-to" className="text-gray-300 hover:text-white transition-colors">How-To</Link>
           <Link href="/about" className="text-gray-300 hover:text-white transition-colors">About</Link>
           <Link href="/podcast" className="text-gray-300 hover:text-white transition-colors">Podcast</Link>
           <Link href="/products" className="text-gray-300 hover:text-white transition-colors">Products</Link>
