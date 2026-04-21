@@ -140,7 +140,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
             {post.tags.length > 0 && (
               <div className="mt-10 pt-6 border-t border-gray-200">
                 <div className="flex flex-wrap gap-2">
-                  {post.tags.map((tag) => (
+                  {post?.tags?.map((tag) => (
                     <span
                       key={tag}
                       className="text-xs px-3 py-1 bg-gray-100 text-gray-600 rounded-full font-sans"
