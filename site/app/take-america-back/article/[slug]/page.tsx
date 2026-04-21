@@ -12,7 +12,8 @@ function formatDate(dateStr: string): string {
   });
 }
 
-function stripHtml(html: string): string {
+function stripHtml(html: string | undefined | null): string {
+  if (!html) return "";
   return html.replace(/<[^>]*>/g, "").trim();
 }
 

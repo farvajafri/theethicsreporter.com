@@ -24,7 +24,8 @@ function decodeEntities(text: string): string {
   return result;
 }
 
-function stripHtml(html: string): string {
+function stripHtml(html: string | undefined | null): string {
+  if (!html) return "";
   return decodeEntities(html.replace(/<[^>]*>/g, "").trim());
 }
 

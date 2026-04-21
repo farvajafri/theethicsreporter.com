@@ -66,11 +66,11 @@ export function getRelatedPosts(post: Post, limit: number = 3): Post[] {
     .filter((p) => p.slug !== post.slug)
     .map((p) => {
       let score = 0;
-      for (const tag of p.tags) {
-        if (post.tags.includes(tag)) score += 2;
+      for (const tag of (p.tags || [])) {
+        if ((post.tags || []).includes(tag)) score += 2;
       }
-      for (const cat of p.categories) {
-        if (post.categories.includes(cat)) score += 1;
+      for (const cat of (p.categories || [])) {
+        if ((post.categories || []).includes(cat)) score += 1;
       }
       return { post: p, score };
     })

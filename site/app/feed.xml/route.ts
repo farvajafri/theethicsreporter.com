@@ -1,6 +1,7 @@
 import { getAllPosts, SITE_URL, SITE_NAME, SITE_DESCRIPTION } from "@/lib/data";
 
-function escapeXml(str: string): string {
+function escapeXml(str: string | undefined | null): string {
+  if (!str) return "";
   return str
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
@@ -9,7 +10,8 @@ function escapeXml(str: string): string {
     .replace(/'/g, "&apos;");
 }
 
-function stripHtml(html: string): string {
+function stripHtml(html: string | undefined | null): string {
+  if (!html) return "";
   return html.replace(/<[^>]*>/g, "").trim();
 }
 

@@ -26,7 +26,8 @@ function decodeEntities(text: string): string {
   return result;
 }
 
-function stripHtml(html: string): string {
+function stripHtml(html: string | undefined | null): string {
+  if (!html) return "";
   return decodeEntities(html.replace(/<[^>]*>/g, "").trim());
 }
 
@@ -134,10 +135,10 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
 
             <div
               className="article-content"
-              dangerouslySetInnerHTML={{ __html: post.content }}
+              dangerouslySetInnerHTML={{ __html: post.content || "" }}
             />
 
-            {post.tags.length > 0 && (
+            {(post.tags || []).length > 0 && (
               <div className="mt-10 pt-6 border-t border-gray-200">
                 <div className="flex flex-wrap gap-2">
                   {post?.tags?.map((tag) => (

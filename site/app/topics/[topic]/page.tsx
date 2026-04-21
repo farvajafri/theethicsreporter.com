@@ -28,7 +28,8 @@ function formatDate(dateStr: string): string {
   return new Date(dateStr).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
 }
 
-function stripHtml(html: string): string {
+function stripHtml(html: string | undefined | null): string {
+  if (!html) return "";
   return html.replace(/<[^>]*>/g, "").trim();
 }
 
