@@ -12,7 +12,8 @@ import hashlib
 import re
 
 ctx = ssl.create_default_context()
-API_KEY = "AIzaSyABP5c1gwuH2MjzUt3dKksxIxuyT4x-MvM"
+import json as _json
+API_KEY = _json.load(open("/Users/farvascott/.openclaw/workspace/.secrets/gemini-api.json"))["api_key"]
 POSTS_FILE = "/Users/farvascott/code/theethicsreporter/site/data/posts.json"
 IMG_DIR = "/Users/farvascott/code/theethicsreporter/site/public/images/posts"
 
@@ -91,12 +92,12 @@ with open(POSTS_FILE) as f:
 
 # Find posts needing images
 from collections import Counter
-img_counts = Counter(p["featured_image"] for p in posts if p["featured_image"])
+img_counts = Counter(p.get("featured_image") for p in posts if p.get("featured_image"))
 seen_images = set()
 needs_image = []
 
 for i, p in enumerate(posts):
-    img = p["featured_image"]
+    img = p.get("featured_image")
     if not img:
         needs_image.append(i)
     elif img_counts[img] > 1:
