@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 
 function InstagramIcon() {
   return (
@@ -42,12 +45,48 @@ function TikTokIcon() {
   );
 }
 
+function MenuIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <line x1="3" y1="6" x2="21" y2="6" />
+      <line x1="3" y1="12" x2="21" y2="12" />
+      <line x1="3" y1="18" x2="21" y2="18" />
+    </svg>
+  );
+}
+
+function CloseIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <line x1="18" y1="6" x2="6" y2="18" />
+      <line x1="6" y1="6" x2="18" y2="18" />
+    </svg>
+  );
+}
+
+const navLinks = [
+  { href: "/", label: "Home" },
+  { href: "/take-america-back", label: "Take America Back", highlight: true },
+  { href: "/state", label: "By State" },
+  { href: "/topics", label: "Topics" },
+  { href: "/how-to", label: "How-To" },
+  { href: "/about", label: "About" },
+  { href: "/podcast", label: "Podcast" },
+  { href: "/products", label: "Products" },
+  { href: "/tip", label: "Tip" },
+  { href: "/donate", label: "Donate" },
+];
+
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className="bg-[#1a1a1a] text-white">
       <div className="max-w-6xl mx-auto px-4">
+
+        {/* Top bar: social icons + tagline */}
         <div className="flex items-center justify-between py-3 border-b border-gray-700">
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3">
             <a href="https://www.instagram.com/the_ethics_reporter/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="Instagram">
               <InstagramIcon />
             </a>
@@ -64,32 +103,66 @@ export default function Header() {
               <YouTubeIcon />
             </a>
           </div>
-          <div className="text-sm text-gray-400">
+          <div className="hidden sm:block text-sm text-gray-400">
             Independent Legal Ethics Journalism
           </div>
         </div>
 
-        <div className="py-6 text-center">
+        {/* Title + hamburger row */}
+        <div className="flex items-center justify-between py-5">
           <Link href="/" className="inline-block">
-            <h1 className="text-3xl md:text-4xl font-bold tracking-tight font-sans">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight font-sans">
               THE ETHICS REPORTER
             </h1>
-            <div className="h-1 w-24 bg-brand mx-auto mt-2" />
+            <div className="h-1 w-20 bg-[#8B0000] mt-2" />
           </Link>
+
+          {/* Hamburger — mobile only */}
+          <button
+            className="md:hidden text-gray-300 hover:text-white p-1"
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label="Toggle menu"
+          >
+            {menuOpen ? <CloseIcon /> : <MenuIcon />}
+          </button>
         </div>
 
-        <nav className="flex items-center justify-center gap-6 pb-4 text-sm font-sans font-medium">
-          <Link href="/" className="text-gray-300 hover:text-white transition-colors">Home</Link>
-          <Link href="/take-america-back" className="text-white font-bold border-b-2 border-[#8B0000] pb-0.5 hover:text-red-300 transition-colors">Take America Back</Link>
-          <Link href="/state" className="text-gray-300 hover:text-white transition-colors">By State</Link>
-          <Link href="/topics" className="text-gray-300 hover:text-white transition-colors">Topics</Link>
-          <Link href="/how-to" className="text-gray-300 hover:text-white transition-colors">How-To</Link>
-          <Link href="/about" className="text-gray-300 hover:text-white transition-colors">About</Link>
-          <Link href="/podcast" className="text-gray-300 hover:text-white transition-colors">Podcast</Link>
-          <Link href="/products" className="text-gray-300 hover:text-white transition-colors">Products</Link>
-          <Link href="/tip" className="text-gray-300 hover:text-white transition-colors">Tip</Link>
-          <Link href="/donate" className="text-gray-300 hover:text-white transition-colors">Donate</Link>
+        {/* Desktop nav */}
+        <nav className="hidden md:flex items-center justify-center flex-wrap gap-x-5 gap-y-2 pb-4 text-sm font-sans font-medium">
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={
+                link.highlight
+                  ? "text-white font-bold border-b-2 border-[#8B0000] pb-0.5 hover:text-red-300 transition-colors"
+                  : "text-gray-300 hover:text-white transition-colors"
+              }
+            >
+              {link.label}
+            </Link>
+          ))}
         </nav>
+
+        {/* Mobile nav dropdown */}
+        {menuOpen && (
+          <nav className="md:hidden border-t border-gray-700 py-4 flex flex-col gap-0">
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={() => setMenuOpen(false)}
+                className={
+                  link.highlight
+                    ? "block px-2 py-3 text-base font-bold text-red-400 border-b border-gray-800"
+                    : "block px-2 py-3 text-base text-gray-300 hover:text-white border-b border-gray-800 transition-colors"
+                }
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
+        )}
       </div>
     </header>
   );
