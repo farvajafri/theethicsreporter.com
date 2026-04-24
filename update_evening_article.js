@@ -1,24 +1,13 @@
-import json
-import os
-import re
-from datetime import datetime
-import subprocess
+const fs = require('fs');
 
-def create_article():
-    # Read the latest posts
-    with open('posts.json', 'r') as f:
-        posts = json.load(f)
-        
-    # Generate new ID
-    new_id = max([p['id'] for p in posts]) + 1
-    
-    date_str = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S")
-    
-    title = "The Ultimate Legal Protection Racket: Sanctioning Lawyers for AI While the Bench Demands Perfection"
-    slug = "ai-hallucination-sanctions-legal-protection-racket"
-    excerpt = "As the AI era accelerates, the legal profession is weaponizing ethics rules and sanctions to protect its monopoly. A recent wave of sanctions against lawyers for 'AI hallucinations' isn't about protecting the public—it's an institutional self-preservation tactic by a cartel terrified of obsolescence."
-    
-    content = """<p><span style="font-size:1.4em; font-family:Georgia,serif; font-weight:bold; float:left; margin-right:4px; line-height:1;">T</span>he American legal system is currently executing one of the most transparent protection rackets in modern professional history. Over the past several months, courts and disciplinary boards have unleashed a wave of sanctions against attorneys for utilizing Artificial Intelligence, specifically for citing "hallucinated" cases. From the $12,000 fine levied by a federal judge in a patent case in February 2026, to the $30,000 penalty handed down by a U.S. appeals court in March, the message from the bench is deafening: <em>Step out of line with our approved, expensive, human-centric processes, and we will crush you.</em></p>
+const path = './site/data/tab-articles.json';
+const data = JSON.parse(fs.readFileSync(path, 'utf8'));
+
+const title = "The Ultimate Legal Protection Racket: Sanctioning Lawyers for AI While the Bench Demands Perfection";
+const slug = "ai-hallucination-sanctions-legal-protection-racket";
+const excerpt = "As the AI era accelerates, the legal profession is weaponizing ethics rules and sanctions to protect its monopoly. A recent wave of sanctions against lawyers for 'AI hallucinations' isn't about protecting the public—it's an institutional self-preservation tactic by a cartel terrified of obsolescence.";
+
+const content = `<p><span style="font-size:1.4em; font-family:Georgia,serif; font-weight:bold; float:left; margin-right:4px; line-height:1;">T</span>he American legal system is currently executing one of the most transparent protection rackets in modern professional history. Over the past several months, courts and disciplinary boards have unleashed a wave of sanctions against attorneys for utilizing Artificial Intelligence, specifically for citing "hallucinated" cases. From the $12,000 fine levied by a federal judge in a patent case in February 2026, to the $30,000 penalty handed down by a U.S. appeals court in March, the message from the bench is deafening: <em>Step out of line with our approved, expensive, human-centric processes, and we will crush you.</em></p>
 
 <p>The establishment narrative is predictable and patronizing. They claim these sanctions are necessary to protect the "integrity of the judicial process" and shield clients from "unverified generative AI research." In April 2026, the elite firm Sullivan & Cromwell even found itself apologizing to a court over AI missteps, prompting a new round of hand-wringing from ethics committees.</p>
 
@@ -68,74 +57,18 @@ def create_article():
 
 <p>Technology does not negotiate with cartels. The economic pressure from clients who refuse to pay $800 an hour for legal research will eventually crack the dam. The solo practitioners and small firms, fighting for survival against massive corporate entities, will continue to use AI because they have no other choice.</p>
 
-<p>The sanctions of 2026 will eventually be viewed not as a righteous defense of legal integrity, but as the dying gasps of a monopoly trying to legislate reality away. The legal profession must adapt to a world where access to the law is cheap and instantaneous, or it will be swept aside. The gatekeepers can fine attorneys today, but they cannot fine the future.</p>"""
+<p>The sanctions of 2026 will eventually be viewed not as a righteous defense of legal integrity, but as the dying gasps of a monopoly trying to legislate reality away. The legal profession must adapt to a world where access to the law is cheap and instantaneous, or it will be swept aside. The gatekeepers can fine attorneys today, but they cannot fine the future.</p>`;
 
-    new_post = {
-        "id": new_id,
-        "date": date_str,
-        "date_gmt": date_str,
-        "slug": slug,
-        "status": "publish",
-        "type": "post",
-        "link": f"https://www.theethicsreporter.com/article/{slug}",
-        "title": {
-            "rendered": title
-        },
-        "content": {
-            "rendered": content
-        },
-        "excerpt": {
-            "rendered": excerpt
-        },
-        "author": 1,
-        "featured_media": 0,
-        "categories": [2],
-        "tags": [9, 10],
-        "_embedded": {
-            "author": [{"id": 1, "name": "Farva Scott"}],
-            "wp:featuredmedia": []
-        }
-    }
-    
-    posts.insert(0, new_post)
-    
-    with open('posts.json', 'w') as f:
-        json.dump(posts, f, indent=2)
+const newArticle = {
+  id: Math.max(...data.map(d => d.id)) + 1,
+  title: title,
+  slug: slug,
+  date: new Date().toISOString(),
+  excerpt: excerpt,
+  content: content,
+  status: "publish"
+};
 
-    # Generate html
-    with open('site/index.html', 'r') as f:
-        html = f.read()
-        
-    article_card = f'''
-        <article class="article-card">
-            <div class="article-content">
-                <div class="article-meta">
-                    <span class="category">Legal Tech & Ethics</span>
-                    <span class="date">{datetime.now().strftime("%B %d, %Y")}</span>
-                </div>
-                <h2><a href="/article/{slug}">{title}</a></h2>
-                <p>{excerpt}</p>
-                <div class="author-attribution">By Farva Scott</div>
-            </div>
-        </article>
-    '''
-    
-    # insert after <div class="articles-grid">
-    html = html.replace('<div class="articles-grid">', f'<div class="articles-grid">\n{article_card}')
-    
-    with open('site/index.html', 'w') as f:
-        f.write(html)
-        
-    print(f"Article '{title}' created successfully!")
-    print(f"Slug: {slug}")
-
-    # Generate individual page
-    subprocess.run(['node', 'create_article.js'])
-    
-    # Git operations
-    subprocess.run(['git', 'add', '.'])
-    subprocess.run(['git', 'commit', '-m', f'Add evening article: {title}'])
-    subprocess.run(['git', 'push'])
-
-if __name__ == '__main__':
-    create_article()
+data.unshift(newArticle);
+fs.writeFileSync(path, JSON.stringify(data, null, 2));
+console.log(`Added article to JSON: ${slug}`);
