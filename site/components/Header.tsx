@@ -67,6 +67,7 @@ function CloseIcon() {
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/take-america-back", label: "Take America Back", highlight: true },
+  { href: "/defend", label: "License Defense" },
   { href: "/state", label: "By State" },
   { href: "/topics", label: "Topics" },
   { href: "/how-to", label: "How-To" },

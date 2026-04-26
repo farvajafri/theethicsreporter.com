@@ -1,4 +1,5 @@
 import { statesData } from "@/lib/states-data";
+import { defendStatesData } from "@/lib/defend-states-data";
 import { SITE_NAME, SITE_URL } from "@/lib/data";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -27,6 +28,9 @@ export default function StatePage({ params }: { params: { state: string } }) {
   const state = statesData.find((s) => s.slug === params.state);
   if (!state) notFound();
 
+  const defendsThisState = defendStatesData.some((d) => d.slug === state.slug);
+  const defendHref = defendsThisState ? `/defend/${state.slug}` : "/defend";
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -50,6 +54,21 @@ export default function StatePage({ params }: { params: { state: string } }) {
           <p className="font-serif text-lg text-gray-600 leading-relaxed">
             A complete guide to attorney discipline in {state.name}: how the bar system works, how to file a complaint against a lawyer or judge, and what to expect from the disciplinary process.
           </p>
+        </div>
+
+        <div className="bg-[#fff8e6] border-l-4 border-[#8B0000] p-5 rounded mb-10">
+          <p className="font-sans font-bold text-base mb-2">
+            ⚖️ Are you a licensed professional facing an ethics complaint in {state.name}?
+          </p>
+          <p className="font-serif text-gray-800 mb-4 text-sm">
+            We defend attorneys, doctors, nurses, CPAs and ALL licensed professionals against {state.name} board investigations and malpractice claims.
+          </p>
+          <Link
+            href={defendHref}
+            className="inline-block bg-[#8B0000] text-white font-semibold font-sans text-sm px-4 py-2 rounded hover:bg-[#6b0000] transition-colors"
+          >
+            Get a Free Consultation →
+          </Link>
         </div>
 
         <div className="space-y-10 article-content">
