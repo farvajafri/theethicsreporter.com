@@ -140,7 +140,7 @@ regenerate_all = "--all" in sys.argv
 
 needs_gen = []
 for i, p in enumerate(posts):
-    img = p["featured_image"]
+    img = p.get("featured_image", "")
     if regenerate_all:
         needs_gen.append(i)
     elif not img or "wp-content" in (img or "") or "jsdelivr" in (img or ""):
