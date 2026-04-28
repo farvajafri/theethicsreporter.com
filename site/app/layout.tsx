@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import { SITE_NAME, SITE_DESCRIPTION, SITE_URL } from "@/lib/data";
 
 const GTM_ID = "GTM-MC3D7L6L";
+const GA_ID = "G-Q6DWJLWZ0W";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -50,6 +51,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+        />
+        <Script
+          id="ga4-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`,
+          }}
+        />
         <Script
           id="gtm-script"
           strategy="afterInteractive"
