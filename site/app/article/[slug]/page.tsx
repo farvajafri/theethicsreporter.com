@@ -4,7 +4,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import ArticleSidebar from "@/components/ArticleSidebar";
 
-function decodeEntities(text: string): string {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function decodeEntities(text: any): string {
+  if (typeof text !== "string") {
+    if (text && typeof text === "object" && text.rendered) {
+      text = text.rendered;
+    } else {
+      text = String(text || "");
+    }
+  }
   const entities: Record<string, string> = {
     "&#038;": "&", "&amp;": "&",
     "&#8217;": "\u2019", "&rsquo;": "\u2019",
@@ -21,13 +29,21 @@ function decodeEntities(text: string): string {
   for (const [entity, char] of Object.entries(entities)) {
     result = result.split(entity).join(char);
   }
-  result = result.replace(/&#(\d+);/g, (_, n) => String.fromCharCode(parseInt(n)));
-  result = result.replace(/&#x([0-9a-fA-F]+);/g, (_, n) => String.fromCharCode(parseInt(n, 16)));
+  result = result.replace(/&#(\d+);/g, (_: string, n: string) => String.fromCharCode(parseInt(n)));
+  result = result.replace(/&#x([0-9a-fA-F]+);/g, (_: string, n: string) => String.fromCharCode(parseInt(n, 16)));
   return result;
 }
 
-function stripHtml(html: string | undefined | null): string {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function stripHtml(html: any): string {
   if (!html) return "";
+  if (typeof html !== "string") {
+    if (html && typeof html === "object" && html.rendered) {
+      html = html.rendered;
+    } else {
+      html = String(html);
+    }
+  }
   return decodeEntities(html.replace(/<[^>]*>/g, "").trim());
 }
 
