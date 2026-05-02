@@ -1,156 +1,120 @@
 const fs = require('fs');
-const path = './site/data/tab-articles.json';
 
-const articleContent = `
-<p><span style="font-size:1.4em; font-family:Georgia,serif; font-weight:bold; float:left; margin-right:4px; line-height:1;">T</span>he arithmetic of the American judicial system is the arithmetic of an oligarchy. When an ordinary citizen commits an infraction against the state, the mathematics of punishment are brutal, exacting, and absolute: decades in concrete cages, lives permanently destroyed, families irrevocably shattered. But when a member of the legal elite—a prosecutor, a judge, an officer of the court—commits a deliberate, calculating crime that destroys the life of an innocent citizen, the mathematics undergo a miraculous and horrifying transformation. Decades become days. Absolute accountability becomes an \"administrative proceeding.\" The crushing weight of the state vanishes, replaced by the protective, sympathetic embrace of the professional guild.</p>
+const content = `<p><span style="font-size:1.4em; font-family:Georgia,serif; font-weight:bold; float:left; margin-right:4px; line-height:1;">I</span>n the pantheon of modern American legal mythology, few figures stood taller than Mississippi Circuit Court Judge Bobby DeLaughter. In 1994, as a crusading prosecutor, DeLaughter achieved the impossible: he secured the conviction of white supremacist Byron De La Beckwith for the 1963 assassination of civil rights leader Medgar Evers. The case made DeLaughter a national hero. He wrote a book. Hollywood came calling, immortalizing him in the film <em>Ghosts of Mississippi</em>, with Alec Baldwin portraying him as the unyielding embodiment of southern justice.</p>
 
-<p>There is no case in modern American jurisprudence that illustrates this grotesque mathematical disparity more clearly than the tragedy of Michael Morton and the prosecutor-turned-judge who framed him, Ken Anderson. For the deliberate concealment of exculpatory evidence—an act of profound, calculated malice that resulted in an innocent man spending twenty-five years in a maximum-security Texas prison—Anderson was ultimately sentenced to just ten days in the county jail. He served five.</p>
+<p>He was the quintessential American legal hero—a man who proved that the system could right its historical wrongs. But less than fifteen years later, the hero was sitting in a federal courtroom, disgraced, stripped of his robe, and heading to federal prison for obstruction of justice. The man who brought down Beckwith had sold his judicial office to Dickie Scruggs, the most powerful plaintiffs' attorney in America.</p>
 
-<p>Five days for twenty-five years. This is not a failure of the American justice system. It is the purest expression of how the system is designed to operate. It is the terrifying realization of the Founding Fathers' deepest anxieties: the emergence of an unaccountable legal aristocracy that places the \"privilege of its corps\" above the fundamental mandates of the United States Constitution.</p>
+<p>The Scruggs-DeLaughter bribery scandal of 2007 is not a tragedy about the fall of a single good man. It is a devastating, empirical indictment of the American judicial framework. It demonstrates that the self-policing legal establishment is so structurally corrupt, so deeply infected by what Thomas Jefferson called the "privilege of their corps," that it can turn even its most celebrated heroes into common extortionists. It proves that the Founders' greatest fears about an unaccountable legal oligarchy have been entirely realized, and that the current system is fundamentally incompatible with the survival of a constitutional republic.</p>
 
 <div style="background:#f9f9f9; border-left:4px solid #8B0000; padding:16px 20px; margin:24px 0; font-family:Georgia,serif;">
-  <strong style="color:#8B0000; font-size:1.05em;">⚖️ Quick Facts: The Ken Anderson / Michael Morton Scandal</strong>
+  <strong style="color:#8B0000; font-size:1.05em;">⚖️ Quick Facts: The Scruggs-DeLaughter Bribery Scandal</strong>
   <ul style="margin-top:10px; line-height:1.8;">
-    <li><strong>The Victim:</strong> Michael Morton, wrongfully convicted in 1987 for the murder of his wife, Christine. Spent 25 years in prison.</li>
-    <li><strong>The Perpetrator:</strong> Ken Anderson, Williamson County (Texas) District Attorney, later appointed as a District Judge.</li>
-    <li><strong>The Crime:</strong> Anderson deliberately hid exculpatory evidence from the defense and the trial judge, including a transcript where the victim's three-year-old son said a \"monster\" (not his father) killed his mother, and reports of a suspicious man in a green van casing the house.</li>
-    <li><strong>The Exoneration:</strong> DNA evidence finally cleared Morton in 2011, identifying the real killer (Mark Norwood), who had murdered another woman while Morton was in prison.</li>
-    <li><strong>The \"Punishment\":</strong> After an agonizing legal fight to hold him accountable, former Judge Ken Anderson resigned his law license and was sentenced to <strong>10 days in jail</strong>. He was released after serving 5 days for \"good behavior.\"</li>
+    <li><strong>The Judge:</strong> Bobby DeLaughter, Hinds County Circuit Court Judge, famous for prosecuting the Medgar Evers assassination.</li>
+    <li><strong>The Lawyer:</strong> Richard "Dickie" Scruggs, billionaire plaintiffs' attorney famous for the $246 billion tobacco settlement (portrayed in <em>The Insider</em>).</li>
+    <li><strong>The Dispute:</strong> <em>Wilson v. Scruggs</em>, a multi-million-dollar lawsuit over the division of asbestos legal fees.</li>
+    <li><strong>The Bribe:</strong> Scruggs needed a favorable ruling from DeLaughter. Instead of cash, Scruggs used his brother-in-law, U.S. Senator Trent Lott, to promise DeLaughter a lifetime appointment to the federal bench.</li>
+    <li><strong>The Bagman:</strong> Ed Peters, the former District Attorney of Hinds County and DeLaughter's former boss and mentor, was paid $1 million by Scruggs to secretly influence DeLaughter.</li>
+    <li><strong>The Fallout:</strong> Scruggs pleaded guilty to bribery and went to federal prison. DeLaughter pleaded guilty to obstruction of justice and served 18 months.</li>
   </ul>
 </div>
 
-<h2 style="color:#8B0000; font-family:Georgia,serif; margin-top:32px;">The Crime and the Fabrication of Guilt</h2>
+<h2 style="color:#8B0000; font-family:Georgia,serif; margin-top:32px;">The Marketplace of Justice: The Architecture of the Bribe</h2>
+<p>To understand the sheer audacity of the Scruggs-DeLaughter conspiracy, one must understand the absolute power that a few elite attorneys wield within the localized American legal system. Dickie Scruggs was not just a lawyer; he was a political and economic titan. Having engineered the multi-billion-dollar national tobacco settlement in the 1990s, Scruggs possessed unfathomable wealth and unparalleled political connections, primarily through his brother-in-law, United States Senator Trent Lott.</p>
 
-<p>On August 13, 1986, Christine Morton was brutally bludgeoned to death in her bed in Williamson County, Texas. Her husband, Michael, had left for work early that morning. There was no physical evidence linking Michael to the crime. There was no history of domestic violence. There was no credible motive. But the local sheriff's department and the District Attorney, Ken Anderson, immediately locked onto Michael Morton as their sole suspect.</p>
+<p>In 2006, Scruggs found himself entangled in a bitter, high-stakes dispute over the division of legal fees from mass asbestos litigation. The case, <em>Wilson v. Scruggs</em>, landed in the Hinds County courtroom of Judge Bobby DeLaughter. Scruggs stood to lose millions if the judge ruled against him. But in the American legal cartel, billionaires do not leave their fortunes to the unpredictable whims of impartial justice. They buy the outcome.</p>
 
-<p>To secure a conviction without evidence, Anderson had to cheat. The cheating was not a matter of sloppy police work or an unintentional oversight; it was a deliberate, premeditated subversion of the Fifth Amendment right to due process. During the investigation, Anderson came into possession of absolute, explosive exculpatory evidence. </p>
+<p>Scruggs knew that DeLaughter desperately coveted a federal judgeship—an Article III lifetime appointment. He also knew that DeLaughter’s former boss and mentor, former District Attorney Ed Peters, wielded immense psychological and professional influence over the judge. Scruggs hired Peters, not to file briefs or argue in open court, but to act as a secret emissary. Scruggs paid Peters $1 million to illegally contact DeLaughter ex parte (outside the presence of opposing counsel) and secure the rulings Scruggs needed.</p>
 
-<p>First, Christine's mother told lead investigator Sergeant Don Wood that the Mortons' three-year-old son, Eric, who was present during the murder, had described the killer. The boy explicitly stated that his father was not home and that a \"monster\" with a big mustache had attacked his mother. Second, neighbors reported seeing a strange man in a green van repeatedly casing the Morton home in the days leading up to the murder. Third, there was evidence of a forged check cashed by a woman matching the description of someone associated with the real killer.</p>
+<p>The bribe was elegant in its corruption. It wasn't an envelope of cash slid under a table. It was the ultimate currency of the legal guild: power. Scruggs promised DeLaughter that if the judge ruled in his favor, Senator Trent Lott would champion DeLaughter’s nomination for a vacant seat on the federal bench. DeLaughter took the bait. He secretly shared draft orders with Peters, allowing Scruggs’s team to edit the judge’s rulings before they were officially issued. The judge had become a wholly owned subsidiary of the Scruggs law firm.</p>
 
-<p>Under the Supreme Court's ruling in <em>Brady v. Maryland</em>, Anderson was constitutionally obligated to turn this evidence over to the defense. Furthermore, the trial judge explicitly ordered Anderson to submit the lead investigator's reports for a private judicial review to determine if there was anything the defense should see. Anderson intentionally withheld the reports containing the son's statements and the green van. He looked the trial judge in the eye and lied by omission.</p>
+<h2 style="color:#8B0000; font-family:Georgia,serif;">The Betrayal of Federalist 78 and the Failure of \"Integrity\"</h2>
+<p>When Alexander Hamilton drafted <em>Federalist No. 78</em> to defend the proposed structure of the federal judiciary, he made a profound philosophical gamble. He argued that the judiciary would be the \"least dangerous\" branch of government because it possessed \"neither force nor will, but merely judgment.\" The courts, Hamilton asserted, could not threaten the liberty of the people because they relied entirely on the integrity of their reasoning.</p>
 
-<p>Michael Morton was convicted of murder and sentenced to life in prison. He lost his wife, his freedom, and ultimately, his relationship with his son, who was raised by relatives and grew up believing his father was a monstrous murderer. Ken Anderson, meanwhile, secured a high-profile win. In the American legal system, convictions are the currency of career advancement. Justice is entirely secondary.</p>
+<p>Hamilton’s entire premise rested on a crucial, fragile assumption: the character of the judges. He believed that the gravity of the office would naturally attract individuals of exceptional \"integrity and moderation.\" He wrote that the qualifications necessary for the bench \"are of such a nature as to demand long and laborious study,\" which would filter out the ambitious and the corrupt.</p>
 
-<h2 style="color:#8B0000; font-family:Georgia,serif; margin-top:32px;">The Judge-Made Shield of Prosecutorial Immunity</h2>
+<p>The Scruggs-DeLaughter scandal shatters Hamilton’s assumption into a thousand pieces. Bobby DeLaughter was the very embodiment of the \"integrity\" Hamilton envisioned—a celebrated prosecutor who had faced down the Ku Klux Klan. Yet, when confronted with the promise of elevated power and the whispering influence of his mentor, that integrity evaporated instantly. Hamilton failed to anticipate that the legal profession would evolve into an insular, hyper-lucrative cartel where \"judgment\" is simply another commodity to be traded by power brokers.</p>
 
-<p>To comprehend how Ken Anderson could act with such brazen disregard for human life and constitutional law, one must examine the legal architecture that protects American prosecutors. The Founding Fathers drafted a Constitution deeply suspicious of state power. The Fifth Amendment explicitly guarantees that no person shall be \"deprived of life, liberty, or property, without due process of law.\" The entire framing of the Bill of Rights is a fortress designed to protect the citizen from the overreach of the state.</p>
+<p>When a judge allows a billionaire plaintiff's attorney to secretly draft the court's orders in exchange for a federal appointment, the judiciary is no longer exercising \"judgment.\" It is exercising the raw, tyrannical \"will\" of the highest bidder. Hamilton’s \"least dangerous branch\" had become, in Mississippi, a weapon of mass financial extortion.</p>
 
-<p>Nowhere in the United States Constitution is there a provision granting prosecutors immunity from the consequences of their actions.</p>
-
-<p>Yet, in 1976, in the case of <em>Imbler v. Pachtman</em>, the United States Supreme Court simply invented it. In a breathtaking act of judicial legislation, the Court declared that prosecutors possess <em>absolute immunity</em> from civil lawsuits for actions taken in their official role as advocates for the state—even if they intentionally withhold exculpatory evidence, suborn perjury, or maliciously frame an innocent person.</p>
-
-<p>The Court's rationale was that if prosecutors could be sued for misconduct, they would be \"harassed\" by litigation and might lack the \"courage and independence\" to prosecute cases aggressively. To protect the comfort and career trajectory of the prosecutor, the Supreme Court completely annihilated the civil rights of the wrongfully convicted. They built an impenetrable shield around the prosecutorial class, placing them entirely above the law they are sworn to enforce.</p>
-
-<p>Ken Anderson operated behind this impenetrable shield. He knew that even if he were caught hiding evidence, the worst that could happen was that the conviction might be overturned on appeal years later. He could not be sued. He was functionally untouchable. The legal guild had rewritten the Constitution to ensure its own members faced zero personal risk for destroying the lives of the citizenry.</p>
-
-<h2 style="color:#8B0000; font-family:Georgia,serif; margin-top:32px;">Madison's Nightmare: The Elevation of a Tyrant</h2>
-
-<p>James Madison, the primary architect of the Constitution, warned in <em>Federalist No. 51</em> that \"ambition must be made to counteract ambition.\" He believed that institutions must be structured so that the personal ambitions of government officials are tied to the constitutional rights of the people. If power is left unchecked, Madison argued, tyranny is inevitable, because men are not angels.</p>
-
-<p>The tragedy of Ken Anderson is a direct result of the legal system abandoning Madison's framework. In the prosecutorial guild, ambition does not counteract tyranny; it requires it. Prosecutors are rewarded for convictions, not for the ethical administration of justice. They run for higher office on their \"win records.\" They are praised by police unions for putting people in cages.</p>
-
-<p>For his work in destroying Michael Morton, Ken Anderson was heavily rewarded by the political and legal establishment. He was named \"Prosecutor of the Year\" by the State Bar of Texas. He authored a book on the criminal justice system. And in 2001, Governor Rick Perry appointed Anderson to be a District Judge in Williamson County.</p>
-
-<p>The man who had deliberately framed an innocent father was handed a black robe and the power of life and death over the citizens of Texas. For a decade, Judge Ken Anderson sat on a raised dais, demanding deference, lecturing defendants on morality, and dispensing sentences, all while harboring the dark, criminal secret of what he had done to Michael Morton. He was the living embodiment of institutional decay—a predator cloaked in the absolute authority of the state.</p>
-
-<h2 style="color:#8B0000; font-family:Georgia,serif; margin-top:32px;">The Unraveling: 25 Years in a Cage</h2>
-
-<p>While Judge Anderson enjoyed his country club memberships and his judicial pension, Michael Morton survived in the hellish environment of a maximum-security Texas penitentiary. He missed his son's entire childhood. He watched his reputation rot.</p>
-
-<p>But Morton never stopped fighting. With the assistance of the Innocence Project, Morton spent years begging the state of Texas to perform DNA testing on a bloody bandana found near the crime scene. The Williamson County District Attorney's office—the office Ken Anderson had built—fought the DNA testing relentlessly. They spent years litigating to prevent the truth from coming out, fighting tooth and nail to keep an innocent man in prison simply to protect the finality of their \"win.\"</p>
-
-<p>Finally, in 2011, a court ordered the testing. The DNA on the bandana did not match Michael Morton. It matched a known felon named Mark Norwood—a man with a history of violence who had lived in the area at the time. Worse still, because Anderson had hidden the evidence that could have pointed to Norwood in 1986, Norwood remained free and went on to murder another woman, Debra Baker, in 1988. </p>
-
-<p>Anderson's corruption did not just destroy Michael Morton; it enabled a serial killer.</p>
-
-<p>Morton was exonerated and released. But as his legal team poured through the state's files, the true horror emerged. They found the withheld reports. They found the child's statement about the \"monster.\" They found the notes detailing the green van. The paper trail of Ken Anderson's malice was finally exposed to the light of day.</p>
-
-<h2 style="color:#8B0000; font-family:Georgia,serif; margin-top:32px;">Jefferson and the Privilege of the Corps</h2>
-
-<p>Thomas Jefferson viewed the legal establishment with a hostility that history has thoroughly vindicated. He recognized that lawyers and judges, if permitted to consolidate power, would inevitably form an oligarchy that elevated its own interests above the Constitution.</p>
-
-<p>In a prophetic 1820 letter, Jefferson diagnosed the exact pathology that would eventually dictate the fate of Ken Anderson:</p>
+<h2 style="color:#8B0000; font-family:Georgia,serif;">Jefferson's Sickness: The Privilege of Their Corps</h2>
+<p>Unlike Hamilton, Thomas Jefferson viewed the legal establishment with profound suspicion. He recognized that lawyers, if permitted to consolidate their power and self-regulate, would inevitably form an oligarchy. In a prophetic 1820 letter, Jefferson diagnosed the exact pathology that consumed the Mississippi judicial system:</p>
 
 <blockquote style="border-left:3px solid #8B0000; padding:12px 20px; margin:24px 0; font-style:italic; font-family:Georgia,serif; color:#333;">
-  \"Our judges are as honest as other men, and not more so. They have, with others, the same passions for party, for power, and the privilege of their corps.\"
+  "Our judges are as honest as other men, and not more so. They have, with others, the same passions for party, for power, and the privilege of their corps."
 </blockquote>
 
-<p>When the evidence of Anderson's crimes became undeniable, the system was forced to act. But the \"privilege of their corps\" immediately asserted itself. If an ordinary citizen had conspired to kidnap a man and lock him in a cage for 25 years, the state would seek a life sentence, or perhaps the death penalty.</p>
+<p>The \"privilege of their corps\" is the defining sickness of the American legal system. The corruption in Mississippi was not a secret among a select few. Ed Peters was known to have the ear of his former subordinates on the bench. Dickie Scruggs’s influence was legendary. The intertwining of plaintiff attorneys, judges, and politicians in the Deep South was a recognized, accepted reality by the local bar association.</p>
 
-<p>But Ken Anderson was a judge. He was a former prosecutor. He was a member of the guild. And the guild protects its own.</p>
+<p>Yet, the self-policing mechanisms of the legal profession did absolutely nothing. The Mississippi Bar Association did not stop it. The judicial conduct commission did not expose it. The legal guild closed ranks. They viewed Scruggs, Peters, and DeLaughter not as criminals undermining the republic, but as elite members of their own corps operating within the accepted parameters of the game.</p>
 
-<p>Following a rare Court of Inquiry, Anderson was charged with criminal contempt and tampering with evidence. The statute of limitations was invoked to shield him from more serious charges. In a plea deal negotiated with special prosecutors, Anderson agreed to resign his judgeship, surrender his law license, perform 500 hours of community service, and serve 10 days in the county jail.</p>
+<p>The conspiracy was only exposed because Scruggs grew so arrogant that he attempted to bribe <em>another</em> judge, Henry Lackey, with $40,000 in cash in a completely separate case. Judge Lackey, in a rare display of actual integrity, reported the bribe to the FBI and wore a wire. It took federal law enforcement, wiretaps, and a cooperating judge to bring down the cartel. A system that requires the FBI to stage sting operations against its own judges is a defunct system. It is proof that the legal profession is entirely incapable of policing itself.</p>
 
-<p>Ten days.</p>
+<h2 style="color:#8B0000; font-family:Georgia,serif;">John Adams and the Illusion of a Government of Laws</h2>
+<p>In drafting the Massachusetts Constitution in 1780, John Adams enshrined the foundational principle of the American republic: that it must be \"a government of laws and not of men.\" The premise is that the law applies equally to all, regardless of wealth, status, or political connection. It is the defining line between a republic and a tyranny.</p>
 
-<p>He was processed into the jail, kept segregated from the general population for his own safety, and released after serving just five days due to \"good behavior.\" As he walked free, Michael Morton, the man whose life he had destroyed, watched. Morton had served 9,135 days in prison. Anderson served five.</p>
+<p>Dickie Scruggs and Bobby DeLaughter operated a government of men. In DeLaughter's courtroom, the law did not dictate the outcome of <em>Wilson v. Scruggs</em>. The law was completely irrelevant. The outcome was dictated by a backroom negotiation between two men (Scruggs and Peters) who used a United States Senator as a bargaining chip to buy the obedience of a third man (DeLaughter).</p>
 
-<p>This is not justice. It is the public codification of an aristocracy. It is the system telling the American public, in clear mathematical terms, that the life of an ordinary citizen is worth exactly nothing when weighed against the comfort and freedom of a member of the legal elite.</p>
+<p>When the outcome of a multi-million-dollar lawsuit is determined by who has the better connections to the judge’s mentor, the Constitution has been functionally suspended. The Declaration of Independence severed America's ties to a hereditary British aristocracy that dispensed justice based on patronage and royal favor. But the American legal profession has simply replaced the British aristocracy with an oligarchy of the robes. They wear suits instead of crowns, but their contempt for the rule of law is identical.</p>
 
-<h2 style="color:#8B0000; font-family:Georgia,serif; margin-top:32px;">Hamilton's Failed Promise in Federalist 78</h2>
+<h2 style="color:#8B0000; font-family:Georgia,serif;">Madison and the Catastrophic Failure of Checks and Balances</h2>
+<p>James Madison, the primary architect of the Constitution, understood that human nature is inherently flawed. In <em>Federalist No. 51</em>, he wrote:</p>
 
-<p>When Alexander Hamilton argued for the independence of the judiciary in <em>Federalist No. 78</em>, he insisted that the courts would be the \"least dangerous\" branch of government. He argued that the judiciary possessed \"neither force nor will, but merely judgment.\" Hamilton believed that the inherent gravity of the office would naturally attract men of \"integrity and moderation.\"</p>
+<blockquote style="border-left:3px solid #8B0000; padding:12px 20px; margin:24px 0; font-style:italic; font-family:Georgia,serif; color:#333;">
+  "If men were angels, no government would be necessary... In framing a government which is to be administered by men over men, the great difficulty lies in this: you must first enable the government to control the governed; and in the next place oblige it to control itself."
+</blockquote>
 
-<p>Hamilton’s optimism was a fatal miscalculation. He failed to anticipate what happens when the judiciary is staffed by men completely devoid of integrity, men whose judgment is entirely corrupted by ambition and a complete lack of accountability.</p>
+<p>Madison’s solution was the separation of powers: ambition must be made to counteract ambition. No single institution could be trusted with unchecked power.</p>
 
-<p>Ken Anderson sat on a bench and judged others for ten years. Every sentence he handed down, every moral lecture he delivered to a defendant, was an obscenity. How many men did Judge Anderson sentence to decades in prison for non-violent drug offenses, while he himself was guilty of a crime far more devastating than any narcotics transaction? Hamilton’s defense of the judiciary has been twisted into a doctrine of absolute judicial and prosecutorial immunity, shielding monsters from the consequences of their actions while they weaponize the law against the public.</p>
+<p>But the American legal system completely abandoned Madison's safeguards. By convincing legislatures that the practice of law is a specialized science, the legal profession secured a monopoly over its own regulation. They created a system where lawyers police lawyers, and judges judge judges. There is no external ambition to counteract their power.</p>
 
-<h2 style="color:#8B0000; font-family:Georgia,serif; margin-top:32px;">John Adams and the Subversion of a Government of Laws</h2>
+<p>The Scruggs-DeLaughter scandal is the catastrophic result of this failure. The system placed blind trust in a \"hero\" judge and a \"titan\" lawyer, providing no structural oversight to monitor their interactions. Because there was no independent, civilian-led body actively auditing the communications and financial relationships of the judiciary, Scruggs was able to purchase a branch of government.</p>
 
-<p>John Adams famously enshrined the principle that the American republic must be \"a government of laws, and not of men\" in the Massachusetts Constitution of 1780. It is a foundational tenet of American liberty: the law must apply equally to all, regardless of birth, wealth, or professional title.</p>
+<h2 style="color:#8B0000; font-family:Georgia,serif;">The Necessity of Systemic Reconstruction</h2>
+<p>When the scandal concluded, Dickie Scruggs went to federal prison. Bobby DeLaughter pleaded guilty to obstruction of justice and served eighteen months. Ed Peters surrendered his law license in exchange for immunity. The legal establishment issued solemn press releases condemning their actions, declaring them to be \"bad apples,\" and insisting that the integrity of the system remained intact.</p>
 
-<p>The outcome of the Ken Anderson case subverts this entire philosophy. We do not have a government of laws. We have a government of lawyers. The legal establishment has created a parallel justice system: a draconian, unforgiving meat-grinder for the working class, and a polite, administrative, wrist-slapping club for the prosecutors and judges who run the machine.</p>
+<p>This is a lie. The system is not intact; it is fundamentally broken. You cannot reform a system where the heroes are for sale and the watchdogs are asleep by design. We do not need ethics seminars or updated guidelines. We need immediate, systemic reconstruction to align the judiciary with the founding principles of this republic.</p>
 
-<p>When the law fails to punish the very people entrusted with enforcing it, the law ceases to be a social contract and becomes a mere instrument of oppression. The five days Ken Anderson spent in a county jail cell was not an act of accountability; it was an act of profound disrespect to the Constitution and to Michael Morton.</p>
+<h3 style="color:#8B0000; font-family:Georgia,serif;">1. Eradicate Self-Policing and the Guild Monopoly</h3>
+<p>The absolute authority of bar associations and judicial conduct boards to police their own members must be abolished. The discipline of attorneys and judges must be transferred to independent, civilian-run regulatory commissions with unhindered subpoena power and no ties to the legal profession. The \"privilege of their corps\" must be destroyed. The people must regulate the legal monopoly.</p>
 
-<h2 style="color:#8B0000; font-family:Georgia,serif; margin-top:32px;">The Illusion of Reform and the Necessity of Reconstruction</h2>
+<h3 style="color:#8B0000; font-family:Georgia,serif;">2. End Judicial Immunity for Corrupt Acts</h3>
+<p>The doctrine of absolute judicial immunity currently shields judges from civil liability for their official acts, even when those acts are the product of bribery. This is a judge-made doctrine designed to protect judges from accountability. If a judge is convicted of accepting a bribe to alter a ruling, the victims of that corrupted ruling must have the immediate, unhindered right to sue the judge personally for the destruction of their livelihoods. The robe cannot be a shield for civil liability in cases of criminal corruption.</p>
 
-<p>In the aftermath of the Morton exoneration, the Texas legislature passed the \"Michael Morton Act,\" which requires more open discovery processes in criminal cases. It was heralded as a massive reform.</p>
+<h3 style="color:#8B0000; font-family:Georgia,serif;">3. Mandatory Surveillance and Communication Auditing</h3>
+<p>The idea that a judge's chambers are a sacred sanctuary of legal contemplation is a myth used to hide ex parte communications and extortion. Judicial chambers, particularly when judges are meeting with attorneys, must be subject to mandatory audio and video recording. Furthermore, all communications between judges and attorneys must be logged and subject to routine auditing by an independent inspector general. Privacy is a right of the citizen; absolute transparency is the obligation of the jurist.</p>
 
-<p>It is not enough. Passing a law telling prosecutors that they really, truly have to follow the Constitution this time is meaningless if there are no catastrophic personal consequences when they refuse. The American judicial system does not require mild reform; it requires immediate, systemic reconstruction to tear down the \"privilege of the corps.\"</p>
+<h3 style="color:#8B0000; font-family:Georgia,serif;">4. Decriminalize the Unlicensed Practice of Law (UPL)</h3>
+<p>The root of Scruggs's power was the artificial scarcity created by the legal monopoly. By aggressively prosecuting the "unauthorized practice of law," bar associations ensure that citizens are forced to hire licensed attorneys at exorbitant rates, concentrating immense wealth and political power in the hands of a few elite litigators. By dismantling the UPL laws and opening the legal market to technological and non-lawyer alternatives, we break the economic engine that funds the corruption of the judiciary.</p>
 
-<h3 style="color:#8B0000; font-family:Georgia,serif;">1. Abolish Absolute Prosecutorial Immunity</h3>
-<p>The doctrine of absolute immunity created in <em>Imbler v. Pachtman</em> must be legislatively annihilated by Congress. Prosecutors who intentionally hide evidence, suborn perjury, or fabricate charges must be stripped of all immunity and subjected to crushing civil liability. If a prosecutor destroys a life, the victim must have the right to seize the prosecutor's pension, their home, and their assets. The risk of misconduct must be personal and devastating.</p>
+<h2 style="color:#8B0000; font-family:Georgia,serif;">Conclusion: The Fall of the Oligarchy</h2>
+<p>Bobby DeLaughter stood before the nation as a symbol of justice redeemed. He ended up as a symbol of justice monetized. The tragedy of his fall is eclipsed only by the horror of the system that facilitated it. The American judiciary has become exactly what Thomas Jefferson feared: an unaccountable oligarchy that places its own wealth and power above the Constitution.</p>
 
-<h3 style="color:#8B0000; font-family:Georgia,serif;">2. Equal Retributive Sentencing</h3>
-<p>The criminal code must be rewritten to establish absolute parity in punishment for officers of the court. If a prosecutor or a police officer intentionally conceals exculpatory evidence that results in a citizen serving 25 years in prison, the mandatory minimum sentence for that prosecutor must be 25 years in a maximum-security penitentiary. No plea deals. No country club prisons. The people who wield the power of the state must be terrified of abusing it.</p>
+<p>The Founding Fathers fought a revolution to escape a government of men. We must not surrender our republic to a cartel of lawyers and judges. The Scruggs-DeLaughter scandal was a warning. It is time to tear down the legal aristocracy and reconstruct a system that answers to the people.</p>`;
 
-<h3 style="color:#8B0000; font-family:Georgia,serif;">3. Eradicate State Bar Monopolies over Discipline</h3>
-<p>The discipline of attorneys and prosecutors cannot remain in the hands of the legal guild. State bar associations have proven for a century that they will protect their own members at the expense of the public. Disciplinary authority must be transferred to independent civilian oversight boards with absolute subpoena power and mandatory public reporting. Lawyers can no longer be permitted to judge lawyers.</p>
-
-<h3 style="color:#8B0000; font-family:Georgia,serif;">4. Retroactive Judicial Audits</h3>
-<p>When an official like Ken Anderson is found to have engaged in egregious misconduct, every single case they ever touched—both as a prosecutor and as a judge—must be subjected to a mandatory, independent retroactive audit funded by the state. The assumption of regularity must be stripped away. If they lied once to secure a murder conviction, we must assume they lied repeatedly.</p>
-
-<h2 style="color:#8B0000; font-family:Georgia,serif; margin-top:32px;">Conclusion: The Arrogance of the Guild</h2>
-
-<p>As Ken Anderson walked out of the Williamson County jail after serving his five days, he released a statement apologizing for the \"system's failure.\" It was the ultimate, cowardly evasion. The system did not fail. Ken Anderson chose to hide evidence. Ken Anderson chose to lie to a judge. Ken Anderson chose to let a murderer go free so he could win a high-profile case.</p>
-
-<p>The true \"system failure\" was the one that allowed Anderson to spend the next twenty-five years living a life of privilege, prestige, and judicial power while Michael Morton withered in a cell. The true failure is a legal architecture that views five days in jail as appropriate compensation for twenty-five years of stolen life.</p>
-
-<p>The Founding Fathers warned us that any institution permitted to police itself will inevitably descend into tyranny. They warned us that an aristocracy of lawyers would subvert the republic. The tragedy of Michael Morton, and the grotesque leniency afforded to Ken Anderson, proves that the Founders were absolutely right. It is time to take America back from the oligarchy of the robes, tear down the fortress of immunity, and demand a government of laws, not a guild of protected predators.</p>
-`;
-
-const newArticle = {
-  title: "Ten Days for Twenty-Five Years: Judge Ken Anderson, the Michael Morton Tragedy, and the Monstrous Shield of Prosecutorial Immunity",
-  slug: "ken-anderson-michael-morton-prosecutorial-immunity-corruption",
+const article = {
+  title: "The King of Torts and the Corrupted Hero: How Dickie Scruggs Bought a Judge and Exposed the Oligarchy of the Robes",
+  slug: "dickie-scruggs-bobby-delaughter-judicial-bribery",
   date: new Date().toISOString(),
-  excerpt: "Prosecutor Ken Anderson deliberately hid exculpatory evidence, sending innocent Michael Morton to prison for 25 years while the real killer went free. Anderson was rewarded with a judgeship. When finally caught, the legal system protected its own, sentencing him to just 10 days in jail. This grotesque mathematical disparity exposes an American legal system operating as a protective oligarchy, fundamentally betraying the Constitution's core promises of due process and equal justice.",
-  content: articleContent,
-  featured_image: "/images/tab/ken-anderson-michael-morton-prosecutorial-immunity-corruption.jpg",
-  status: "publish",
-  category: "Ethics",
-  tags: [
-    "Prosecutorial Immunity",
-    "Judicial Corruption",
-    "Michael Morton",
-    "Ken Anderson",
-    "Due Process",
-    "Founding Fathers"
-  ]
+  excerpt: "Judge Bobby DeLaughter was a national hero for prosecuting the assassin of Medgar Evers. But he traded his judicial integrity to billionaire attorney Dickie Scruggs in exchange for the promise of a federal judgeship. This catastrophic bribery scandal proves the Founders' deepest fears: an unaccountable legal guild will inevitably descend into tyranny and extortion.",
+  content: content,
+  featured_image: "/images/tab/dickie-scruggs-bobby-delaughter-judicial-bribery.jpg",
+  status: "publish"
 };
 
-const data = JSON.parse(fs.readFileSync(path, 'utf8'));
-data.unshift(newArticle); // Put it at the top
-fs.writeFileSync(path, JSON.stringify(data, null, 2));
+const dataPath = 'site/data/tab-articles.json';
+let data = [];
+try {
+  const raw = fs.readFileSync(dataPath, 'utf8');
+  data = JSON.parse(raw);
+} catch (e) {
+  console.log("Error reading JSON");
+}
 
-console.log("Article successfully added to JSON.");
+// Check if slug exists
+if (!data.some(a => a.slug === article.slug)) {
+  data.unshift(article);
+  fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
+  console.log("Added successfully");
+} else {
+  console.log("Slug already exists");
+}
