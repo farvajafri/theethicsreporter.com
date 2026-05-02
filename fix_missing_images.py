@@ -4,7 +4,7 @@
 import os, json, base64, ssl, time, re, subprocess, urllib.request
 
 ctx = ssl.create_default_context()
-API_KEY = "AIzaSyDAHu9yURg06T6PTYJ9Jkwm9fuiDn_mj9U"
+API_KEY = "AIzaSyDgvYtRwIJAUUtmBoNW88WXsha02uwGyeQ"
 POSTS_FILE = "/Users/farvascott/code/theethicsreporter/site/data/posts.json"
 IMG_DIR = "/Users/farvascott/code/theethicsreporter/site/public/images/posts"
 
