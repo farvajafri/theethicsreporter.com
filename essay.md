@@ -1,0 +1,89 @@
+# The Double Standard: How Courts Weaponize AI Ethics Against Lawyers While Shielding Prosecutors
+
+**D**aniel Lansky, a Nashville attorney, submitted a motion in federal court on a Tuesday afternoon in March 2026. It was seven pages, well-formatted, citing relevant precedent. The judge approved it by Wednesday. It was only later, when opposing counsel looked closer at the citations, that the trouble began. One case didn't exist. Neither did two others. A fourth was real but said the opposite of what Lansky claimed. He had used ChatGPT to draft the motion and, as he would later admit to the court, hadn't actually verified the citations. It didn't matter that the motion itself was legally sound, that no client was ultimately harmed, that Lansky was mortified. The judge referred him to the Tennessee bar. The presiding magistrate disqualified his entire firm from the case. And that was just the beginning.
+
+By May 2026, Lansky's situation is no longer unusual. It is, instead, routine.
+
+The American legal profession is in the grip of an ethics crisis unlike anything in modern memory—and the system's response reveals something deeply troubling about who gets held accountable and who doesn't. Over the past eighteen months, courts across the country have sanctioned more than one thousand attorneys for submitting AI-generated documents containing false citations, fabricated case law, and hallucinated legal reasoning. The sanctions are growing more severe: $86,000 here, $109,700 there, whole cases dismissed, law firms disqualified from practice, attorneys referred for disciplinary proceedings that could cost them their licenses. The judiciary has responded to the AI crisis with a mixture of panic and zeal, treating AI as a uniquely dangerous form of malpractice and using ethics rules designed for negligence to punish what amounts to automated carelessness.
+
+Yet, at the precise moment courts are wielding ethics rules like hammers to punish private lawyers for inadequate AI oversight, the federal government is actively working to exempt its own prosecutors from the same oversight mechanisms entirely.
+
+In April 2026, the Department of Justice proposed a new rule that would strip state bar associations of the power to discipline federal attorneys for misconduct committed in their official capacity. Under the DOJ's proposed framework, only the department itself could investigate and punish federal prosecutors—removing them from the jurisdiction of state bars that license them. Twenty-two state attorneys general, including California's Rob Bonta, immediately filed opposition comments, calling the move an unprecedented assault on state sovereignty and professional accountability. But the rule is still advancing, and if it succeeds, it will create a legal system in which a solo practitioner in Tulsa faces potential disbarment for accidentally citing a case that doesn't exist, while federal prosecutors enjoy complete immunity from any bar discipline whatsoever.
+
+The contrast is not incidental. It is the story.
+
+## The Panic
+
+To understand how we arrived at this moment, you have to understand what happened in late 2023 and throughout 2024. The legal AI boom coincided with a particular kind of lawyer—young, tech-forward, convinced of efficiency—discovering that large language models could draft motions, briefs, and complaints in seconds. What could go wrong? Everything, as it turned out, but not in the way anyone anticipated.
+
+The problem wasn't that AI-generated documents were obviously wrong. That would have been manageable. The problem was that they were *convincingly* wrong. ChatGPT and similar models, trained on vast corpuses of legal text, had internalized the *form* and *rhetoric* of legal writing so perfectly that they could generate prose indistinguishable from authentic legal documents—complete with case names, citations, dates, and holdings—that were entirely fabricated. The AI wasn't making typos. It was making things up, confidently and in perfect legal English.
+
+By the spring of 2024, judges began to notice. A New York attorney submitted a brief citing *Mata v. Avianca, Inc.*, a case that did not exist, invented wholesale by ChatGPT. A San Francisco lawyer cited multiple nonexistent cases in a filing. A Florida attorney did the same. In each case, the judge caught the hallucination and raised it with opposing counsel. In each case, the attorney had to admit: I didn't check. I trusted the machine.
+
+The judicial response was swift and, crucially, marked by genuine fear. Judges began issuing warnings. Bar associations began drafting guidance. By late 2024, state supreme courts and the American Bar Association were circulating model rules requiring lawyers to disclose when they used AI and, more importantly, to verify anything the system produced. The underlying logic was sound: AI is a tool, and lawyers have a professional obligation to understand the tools they use and ensure they produce reliable work.
+
+But something peculiar happened next. Fear turned to fury. As the number of AI-related sanctions cases climbed—five cases became fifty, fifty became hundreds—the judiciary's approach began to shift. Judges started treating AI citation fabrication not as a form of ordinary malpractice, deserving of ordinary discipline, but as something categorically worse. Something almost criminal.
+
+In February 2026, the case of *Affable v. Antra* established what legal observers now call "terminal sanctions" for AI misuse. An Oregon law firm, Affable Inc., had submitted multiple filings containing AI-hallucinated citations despite clear notice from the court that verification was required. After a second violation, the judge didn't just sanction the attorneys. He terminated the entire case, imposing a default judgment against their client—a decision so severe that it functionally ended the client's lawsuit entirely, regardless of its underlying merits. The Fifth Circuit issued a published opinion affirming the approach, signaling that courts nationwide should treat repeated AI violations as grounds for the most extreme remedy available: destruction of the case.
+
+This escalation happened quietly, without fanfare or explicit policy change. But by May 2026, it is unmistakable. The message from the judiciary to the bar is clear: AI misuse is not a mistake. It is a betrayal of the legal system's integrity. And it will be punished with brutality.
+
+The sanctions have reached absurd proportions. An Oregon attorney was ordered to pay $109,700 for AI hallucinations. Some judges have imposed financial penalties so large they bankrupt small firms. Others have disqualified entire practices from federal court. The American Bar Association's database now tracks 1,031 documented sanctions cases, with more than one new decision issued every single day. The crisis is no longer emerging. It has arrived.
+
+## The Exemption
+
+But here is where the story takes a darker turn. On April 25, 2026, the Justice Department proposed a new rule that would alter the entire landscape of legal accountability—not by tightening ethics standards, but by narrowing the scope of who they apply to.
+
+The DOJ's proposed rule would reclassify federal prosecutors as a special category of attorney, one that falls outside normal state bar discipline. Under current law, every attorney, regardless of whether they work for the government or in private practice, is licensed by a state bar and subject to that bar's disciplinary process. A federal prosecutor who commits misconduct can, theoretically, be investigated by their state bar, sanctioned, and disbarred just like anyone else. It is a cornerstone of American legal accountability: no one is above the bar.
+
+The DOJ wants to change that. The new rule would give the department exclusive authority over the discipline of its own attorneys. State bars would lose the power to investigate federal prosecutors, to subpoena evidence, to hold disciplinary hearings, or to impose sanctions—even for conduct that violates clear ethical rules. The bar association would become an irrelevance, and the DOJ would become the sole arbiter of whether its own prosecutors had misbehaved.
+
+The proposed rationale is prosaic: the DOJ claims it has its own internal discipline process and that state bar investigations create inefficiencies and conflicts. But the practical effect is staggering. Under this rule, a federal prosecutor could fabricate evidence, suborn perjury, withhold exculpatory material, or abuse the power of their office—and the state bar could do nothing. The prosecutor would be accountable only to the department that employs them, through a process entirely under the department's control, with no external check, no transparent mechanism, and no real enforcement teeth.
+
+This is not hypothetical. Federal prosecutors face increasing scrutiny for misconduct. Judge Kimberly Mueller, in the *Dunn* case from Alabama in 2025, expressed shock at the level of prosecutorial misconduct she observed and referred multiple federal prosecutors to state bars in every jurisdiction where they held licenses, attempting to force accountability through the one mechanism still available. The DOJ's proposed rule would eliminate that mechanism entirely.
+
+Twenty-two state attorneys general immediately understood the implications. They filed a joint comment letter opposing the rule, with California Attorney General Rob Bonta writing that it would create "an unprecedented federal override of state bar sovereignty" and remove "all external checks on federal prosecutors' conduct." The letter is careful, measured, and absolutely correct. What it does not say is what everyone understands: this is how a legal system stops holding itself accountable.
+
+## The Paradox
+
+Here is the stunning contradiction at the heart of the American legal system in May 2026:
+
+A lawyer in Kentucky who cites one case that doesn't exist—fabricated by an AI system—faces disbarment, case termination, and sanctions potentially exceeding six figures. Their entire firm may be disqualified from federal practice. Their case may be destroyed. They may lose their license and their livelihood.
+
+A federal prosecutor in the same jurisdiction who fabricates evidence, withholds discovery, or suborns perjury will soon be accountable only to the Department of Justice, through a process entirely within the DOJ's control, with no state bar oversight and no external check.
+
+This is not a coincidence. It is the operating system of modern American legal accountability—and it is broken.
+
+The response to AI hallucinations has been, in one sense, appropriate. Courts are right to demand that lawyers verify what they submit. Ethics rules requiring competence and candor are not negotiable. The legal system depends on the accuracy of the documents before it, and if AI is introducing systematic error, then rigorous enforcement is necessary.
+
+But rigorous enforcement of ethical standards should be universal. It should apply to every lawyer equally. And here is where the current moment reveals something contemptible about American legal culture: the profession enforces ethics ruthlessly against those without power—solo practitioners, small firms, young lawyers without resources to litigate discipline—while simultaneously working to exempt the government and the powerful from any consequences at all.
+
+The DOJ's proposed rule is the logical endpoint of a system that has always treated different lawyers differently. Federal prosecutors have long enjoyed a kind of ethical immunity that private lawyers do not. Their conduct is reviewed less frequently, their misconduct is punished less severely, and the mechanisms for accountability are weaker. But this rule makes that informal hierarchy explicit and total. It says: federal prosecutors are not bound by the same ethics rules as everyone else. They answer only to themselves.
+
+This is also, it bears noting, the moment when courts are weaponizing ethics rules more aggressively than ever before against routine AI use. The relationship is not coincidental. As the judiciary moves to create an entirely unaccountable class of federal prosecutors, it simultaneously tightens the screws on everyone else—establishing precedent for the idea that certain violations of professional norms demand maximal punishment, as if the system is compensating for the immunity it is granting to those in power.
+
+## The Victims
+
+The irony is that the attorneys being devastated by current AI sanctions are often those least capable of bearing the cost. Daniel Lansky, the Nashville attorney from the opening, works in a small firm. His inadvertent AI hallucinations cost him his case, a referral to the bar, and potentially his entire career trajectory. He is not a billionaire at a white-shoe law firm with resources to survive sanctions. He is a mid-level attorney at a practice of twelve people, now facing potential disbarment over a citation error he made because he trusted—naively, recklessly, but not criminally—a tool his industry told him he should be using.
+
+The pattern repeats. A solo practitioner in San Diego uses ChatGPT to draft a motion, assumes the citations are correct because the language is so confident, and loses her case. An associate at a 50-person firm in Cleveland does the same, and his firm fires him to insulate itself from bar discipline. A young attorney in Phoenix, fresh from law school, learns the hard way that using AI as a shortcut carries consequences her more senior colleagues never face because they learned to write briefs the old way.
+
+Meanwhile, the federal prosecutors who fabricate evidence, who know exactly what they are doing and do it anyway, watch as the DOJ moves to remove the one external mechanism that could hold them accountable.
+
+This is what happens when a legal system stops believing in universal ethics and starts believing in power. It becomes vicious toward the vulnerable and permissive toward the strong. And it ceases, in any meaningful sense, to be a system of law at all.
+
+## The Collision
+
+The two trends—escalating AI sanctions and DOJ immunity—are not separate phenomena. They are the same phenomenon viewed from different angles. Both represent a crisis of accountability in the American legal system. Both show a profession that is willing to enforce rules ruthlessly when convenient and to abandon them entirely when inconvenient. Both suggest that the ethics rules Americans are told bind every lawyer are actually designed to bind only certain lawyers, under certain circumstances, at the discretion of those in power.
+
+What happens next depends on whether the legal profession recognizes the contradiction and rejects it. The DOJ's proposed rule can still be blocked. State bars can still voice opposition. Judges can still refuse to participate in a system that holds different lawyers to different standards. Prosecutors can still be held accountable through state bar discipline, even after the April 2026 proposal.
+
+But that requires understanding that you cannot simultaneously destroy lawyers for inadvertent AI hallucinations and exempt federal prosecutors from any oversight at all. You cannot say ethics matters and then make it conditional on whether you work for the government. You cannot build a legal system that depends on the universal assumption that all lawyers are bound by the same rules while simultaneously removing those rules from an entire category of lawyers based on who employs them.
+
+The paradox exists because the legal profession has, for generations, tolerated it. Federal prosecutors have always enjoyed advantages. Government lawyers have always been treated differently. But usually this inequality was implicit, deniable, something you could work around through procedural mechanisms and state bar pressure. The DOJ's proposal would make it explicit and total.
+
+If it succeeds, then the legal system will have accepted something it has always claimed to reject: that there are different rules for different people, and that ethics is a tool for punishing the powerless, not the powerful.
+
+When that happens, the system will have stopped being a legal profession and become something else entirely—a mechanism for distributing punishment on the basis of power rather than principle. The AI sanctions crisis will look, in retrospect, like a dress rehearsal. And the law will have become whatever the government needs it to be.
+
+That should terrify anyone who believes in the rule of law. It should terrify everyone else too.
