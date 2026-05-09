@@ -170,20 +170,35 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
               </div>
             )}
 
-            {/* End-of-article donation plea */}
-            <div className="mt-12 pt-8 border-t-2 border-gray-200">
-              <div className="mb-6">
-                <p className="text-xs font-bold uppercase tracking-widest text-[#8B0000] font-sans mb-2">Reader Supported</p>
-                <h3 className="text-2xl font-bold font-sans text-gray-900 mb-3">
-                  If this reporting matters to you, please help us keep doing it.
-                </h3>
-                <p className="text-gray-600 font-serif leading-relaxed">
-                  The Ethics Reporter runs on zero corporate money. No law firm sponsors. No ad network pulling our punches. 
-                  Every investigation you just read was funded entirely by readers. We cannot continue this work without your support. 
-                  Even $1 makes a real difference.
+            {/* End-of-article Guardian-style donation plea */}
+            <div className="mt-14 border-t-4 border-[#8B0000] pt-8">
+              <div className="bg-[#fdf8f0] rounded-xl p-7 sm:p-9">
+                <p className="text-xs font-bold uppercase tracking-widest text-[#8B0000] font-sans mb-4">Independent Journalism Needs You</p>
+
+                <p className="text-gray-900 font-serif text-lg leading-relaxed mb-4">
+                  You just read something most publications won&apos;t touch. We investigate judges who shouldn&apos;t be on the bench,
+                  attorneys who prey on clients, and a legal system that too often protects itself instead of the public.
+                  We do it openly, aggressively, and without apology.
+                </p>
+
+                <p className="text-gray-900 font-serif text-lg leading-relaxed mb-4">
+                  We don&apos;t have a paywall. We don&apos;t take money from law firms, bar associations, or corporate advertisers
+                  who might prefer we stay quiet. Every piece of reporting on this site — every judge exposed, every disbarment
+                  documented, every reversal analyzed — was made possible entirely by readers like you.
+                </p>
+
+                <p className="text-gray-900 font-serif text-lg leading-relaxed mb-6">
+                  If you read us regularly — if this work has ever made you angry, informed you, or helped you — we humbly
+                  ask you to support us today. It takes less than a minute. Even $1 goes directly toward keeping this
+                  reporting alive. Without it, we cannot continue.
+                </p>
+
+                <DonationWidget />
+
+                <p className="text-xs text-gray-400 mt-5 font-sans text-center">
+                  The Ethics Reporter is independent and reader-funded. We have no corporate backers. Your support is everything.
                 </p>
               </div>
-              <DonationWidget />
             </div>
 
             <div className="mt-8">
