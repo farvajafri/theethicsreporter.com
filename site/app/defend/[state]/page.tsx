@@ -4,9 +4,8 @@ import { SITE_NAME, SITE_URL } from "@/lib/data";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
+import DefendContactForm from "@/components/DefendContactForm";
 
-const FIRM_PHONE = "1-800-555-0199";
-const FIRM_PHONE_TEL = "+18005550199";
 const FIRM_URL = "https://farvajafri.com";
 
 export function generateStaticParams() {
@@ -48,7 +47,6 @@ export default function DefendStatePage({
     name: `${state.name} Ethics & Professional License Defense — Scott Law`,
     description: `Defense of ${state.name} licensed professionals against ethics complaints, license investigations, and malpractice claims.`,
     url: `${SITE_URL}/defend/${state.slug}`,
-    telephone: FIRM_PHONE,
     areaServed: { "@type": "State", name: state.name },
     serviceType: [
       `${state.name} Attorney Ethics Defense`,
@@ -107,12 +105,6 @@ export default function DefendStatePage({
               className="inline-block bg-[#8B0000] text-white font-semibold font-sans px-5 py-2.5 rounded hover:bg-[#6b0000] transition-colors"
             >
               Get a Free Consultation →
-            </a>
-            <a
-              href={`tel:${FIRM_PHONE_TEL}`}
-              className="inline-block bg-white border-2 border-[#8B0000] text-[#8B0000] font-semibold font-sans px-5 py-2.5 rounded hover:bg-[#8B0000] hover:text-white transition-colors"
-            >
-              Call {FIRM_PHONE}
             </a>
           </div>
         </div>
@@ -313,27 +305,15 @@ export default function DefendStatePage({
 
           <div className="bg-[#1a1a1a] text-white p-8 rounded">
             <h3 className="font-sans font-bold text-2xl mb-3">
-              Call now — {state.name} ethics complaint deadlines are strict.
+              {state.name} ethics complaint deadlines are strict — contact us now.
             </h3>
             <p className="font-serif text-gray-200 mb-5">
               The clock starts the moment you receive notice from a {state.name} licensing
-              board. Get a free, confidential consultation before the response deadline runs.
+              board. Fill out the form below for a free, confidential consultation before
+              the response deadline runs.
             </p>
-            <div className="flex flex-wrap gap-3">
-              <a
-                href={FIRM_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-[#8B0000] text-white font-semibold font-sans px-5 py-2.5 rounded hover:bg-[#6b0000] transition-colors"
-              >
-                Request Consultation →
-              </a>
-              <a
-                href={`tel:${FIRM_PHONE_TEL}`}
-                className="inline-block bg-white text-[#1a1a1a] font-semibold font-sans px-5 py-2.5 rounded hover:bg-gray-100 transition-colors"
-              >
-                Call {FIRM_PHONE}
-              </a>
+            <div className="bg-white rounded-xl p-6">
+              <DefendContactForm defaultState={state.name} />
             </div>
           </div>
 
