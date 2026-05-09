@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Post } from "@/lib/data";
+import DonationWidget from "@/components/DonationWidget";
 
 function decodeEntities(text: string): string {
   const entities: Record<string, string> = {
@@ -65,26 +66,25 @@ export default function ArticleSidebar({
 }) {
   return (
     <aside className="lg:sticky lg:top-8 space-y-6">
-      {/* CTA Buttons */}
-      <div className="flex flex-col gap-3">
-        <Link
-          href="/tip"
-          className="flex items-center justify-center gap-2 px-4 py-3 bg-brand text-white font-semibold text-sm rounded-lg hover:bg-brand-dark transition-colors font-sans"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-          </svg>
-          Got A Tip?
-        </Link>
-        <Link
-          href="/donate"
-          className="flex items-center justify-center gap-2 px-4 py-3 border-2 border-brand text-brand font-semibold text-sm rounded-lg hover:bg-brand hover:text-white transition-colors font-sans"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-          </svg>
-          Support The Ethics Reporter
-        </Link>
+      {/* Tip CTA */}
+      <Link
+        href="/tip"
+        className="flex items-center justify-center gap-2 px-4 py-3 bg-brand text-white font-semibold text-sm rounded-lg hover:bg-brand-dark transition-colors font-sans"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+        </svg>
+        Got A Tip?
+      </Link>
+
+      {/* Donation Widget */}
+      <div className="bg-[#fdf8f0] border-2 border-[#8B0000] rounded-xl p-4">
+        <p className="text-xs font-bold uppercase tracking-widest text-[#8B0000] mb-1 font-sans">Support Us</p>
+        <p className="text-sm font-bold text-gray-900 mb-1 font-sans leading-snug">Keep this journalism free.</p>
+        <p className="text-xs text-gray-600 mb-3 font-sans leading-relaxed">
+          No ads. No corporate money. Just readers like you.
+        </p>
+        <DonationWidget compact />
       </div>
 
       {/* Related Posts */}

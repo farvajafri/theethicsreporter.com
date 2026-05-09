@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import ArticleSidebar from "@/components/ArticleSidebar";
+import DonationWidget from "@/components/DonationWidget";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function decodeEntities(text: any): string {
@@ -169,7 +170,23 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
               </div>
             )}
 
-            <div className="mt-8 pt-6 border-t border-gray-200">
+            {/* End-of-article donation plea */}
+            <div className="mt-12 pt-8 border-t-2 border-gray-200">
+              <div className="mb-6">
+                <p className="text-xs font-bold uppercase tracking-widest text-[#8B0000] font-sans mb-2">Reader Supported</p>
+                <h3 className="text-2xl font-bold font-sans text-gray-900 mb-3">
+                  If this reporting matters to you, please help us keep doing it.
+                </h3>
+                <p className="text-gray-600 font-serif leading-relaxed">
+                  The Ethics Reporter runs on zero corporate money. No law firm sponsors. No ad network pulling our punches. 
+                  Every investigation you just read was funded entirely by readers. We cannot continue this work without your support. 
+                  Even $1 makes a real difference.
+                </p>
+              </div>
+              <DonationWidget />
+            </div>
+
+            <div className="mt-8">
               <Link
                 href="/"
                 className="text-brand hover:text-brand-dark font-semibold text-sm font-sans"

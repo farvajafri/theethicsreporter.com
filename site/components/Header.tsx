@@ -75,7 +75,7 @@ const navLinks = [
   { href: "/podcast", label: "Podcast" },
   { href: "/products", label: "Products" },
   { href: "/tip", label: "Tip" },
-  { href: "/donate", label: "Donate" },
+  { href: "/donate", label: "❤ Donate", donate: true },
 ];
 
 export default function Header() {
@@ -135,7 +135,9 @@ export default function Header() {
               key={link.href}
               href={link.href}
               className={
-                link.highlight
+                link.donate
+                  ? "bg-[#8B0000] hover:bg-[#6b0000] text-white font-bold px-3 py-1 rounded transition-colors"
+                  : link.highlight
                   ? "text-white font-bold border-b-2 border-[#8B0000] pb-0.5 hover:text-red-300 transition-colors"
                   : "text-gray-300 hover:text-white transition-colors"
               }
@@ -154,7 +156,9 @@ export default function Header() {
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
                 className={
-                  link.highlight
+                  link.donate
+                    ? "block px-2 py-3 text-base font-bold text-red-400 border-b border-gray-800"
+                    : link.highlight
                     ? "block px-2 py-3 text-base font-bold text-red-400 border-b border-gray-800"
                     : "block px-2 py-3 text-base text-gray-300 hover:text-white border-b border-gray-800 transition-colors"
                 }
