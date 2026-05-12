@@ -73,6 +73,30 @@ export default function RootLayout({
             })(window,document,'script','dataLayer','${GTM_ID}');`,
           }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": ["NewsMediaOrganization", "Organization"],
+              "name": "The Ethics Reporter",
+              "url": "https://theethicsreporter.com",
+              "description": "Independent journalism outlet covering legal ethics, judicial conduct, attorney misconduct, bar disciplinary proceedings, and accountability in the American legal system.",
+              "publishingPrinciples": "https://theethicsreporter.com/about",
+              "masthead": "https://theethicsreporter.com/about",
+              "coverageStartYear": 2024,
+              "knowsAbout": [
+                "Legal Ethics",
+                "Judicial Conduct",
+                "Attorney Discipline",
+                "Bar Association",
+                "Legal Malpractice",
+                "Prosecutorial Misconduct"
+              ],
+              "sameAs": ["https://theethicsreporter.com"]
+            })
+          }}
+        />
       </head>
       <body className={`${inter.variable} font-sans antialiased bg-[#fafaf8]`}>
         <noscript>
