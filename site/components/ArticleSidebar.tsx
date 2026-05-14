@@ -79,10 +79,10 @@ export default function ArticleSidebar({
 
       {/* Donation Widget */}
       <div className="bg-[#fdf8f0] border-2 border-[#8B0000] rounded-xl p-4">
-        <p className="text-xs font-bold uppercase tracking-widest text-[#8B0000] mb-1 font-sans">Support Us</p>
+        <p className="text-xs font-bold uppercase tracking-widest text-[#8B0000] mb-1 font-sans">Support This Reporting</p>
         <p className="text-sm font-bold text-gray-900 mb-1 font-sans leading-snug">Keep this journalism free.</p>
         <p className="text-xs text-gray-600 mb-3 font-sans leading-relaxed">
-          No ads. No corporate money. Just readers like you.
+          No ads. No corporate money. Just you.
         </p>
         <DonationWidget compact />
       </div>

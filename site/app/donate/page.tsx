@@ -11,9 +11,13 @@ export const metadata: Metadata = {
 export default function DonatePage({
   searchParams,
 }: {
-  searchParams: { success?: string };
+  searchParams: { success?: string; amount?: string };
 }) {
   const success = searchParams?.success === "1";
+  // Pre-select amount from banner quick-donate links (?amount=5, ?amount=10, etc.)
+  const initialAmountCents = searchParams?.amount
+    ? Math.round(parseFloat(searchParams.amount) * 100)
+    : undefined;
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-16">
@@ -47,7 +51,7 @@ export default function DonatePage({
           {/* Impact stats */}
           <div className="grid grid-cols-3 gap-4 mb-12 text-center">
             <div className="bg-gray-50 rounded-xl p-5">
-              <div className="text-3xl font-bold text-[#8B0000] font-sans">250+</div>
+              <div className="text-3xl font-bold text-[#8B0000] font-sans">255+</div>
               <div className="text-sm text-gray-600 font-sans mt-1">Investigations Published</div>
             </div>
             <div className="bg-gray-50 rounded-xl p-5">
@@ -92,7 +96,7 @@ export default function DonatePage({
           </div>
 
           {/* Donation widget */}
-          <DonationWidget />
+          <DonationWidget initialAmountCents={initialAmountCents} />
 
           {/* Footer note */}
           <p className="text-center text-sm text-gray-400 mt-8 font-sans">
