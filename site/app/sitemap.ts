@@ -6,6 +6,7 @@ import { topicsData } from "@/lib/topics-data";
 import { guidesData } from "@/lib/guides-data";
 import { defendStatesData, professionsData } from "@/lib/defend-states-data";
 import { getAllCitadelPageSlugs } from "@/lib/citadel-data";
+import { getAllKevinNutterSlugs } from "@/lib/kevin-nutter-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts();
@@ -98,6 +99,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   };
 
+  const kevinNutterSlugs = getAllKevinNutterSlugs();
+  const kevinNutterTopicUrls = kevinNutterSlugs.map((slug) => ({
+    url: `${SITE_URL}/kevin-nutter/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+  const kevinNutterHubUrl = {
+    url: `${SITE_URL}/kevin-nutter`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.9,
+  };
+
   return [
     ...staticPages,
     ...articleUrls,
@@ -110,5 +125,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...professionUrls,
     citadelHubUrl,
     ...citadelUrls,
+    kevinNutterHubUrl,
+    ...kevinNutterTopicUrls,
   ];
 }
