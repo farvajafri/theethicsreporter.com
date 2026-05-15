@@ -2,7 +2,9 @@ import Stripe from "stripe";
 import { NextRequest, NextResponse } from "next/server";
 import products from "@/data/products.json";
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+  httpClient: Stripe.createFetchHttpClient(),
+});
 
 export async function POST(req: NextRequest) {
   try {
