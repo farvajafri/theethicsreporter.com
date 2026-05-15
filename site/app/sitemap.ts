@@ -5,6 +5,7 @@ import { statesData } from "@/lib/states-data";
 import { topicsData } from "@/lib/topics-data";
 import { guidesData } from "@/lib/guides-data";
 import { defendStatesData, professionsData } from "@/lib/defend-states-data";
+import { getAllCitadelPageSlugs } from "@/lib/citadel-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts();
@@ -83,6 +84,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/tip`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.3 },
   ];
 
+  const citadelSlugs = getAllCitadelPageSlugs();
+  const citadelUrls = citadelSlugs.map((slug) => ({
+    url: `${SITE_URL}/citadel/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+  const citadelHubUrl = {
+    url: `${SITE_URL}/citadel`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.9,
+  };
+
   return [
     ...staticPages,
     ...articleUrls,
@@ -93,5 +108,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...defendStateUrls,
     ...defendStateProfessionUrls,
     ...professionUrls,
+    citadelHubUrl,
+    ...citadelUrls,
   ];
 }
