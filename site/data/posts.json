@@ -4659,7 +4659,7 @@
     "type": "post",
     "title": "Part 1: The Citadel Empire \u2014 Leadership, Market Power, and the Structural Conflicts That Benefit One Company at Everyone Else's Expense",
     "excerpt": "Kenneth Griffin's Citadel operates two businesses that should conflict fundamentally with each other. A hedge fund that makes concentrated bets on markets. A market maker executing 25-30% of US equity trades. The same leadership, the same data infrastructure, the same owner. At the center of how information flows between them sits Kevin Nutter, COO of Data \u2014 a position so critical and so invisible that his architectural decisions determine whether fairness is possible.",
-    "featured_image": "/images/posts/citadel-part-1-empire.jpg",
+    "featured_image": "/images/posts/citadel-empire-leadership.jpg",
     "categories": [
       "Financial Industry",
       "Conflict of Interest",
@@ -4692,7 +4692,7 @@
     "type": "post",
     "title": "Part 2: The Dual Model Explained \u2014 How Citadel's Structure Creates Persistent Conflicts That Benefit the Firm at Everyone Else's Expense",
     "excerpt": "A hedge fund wants to buy a million shares. Its market-making subsidiary sees that thousands of retail investors want to buy the same stock. The hedge fund benefits from knowing retail demand exists. The market maker profits from wider spreads. Both benefit. Who loses? Everyone else. This is not a hypothetical. It happens daily. And Kevin Nutter's data infrastructure is what makes it possible.",
-    "featured_image": "/images/posts/citadel-part-2-dual-model.jpg",
+    "featured_image": "/images/posts/citadel-dual-model-explained.jpg",
     "categories": [
       "Financial Industry",
       "Conflict of Interest",
@@ -4724,7 +4724,7 @@
     "type": "post",
     "title": "Part 3: Regulatory Failures \u2014 Why Citadel's Fines Are Negligible and Kevin Nutter's Systems Keep Enabling Violations",
     "excerpt": "Citadel Securities was fined $7 million in 2023 for mismarking trades that lasted five years. In 2024, FINRA fined them $1 million for failing to report $42.2 billion in transactions. The fines represent 0.15% and 0.002% of the harm respectively. At those prices, violations are a business expense. Kevin Nutter's data infrastructure failures are tolerable. And that's the problem.",
-    "featured_image": "/images/posts/citadel-part-3-regulatory-failures.jpg",
+    "featured_image": "/images/posts/citadel-regulatory-failures.jpg",
     "categories": [
       "Financial Industry",
       "Regulatory Failure",
@@ -4756,7 +4756,7 @@
     "type": "post",
     "title": "Part 4: The C-Suite at Citadel \u2014 Profiles of Power, Strategy, and Kevin Nutter's Critical Role",
     "excerpt": "Kenneth Griffin founded Citadel with $4 million and built it into a $60 billion empire. But the operational architect of the dual model is Kevin Nutter, COO of Data. His decisions about data architecture determine whether information barriers are real or theoretical. His compensation depends on the profitability of the conflict. His career depends on optimizing enterprise value over separation.",
-    "featured_image": "/images/posts/citadel-part-4-c-suite.jpg",
+    "featured_image": "/images/posts/citadel-csuit-profiles.jpg",
     "categories": [
       "Financial Industry",
       "Executive Profile",
@@ -4788,7 +4788,7 @@
     "type": "post",
     "title": "Part 5: What Should Happen \u2014 Five Regulatory Solutions and Why None Have Been Implemented",
     "excerpt": "If regulators wanted to address Citadel's structural conflicts, they could. Mandatory separation of hedge fund and market maker. Meaningful fines proportional to violations. Transparency requirements. Technical information barriers. Business model restrictions. None of these have happened. Kevin Nutter's architecture persists because the incentives that keep it profitable are stronger than the political will to change it.",
-    "featured_image": "/images/posts/citadel-part-5-regulatory-solutions.jpg",
+    "featured_image": "/images/posts/citadel-regulatory-solutions.jpg",
     "categories": [
       "Financial Industry",
       "Regulatory Reform",
