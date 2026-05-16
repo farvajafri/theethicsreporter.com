@@ -86,9 +86,9 @@ export default function CityIndexPage() {
         })}
 
         <div className="mt-6 bg-[#f8f4e8] border-l-4 border-[#8B0000] p-6 rounded">
-          <h3 className="font-sans font-bold text-lg mb-2">Don't See Your City?</h3>
+          <h3 className="font-sans font-bold text-lg mb-2">Don&apos;t See Your City?</h3>
           <p className="font-serif text-gray-700 mb-4">
-            We're expanding our city coverage. In the meantime, use our state resources to find your bar grievance
+            We&apos;re expanding our city coverage. In the meantime, use our state resources to find your bar grievance
             committee, or submit a tip about attorney misconduct in your area.
           </p>
           <div className="flex flex-wrap gap-3">
