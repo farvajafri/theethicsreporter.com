@@ -42,6 +42,7 @@ function SidebarCard({ post }: { post: Post }) {
             alt=""
             className="w-16 h-16 rounded object-cover flex-shrink-0 group-hover:opacity-80 transition-opacity"
             loading="lazy"
+            onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
           />
         )}
         <div className="min-w-0 flex-1">

@@ -50,6 +50,7 @@ export default function ArticleCard({ post }: { post: Post }) {
               alt={post.title}
               className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
               loading="lazy"
+              onError={(e) => { (e.target as HTMLImageElement).parentElement!.style.display = 'none'; }}
             />
           </div>
         )}
