@@ -7,6 +7,9 @@ import { guidesData } from "@/lib/guides-data";
 import { defendStatesData, professionsData } from "@/lib/defend-states-data";
 import { getAllCitadelPageSlugs } from "@/lib/citadel-data";
 import { getAllKevinNutterSlugs } from "@/lib/kevin-nutter-data";
+import { getAllAttorneySlugs } from "@/lib/attorneys-data";
+import { getAllRuleSlugs } from "@/lib/rules-data";
+import { getAllCitySlugs } from "@/lib/cities-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts();
@@ -113,6 +116,48 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   };
 
+  const attorneySlugs = getAllAttorneySlugs();
+  const attorneyUrls = attorneySlugs.map((slug) => ({
+    url: `${SITE_URL}/attorney/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+  const attorneyIndexUrl = {
+    url: `${SITE_URL}/attorney`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
+  };
+
+  const ruleSlugs = getAllRuleSlugs();
+  const ruleUrls = ruleSlugs.map((slug) => ({
+    url: `${SITE_URL}/rule/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+  const ruleIndexUrl = {
+    url: `${SITE_URL}/rule`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
+  };
+
+  const citySlugs = getAllCitySlugs();
+  const cityUrls = citySlugs.map((slug) => ({
+    url: `${SITE_URL}/city/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+  const cityIndexUrl = {
+    url: `${SITE_URL}/city`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
+  };
+
   return [
     ...staticPages,
     ...articleUrls,
@@ -127,5 +172,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...citadelUrls,
     kevinNutterHubUrl,
     ...kevinNutterTopicUrls,
+    attorneyIndexUrl,
+    ...attorneyUrls,
+    ruleIndexUrl,
+    ...ruleUrls,
+    cityIndexUrl,
+    ...cityUrls,
   ];
 }
