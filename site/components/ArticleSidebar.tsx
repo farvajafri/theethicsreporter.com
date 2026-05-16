@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Post } from "@/lib/data";
+import SafeImage from "@/components/SafeImage";
 import DonationWidget from "@/components/DonationWidget";
 
 function decodeEntities(text: string): string {
@@ -37,12 +38,11 @@ function SidebarCard({ post }: { post: Post }) {
     <Link href={`/article/${post.slug}`} className="group block">
       <div className="flex gap-3 py-3 border-b border-gray-100 last:border-b-0">
         {post.featured_image && (
-          <img
+          <SafeImage
             src={post.featured_image}
             alt=""
             className="w-16 h-16 rounded object-cover flex-shrink-0 group-hover:opacity-80 transition-opacity"
             loading="lazy"
-            onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
           />
         )}
         <div className="min-w-0 flex-1">

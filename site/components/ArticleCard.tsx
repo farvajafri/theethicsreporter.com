@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Post } from "@/lib/data";
+import SafeImage from "@/components/SafeImage";
 
 function decodeEntities(text: string): string {
   const entities: Record<string, string> = {
@@ -45,12 +46,12 @@ export default function ArticleCard({ post }: { post: Post }) {
       <Link href={`/article/${post.slug}`} className="group block">
         {post.featured_image && (
           <div className="mb-3 overflow-hidden rounded">
-            <img
+            <SafeImage
               src={post.featured_image}
               alt={post.title}
               className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
               loading="lazy"
-              onError={(e) => { (e.target as HTMLImageElement).parentElement!.style.display = 'none'; }}
+              hideParentOnError
             />
           </div>
         )}
