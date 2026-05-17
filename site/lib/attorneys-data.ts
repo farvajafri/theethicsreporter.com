@@ -380,6 +380,21 @@ export const attorneysData: AttorneyProfile[] = [
     description:
       "Attorney Paul C. Rubin's legal career came to a conclusion through professional misconduct proceedings documented by The Ethics Reporter.",
   },
+  {
+    slug: "albulena-uka",
+    name: "Albulena Uka",
+    state: "New York",
+    admittedYear: 2026,
+    articleSlugs: ["albulena-uka-brooklyn-law-attorney-billing-fraud-overbilling-ethics"],
+    violations: [
+      "Rule 1.5(a) - Excessive Fees",
+      "Rule 8.4(c) - Dishonesty/Misrepresentation",
+      "Rule 8.4(h) - Conduct Reflecting on Fitness",
+    ],
+    status: "Active",
+    description:
+      "Albulena Uka is a newly admitted New York attorney and doctoral candidate at Brooklyn Law School who is the subject of a tip received by The Ethics Reporter alleging a pattern of billing fraud, including overbilling on template motions and misrepresenting hours worked to her supervising firm.",
+  },
 ];
 
 export function getAttorneyBySlug(slug: string): AttorneyProfile | undefined {

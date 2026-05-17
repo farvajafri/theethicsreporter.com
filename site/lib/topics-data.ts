@@ -232,4 +232,11 @@ export const topicsData: TopicData[] = [
     intro: "New York Judiciary Law §470 states that any person admitted to practice law in this state who is not a resident of New York may not practice law in New York unless they maintain 'an office for the transaction of law business within the state.' The New York Court of Appeals has interpreted this requirement to mean a genuine, physical law office — not a virtual mailbox, not a coworking membership, not a shared desk arrangement. Our investigation of Ernestas Pravilionis and EPRA Legal found that all three of the firm's listed New York office addresses appear to be virtual services, not physical law offices. This topic covers §470's history, the case law interpreting it, the practical consequences of violation, and what the New York grievance committees have said about the requirement.",
     keywords: ["New York Judiciary Law 470", "NY Judiciary Law 470 attorney", "attorney physical office New York requirement", "virtual office attorney New York law", "Judiciary Law 470 violation"],
   },
+  {
+    slug: "attorney-billing-fraud",
+    title: "Attorney Billing Fraud: When Lawyers Steal Time",
+    description: "Investigations into attorney billing fraud — overbilling, padding hours, billing for work not performed, and the clients who pay the price.",
+    intro: "Attorney billing fraud is among the most common and least-prosecuted forms of attorney misconduct. Unlike client fund theft, billing fraud rarely triggers criminal referrals and is often resolved quietly within firms. Clients lack the knowledge to audit their bills; firms prefer internal resolution over client disruption. The result is a pattern that repeats across the legal profession: attorneys who pad hours, bill for work not performed, and move on to new positions where the pattern begins again. The Ethics Reporter investigates attorney billing fraud through tip-based reporting, public records, and analysis of fee disputes that reach the courts and grievance committees.",
+    keywords: ["attorney billing fraud", "lawyer overbilling", "padding hours attorney", "attorney time billing ethics", "excessive legal fees"],
+  },
 ];
