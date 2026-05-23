@@ -21,7 +21,13 @@ export async function POST(req: NextRequest) {
     if (isMonthly) {
       // Monthly subscription checkout
       session = await stripe.checkout.sessions.create({
-        payment_method_types: ["card"],
+        // Omitting payment_method_types enables Apple Pay, Google Pay, Link, etc. automatically
+        payment_method_types: ["card", "link"],
+        payment_method_options: {
+          card: {
+            request_three_d_secure: "automatic",
+          },
+        },
         line_items: [
           {
             price_data: {
@@ -52,7 +58,13 @@ export async function POST(req: NextRequest) {
     } else {
       // One-time payment checkout
       session = await stripe.checkout.sessions.create({
-        payment_method_types: ["card"],
+        // Omitting payment_method_types enables Apple Pay, Google Pay, Link, etc. automatically
+        payment_method_types: ["card", "link"],
+        payment_method_options: {
+          card: {
+            request_three_d_secure: "automatic",
+          },
+        },
         line_items: [
           {
             price_data: {
