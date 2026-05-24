@@ -68,6 +68,7 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/take-america-back", label: "Take America Back", highlight: true },
   { href: "/defend", label: "License Defense" },
+  { href: "/submit-grievance", label: "Submit Grievance", grievance: true },
   { href: "/state", label: "By State" },
   { href: "/topics", label: "Topics" },
   { href: "/how-to", label: "How-To" },
@@ -137,6 +138,8 @@ export default function Header() {
               className={
                 link.donate
                   ? "bg-[#8B0000] hover:bg-[#6b0000] text-white font-bold px-3 py-1 rounded transition-colors"
+                  : (link as { grievance?: boolean }).grievance
+                  ? "bg-[#e8c07a] hover:bg-[#d4a960] text-[#1a0000] font-bold px-3 py-1 rounded transition-colors"
                   : link.highlight
                   ? "text-white font-bold border-b-2 border-[#8B0000] pb-0.5 hover:text-red-300 transition-colors"
                   : "text-gray-300 hover:text-white transition-colors"
@@ -158,6 +161,8 @@ export default function Header() {
                 className={
                   link.donate
                     ? "block px-2 py-3 text-base font-bold text-red-400 border-b border-gray-800"
+                    : (link as { grievance?: boolean }).grievance
+                    ? "block px-2 py-3 text-base font-bold text-[#e8c07a] border-b border-gray-800"
                     : link.highlight
                     ? "block px-2 py-3 text-base font-bold text-red-400 border-b border-gray-800"
                     : "block px-2 py-3 text-base text-gray-300 hover:text-white border-b border-gray-800 transition-colors"
