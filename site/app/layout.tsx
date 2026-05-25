@@ -5,6 +5,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import DonateBanner from "@/components/DonateBanner";
+import DonatePopup from "@/components/DonatePopup";
 import { SITE_NAME, SITE_DESCRIPTION, SITE_URL } from "@/lib/data";
 
 const GTM_ID = "GTM-MC3D7L6L";
@@ -108,6 +109,7 @@ export default function RootLayout({
             style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
+        <DonatePopup />
         <DonateBanner />
         <Header />
         <main className="min-h-screen">{children}</main>
