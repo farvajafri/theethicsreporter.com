@@ -38,7 +38,7 @@ export default function NewsletterPage() {
             <span className="text-[#cc4444]">Delivered every morning.</span>
           </h1>
           <p className="font-serif text-gray-300 text-xl leading-relaxed mb-10 max-w-xl mx-auto">
-            Judges who should be removed. Officials who abuse their power. Legal system failures the mainstream press won't touch. Every day, in your inbox.
+            Judges who should be removed. Officials who abuse their power. Legal system failures the mainstream press won&apos;t touch. Every day, in your inbox.
           </p>
           <NewsletterSignup variant="hero" />
         </div>
