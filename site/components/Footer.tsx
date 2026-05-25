@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NewsletterSignup from "@/components/NewsletterSignup";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -59,7 +60,16 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-6 text-center text-sm">
+        {/* Newsletter signup strip */}
+        <div className="border-t border-gray-700 mt-8 pt-8 pb-6">
+          <div className="max-w-xl mx-auto text-center">
+            <p className="text-xs font-bold uppercase tracking-widest text-[#cc4444] font-sans mb-2">Daily Briefing</p>
+            <p className="text-gray-300 font-serif text-base mb-4">Get our accountability journalism delivered every morning. Free.</p>
+            <NewsletterSignup variant="hero" />
+          </div>
+        </div>
+
+        <div className="border-t border-gray-700 mt-6 pt-6 text-center text-sm">
           <p>&copy; {year} The Ethics Reporter. All rights reserved.</p>
         </div>
       </div>

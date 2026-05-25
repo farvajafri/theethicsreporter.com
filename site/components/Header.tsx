@@ -75,6 +75,7 @@ const navLinks = [
   { href: "/about", label: "About" },
   { href: "/podcast", label: "Podcast" },
   { href: "/products", label: "Products" },
+  { href: "/newsletter", label: "📬 Briefing", highlight: true },
   { href: "/tip", label: "Tip" },
   { href: "/donate", label: "❤ Donate", donate: true },
 ];

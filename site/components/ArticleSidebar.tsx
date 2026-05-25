@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Post } from "@/lib/data";
 import SafeImage from "@/components/SafeImage";
 import DonationWidget from "@/components/DonationWidget";
+import NewsletterSignup from "@/components/NewsletterSignup";
 
 function decodeEntities(text: string): string {
   const entities: Record<string, string> = {
@@ -77,6 +78,9 @@ export default function ArticleSidebar({
         </svg>
         Got A Tip?
       </Link>
+
+      {/* Newsletter Signup */}
+      <NewsletterSignup variant="sidebar" />
 
       {/* Donation Widget */}
       <div className="bg-[#fdf8f0] border-2 border-[#8B0000] rounded-xl p-4">
