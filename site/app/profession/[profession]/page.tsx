@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const FIRM_PHONE = "1-800-555-0199";
 const FIRM_PHONE_TEL = "+18005550199";
-const FIRM_URL = "https://farvajafri.com";
+const FIRM_URL = "#contact";
 
 export function generateStaticParams() {
   return professionsData.map((p) => ({ profession: p.slug }));
@@ -95,8 +95,8 @@ export default function ProfessionPage({
           <div className="flex flex-wrap gap-3">
             <a
               href={FIRM_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+              
+              
               className="inline-block bg-[#8B0000] text-white font-semibold font-sans px-5 py-2.5 rounded hover:bg-[#6b0000] transition-colors"
             >
               Get a Free Consultation →
@@ -204,8 +204,8 @@ export default function ProfessionPage({
             <div className="flex flex-wrap gap-3">
               <a
                 href={FIRM_URL}
-                target="_blank"
-                rel="noopener noreferrer"
+                
+                
                 className="inline-block bg-[#8B0000] text-white font-semibold font-sans px-5 py-2.5 rounded hover:bg-[#6b0000] transition-colors"
               >
                 Request Consultation →

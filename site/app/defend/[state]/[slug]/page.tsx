@@ -11,7 +11,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import DefendContactForm from "@/components/DefendContactForm";
 
-const FIRM_URL = "https://farvajafri.com";
+const FIRM_URL = "#contact";
 
 function toSlug(str: string): string {
   return str
@@ -202,8 +202,8 @@ function ProfessionPage({
           <div className="flex flex-wrap gap-3">
             <a
               href={FIRM_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+              
+              
               className="inline-block bg-[#8B0000] text-white font-semibold font-sans px-5 py-2.5 rounded hover:bg-[#6b0000] transition-colors"
             >
               Get a Free Consultation →
@@ -464,8 +464,8 @@ function ComplaintPage({
           <div className="flex flex-wrap gap-3">
             <a
               href={FIRM_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+              
+              
               className="inline-block bg-[#8B0000] text-white font-semibold font-sans px-5 py-2.5 rounded hover:bg-[#6b0000] transition-colors"
             >
               Get a Free Consultation →
@@ -665,8 +665,8 @@ function CityPage({
           <div className="flex flex-wrap gap-3">
             <a
               href={FIRM_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+              
+              
               className="inline-block bg-[#8B0000] text-white font-semibold font-sans px-5 py-2.5 rounded hover:bg-[#6b0000] transition-colors"
             >
               Get a Free Consultation →

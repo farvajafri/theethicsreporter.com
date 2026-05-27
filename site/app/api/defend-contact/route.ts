@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 const BREVO_API_KEY = process.env.BREVO_API_KEY || "";
 const TO_EMAIL = "farvastra@gmail.com";
-const TO_NAME = "Farva Scott";
+const TO_NAME = "Ethics Reporter Admin";
 
 export async function POST(req: NextRequest) {
   try {

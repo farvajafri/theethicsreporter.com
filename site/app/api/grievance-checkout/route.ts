@@ -213,7 +213,7 @@ ${description}
       body: JSON.stringify({
         sender: { name: "Ethics Opinion System", email: "noreply@theethicsreporter.com" },
         to: [{ email: REVIEW_EMAIL, name: REVIEW_NAME }],
-        cc: [{ email: "farvastra@gmail.com", name: "Farva Scott" }],
+        cc: [{ email: "farvastra@gmail.com", name: "Ethics Reporter Admin" }],
         replyTo: { email: yourEmail, name: yourName },
         subject: `⚖️ NEW GRIEVANCE — ${yourName} vs. ${attorneyName} (${attorneyState}) — ${ruleLabel(rulesAlleged)}`,
         htmlContent,
