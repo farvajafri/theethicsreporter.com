@@ -146,7 +146,7 @@ export default function DefendComplaintTypePage({
               Free, confidential consultation. Tell us what happened, and we will tell you
               what your exposure is and what to do next.
             </p>
-            <div className="bg-white rounded-xl p-6">
+            <div id="contact" className="bg-white rounded-xl p-6">
               <DefendContactForm />
             </div>
           </div>

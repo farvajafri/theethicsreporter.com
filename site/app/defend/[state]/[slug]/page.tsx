@@ -362,7 +362,7 @@ function ProfessionPage({
               {profession.plural.toLowerCase()}. We will tell you what the {board} can and
               cannot do, what your real exposure is, and what your response should look like.
             </p>
-            <div className="bg-white rounded-xl p-6">
+            <div id="contact" className="bg-white rounded-xl p-6">
               <DefendContactForm defaultState={state.name} defaultProfession={profession.name} />
             </div>
           </div>
@@ -538,7 +538,7 @@ function ComplaintPage({
               Free, confidential consultation. We will explain your exposure under{" "}
               {state.name} rules and tell you exactly what your response should say.
             </p>
-            <div className="bg-white rounded-xl p-6">
+            <div id="contact" className="bg-white rounded-xl p-6">
               <DefendContactForm defaultState={state.name} />
             </div>
           </div>
@@ -804,7 +804,7 @@ function CityPage({
               review the complaint, assess your exposure, and tell you what your response
               should say before the deadline runs.
             </p>
-            <div className="bg-white rounded-xl p-6">
+            <div id="contact" className="bg-white rounded-xl p-6">
               <DefendContactForm defaultState={state.name} />
             </div>
           </div>

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const FIRM_PHONE = "1-800-555-0199";
 const FIRM_PHONE_TEL = "+18005550199";
-const FIRM_URL = "#contact";
+const FIRM_URL = "/defend#contact";
 
 export function generateStaticParams() {
   return professionsData.map((p) => ({ profession: p.slug }));

@@ -312,7 +312,7 @@ export default function DefendStatePage({
               board. Fill out the form below for a free, confidential consultation before
               the response deadline runs.
             </p>
-            <div className="bg-white rounded-xl p-6">
+            <div id="contact" className="bg-white rounded-xl p-6">
               <DefendContactForm defaultState={state.name} />
             </div>
           </div>
