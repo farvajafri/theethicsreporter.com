@@ -42,7 +42,7 @@ export default function ProfessionPage({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LegalService",
-    name: `${profession.name} Ethics Defense — Scott Law`,
+    name: `${profession.name} Ethics Defense — The Ethics Reporter`,
     description: `Defense for ${profession.plural.toLowerCase()} against ethics complaints, license investigations, and malpractice claims.`,
     url: `${SITE_URL}/profession/${profession.slug}`,
     telephone: FIRM_PHONE,

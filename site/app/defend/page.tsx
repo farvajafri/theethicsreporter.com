@@ -7,7 +7,7 @@ import DefendContactForm from "@/components/DefendContactForm";
 export const metadata: Metadata = {
   title: `Ethics Complaint & Professional License Defense | ${SITE_NAME}`,
   description:
-    "Facing an ethics complaint or malpractice suit? Scott Law defends licensed professionals — attorneys, doctors, nurses, CPAs and more — in NY, NJ, RI, ME, MA, ND, IL, VT, PA, TX, and FL.",
+    "Facing an ethics complaint or malpractice suit? The Ethics Reporter defends licensed professionals — attorneys, doctors, nurses, CPAs and more — in NY, NJ, RI, ME, MA, ND, IL, VT, PA, TX, and FL.",
   alternates: { canonical: `${SITE_URL}/defend` },
   openGraph: {
     title: `Ethics Complaint & Professional License Defense | ${SITE_NAME}`,
@@ -21,7 +21,7 @@ export default function DefendHubPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LegalService",
-    name: "Scott Law — Professional Ethics & License Defense",
+    name: "The Ethics Reporter — Professional Ethics & License Defense",
     description:
       "Defense of licensed professionals against ethics complaints, license investigations, and malpractice claims.",
     url: `${SITE_URL}/defend`,
@@ -60,7 +60,7 @@ export default function DefendHubPage() {
           </h1>
           <p className="font-serif text-xl text-gray-700 leading-relaxed">
             A complaint to your licensing board is not a polite request — it is the opening
-            move in a process that can end your career. Scott Law defends attorneys, doctors,
+            move in a process that can end your career. The Ethics Reporter defends attorneys, doctors,
             nurses, CPAs, dentists, pharmacists, teachers, engineers, and other licensed
             professionals against ethics complaints, board investigations, and malpractice suits.
           </p>
@@ -84,7 +84,7 @@ export default function DefendHubPage() {
             <section>
               <h2>States Where We Defend Licensed Professionals</h2>
               <p>
-                Scott Law is admitted to defend professionals in the following 11 jurisdictions.
+                The Ethics Reporter is admitted to defend professionals in the following 11 jurisdictions.
                 Click your state for state-specific guidance on the disciplinary process and what to expect.
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 not-prose mt-6">

@@ -153,7 +153,7 @@ function ProfessionPage({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LegalService",
-    name: `${state.name} ${profession.name} Ethics Defense — Scott Law`,
+    name: `${state.name} ${profession.name} Ethics Defense — The Ethics Reporter`,
     description: `Defense of ${state.name} ${profession.plural.toLowerCase()} against ethics complaints, ${board} investigations, and license revocation.`,
     url: `${SITE_URL}/defend/${state.slug}/${profession.slug}`,
     areaServed: { "@type": "State", name: state.name },
@@ -407,7 +407,7 @@ function ComplaintPage({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LegalService",
-    name: `${state.name} ${complaint.name} Defense — Scott Law`,
+    name: `${state.name} ${complaint.name} Defense — The Ethics Reporter`,
     description: `Defense of ${state.name} licensed professionals facing ${complaint.name.toLowerCase()} charges before ${boardName}.`,
     url: `${SITE_URL}/defend/${state.slug}/${complaint.slug}`,
     areaServed: { "@type": "State", name: state.name },
@@ -611,7 +611,7 @@ function CityPage({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LegalService",
-    name: `${cityName} Ethics Defense Attorney — Scott Law`,
+    name: `${cityName} Ethics Defense Attorney — The Ethics Reporter`,
     description: `Professional license defense in ${cityName}, ${state.name}. Ethics complaints, board investigations, and license revocation defense.`,
     url: `${SITE_URL}/defend/${state.slug}/${citySlug}`,
     areaServed: [

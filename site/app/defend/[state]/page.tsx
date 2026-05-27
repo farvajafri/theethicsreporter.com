@@ -44,7 +44,7 @@ export default function DefendStatePage({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LegalService",
-    name: `${state.name} Ethics & Professional License Defense — Scott Law`,
+    name: `${state.name} Ethics & Professional License Defense — The Ethics Reporter`,
     description: `Defense of ${state.name} licensed professionals against ethics complaints, license investigations, and malpractice claims.`,
     url: `${SITE_URL}/defend/${state.slug}`,
     areaServed: { "@type": "State", name: state.name },
@@ -83,7 +83,7 @@ export default function DefendStatePage({
           <p className="font-serif text-lg text-gray-700 leading-relaxed">
             If you have received notice of a {state.name} ethics complaint, board
             investigation, or malpractice claim, the next 30 days will shape the rest of your
-            professional life. Scott Law defends {state.name} attorneys, doctors, nurses,
+            professional life. The Ethics Reporter defends {state.name} attorneys, doctors, nurses,
             CPAs, dentists, pharmacists, teachers, and engineers when their licenses are on
             the line.
           </p>

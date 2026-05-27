@@ -41,7 +41,7 @@ export default function DefendComplaintTypePage({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LegalService",
-    name: `${complaint.name} Defense — Scott Law`,
+    name: `${complaint.name} Defense — The Ethics Reporter`,
     description: `Defense of licensed professionals facing ${complaint.name.toLowerCase()} charges before professional licensing boards nationwide.`,
     url: `${SITE_URL}/defend/complaint/${complaint.slug}`,
     areaServed: { "@type": "Country", name: "United States" },
