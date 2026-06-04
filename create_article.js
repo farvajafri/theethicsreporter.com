@@ -63,7 +63,7 @@ const newPost = {
     title: title,
     content: content,
     date: now,
-    author: 'Farva Scott',
+    author: 'The Ethics Reporter Staff',
     status: 'publish'
 };
 
