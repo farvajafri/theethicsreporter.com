@@ -64,21 +64,41 @@ export default function DonatePopup() {
 
           {/* Amounts */}
           <div className="grid grid-cols-4 gap-2 mb-4">
-            {["$5", "$10", "$25", "$50"].map((amt) => (
-              <Link
-                key={amt}
-                href={`/donate?amount=${amt.replace("$","")}`}
-                onClick={dismiss}
-                className="block text-center border-2 border-[#8B0000] text-[#8B0000] hover:bg-[#8B0000] hover:text-white font-bold py-2 rounded-lg font-sans text-sm transition-colors"
-              >
-                {amt}
-              </Link>
-            ))}
+            {["$5", "$10", "$25", "$50"].map((amt) => {
+              const amountValue = parseInt(amt.replace("$", ""));
+              return (
+                <Link
+                  key={amt}
+                  href={`/donate?amount=${amountValue}`}
+                  onClick={() => {
+                    dismiss();
+                    if (typeof window !== 'undefined' && (window as any).gtag) {
+                      (window as any).gtag('event', 'donate_click', {
+                        event_category: 'donation',
+                        event_label: 'popup_quick',
+                        value: amountValue,
+                      });
+                    }
+                  }}
+                  className="block text-center border-2 border-[#8B0000] text-[#8B0000] hover:bg-[#8B0000] hover:text-white font-bold py-2 rounded-lg font-sans text-sm transition-colors"
+                >
+                  {amt}
+                </Link>
+              );
+            })}
           </div>
 
           <Link
             href="/donate"
-            onClick={dismiss}
+            onClick={() => {
+              dismiss();
+              if (typeof window !== 'undefined' && (window as any).gtag) {
+                (window as any).gtag('event', 'donate_click', {
+                  event_category: 'donation',
+                  event_label: 'popup_main',
+                });
+              }
+            }}
             className="block w-full text-center bg-[#8B0000] hover:bg-[#a00000] text-white font-bold py-3 rounded-xl font-sans text-base transition-colors"
           >
             Support The Ethics Reporter →

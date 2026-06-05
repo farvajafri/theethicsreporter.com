@@ -55,6 +55,15 @@ export default function DonateBanner() {
               <Link
                 key={amt}
                 href={`/donate?amount=${amt}`}
+                onClick={() => {
+                  if (typeof window !== 'undefined' && (window as any).gtag) {
+                    (window as any).gtag('event', 'donate_click', {
+                      event_category: 'donation',
+                      event_label: 'banner_quick',
+                      value: amt,
+                    });
+                  }
+                }}
                 className="px-3 py-1 text-xs sm:text-sm font-bold border border-red-600/70 text-red-300 rounded-md hover:bg-red-900/60 hover:text-white transition-colors"
               >
                 ${amt}
@@ -62,6 +71,14 @@ export default function DonateBanner() {
             ))}
             <Link
               href="/donate"
+              onClick={() => {
+                if (typeof window !== 'undefined' && (window as any).gtag) {
+                  (window as any).gtag('event', 'donate_click', {
+                    event_category: 'donation',
+                    event_label: 'banner_main',
+                  });
+                }
+              }}
               className="px-4 py-1.5 text-xs sm:text-sm font-bold bg-red-700 hover:bg-red-600 text-white rounded-md transition-colors whitespace-nowrap shadow-sm"
             >
               Donate Now →
