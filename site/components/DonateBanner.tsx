@@ -56,7 +56,9 @@ export default function DonateBanner() {
                 key={amt}
                 href={`/donate?amount=${amt}`}
                 onClick={() => {
+                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
                   if (typeof window !== 'undefined' && (window as any).gtag) {
+                    // eslint-disable-next-line @typescript-eslint/no-explicit-any
                     (window as any).gtag('event', 'donate_click', {
                       event_category: 'donation',
                       event_label: 'banner_quick',
@@ -72,7 +74,9 @@ export default function DonateBanner() {
             <Link
               href="/donate"
               onClick={() => {
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
                 if (typeof window !== 'undefined' && (window as any).gtag) {
+                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
                   (window as any).gtag('event', 'donate_click', {
                     event_category: 'donation',
                     event_label: 'banner_main',

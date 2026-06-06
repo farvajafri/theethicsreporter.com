@@ -72,7 +72,9 @@ export default function DonatePopup() {
                   href={`/donate?amount=${amountValue}`}
                   onClick={() => {
                     dismiss();
+                    // eslint-disable-next-line @typescript-eslint/no-explicit-any
                     if (typeof window !== 'undefined' && (window as any).gtag) {
+                      // eslint-disable-next-line @typescript-eslint/no-explicit-any
                       (window as any).gtag('event', 'donate_click', {
                         event_category: 'donation',
                         event_label: 'popup_quick',
@@ -92,7 +94,9 @@ export default function DonatePopup() {
             href="/donate"
             onClick={() => {
               dismiss();
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
               if (typeof window !== 'undefined' && (window as any).gtag) {
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
                 (window as any).gtag('event', 'donate_click', {
                   event_category: 'donation',
                   event_label: 'popup_main',
