@@ -14,7 +14,7 @@ import re
 import subprocess
 
 ctx = ssl.create_default_context()
-API_KEY = "AIzaSyABP5c1gwuH2MjzUt3dKksxIxuyT4x-MvM"
+API_KEY = os.environ.get("GEMINI_API_KEY", "")
 POSTS_FILE = "/Users/farvascott/code/theethicsreporter/site/data/posts.json"
 IMG_DIR = "/Users/farvascott/code/theethicsreporter/site/public/images/posts"
 
