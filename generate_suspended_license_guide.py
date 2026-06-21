@@ -318,13 +318,12 @@ STATE_ATTORNEY_BOARDS = {
 }
 
 def get_discord_token():
-    token = os.environ.get("DISCORD_TOKEN", "")
-    if token and len(token) > 20:
-        return token
     secrets_path = os.path.expanduser("~/.openclaw/secrets.json")
     if os.path.exists(secrets_path):
-        return json.load(open(secrets_path)).get("DISCORD_TOKEN", "")
-    return ""
+        tok = json.load(open(secrets_path)).get("DISCORD_TOKEN", "")
+        if tok and len(tok) > 20:
+            return tok
+    return os.environ.get("DISCORD_TOKEN", "")
 
 DISCORD_TOKEN = get_discord_token()
 

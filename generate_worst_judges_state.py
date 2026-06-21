@@ -31,15 +31,12 @@ GEMINI_KEY = json.load(open(f"{SECRETS_DIR}/gemini-api.json"))["api_key"]
 ANTHROPIC_KEY = open(f"{SECRETS_DIR}/anthropic-key.txt").read().strip() if os.path.exists(f"{SECRETS_DIR}/anthropic-key.txt") else None
 # Read Discord token from openclaw secrets
 def _get_discord_token():
-    token = os.environ.get("DISCORD_TOKEN", "")
-    if token and len(token) > 20:
-        return token
-    # Fall back to reading from secrets.json
     secrets_path = os.path.expanduser("~/.openclaw/secrets.json")
     if os.path.exists(secrets_path):
-        s = json.load(open(secrets_path))
-        return s.get("DISCORD_TOKEN", "")
-    return ""
+        tok = json.load(open(secrets_path)).get("DISCORD_TOKEN", "")
+        if tok and len(tok) > 20:
+            return tok
+    return os.environ.get("DISCORD_TOKEN", "")
 DISCORD_TOKEN = _get_discord_token()
 TER_CHANNEL = "1486847808362516572"
 
