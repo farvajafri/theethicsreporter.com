@@ -1,0 +1,310 @@
+{
+  "description": "Tracks which states have had 'Worst Judges' articles published on The Ethics Reporter",
+  "series": "worst-judges-state-rankings-2026",
+  "states": [
+    {
+      "name": "New York",
+      "slug": "new-york",
+      "abbr": "NY",
+      "status": "published",
+      "article_slug": "worst-judges-new-york-state-2026",
+      "published_date": "2026-06-12"
+    },
+    {
+      "name": "Alabama",
+      "slug": "alabama",
+      "abbr": "AL",
+      "status": "published",
+      "article_slug": "worst-judges-alabama-2026",
+      "published_date": "2026-06-21"
+    },
+    {
+      "name": "Alaska",
+      "slug": "alaska",
+      "abbr": "AK",
+      "status": "pending"
+    },
+    {
+      "name": "Arizona",
+      "slug": "arizona",
+      "abbr": "AZ",
+      "status": "pending"
+    },
+    {
+      "name": "Arkansas",
+      "slug": "arkansas",
+      "abbr": "AR",
+      "status": "pending"
+    },
+    {
+      "name": "California",
+      "slug": "california",
+      "abbr": "CA",
+      "status": "pending"
+    },
+    {
+      "name": "Colorado",
+      "slug": "colorado",
+      "abbr": "CO",
+      "status": "pending"
+    },
+    {
+      "name": "Connecticut",
+      "slug": "connecticut",
+      "abbr": "CT",
+      "status": "pending"
+    },
+    {
+      "name": "Delaware",
+      "slug": "delaware",
+      "abbr": "DE",
+      "status": "pending"
+    },
+    {
+      "name": "Florida",
+      "slug": "florida",
+      "abbr": "FL",
+      "status": "pending"
+    },
+    {
+      "name": "Georgia",
+      "slug": "georgia",
+      "abbr": "GA",
+      "status": "pending"
+    },
+    {
+      "name": "Hawaii",
+      "slug": "hawaii",
+      "abbr": "HI",
+      "status": "pending"
+    },
+    {
+      "name": "Idaho",
+      "slug": "idaho",
+      "abbr": "ID",
+      "status": "pending"
+    },
+    {
+      "name": "Illinois",
+      "slug": "illinois",
+      "abbr": "IL",
+      "status": "pending"
+    },
+    {
+      "name": "Indiana",
+      "slug": "indiana",
+      "abbr": "IN",
+      "status": "pending"
+    },
+    {
+      "name": "Iowa",
+      "slug": "iowa",
+      "abbr": "IA",
+      "status": "pending"
+    },
+    {
+      "name": "Kansas",
+      "slug": "kansas",
+      "abbr": "KS",
+      "status": "pending"
+    },
+    {
+      "name": "Kentucky",
+      "slug": "kentucky",
+      "abbr": "KY",
+      "status": "pending"
+    },
+    {
+      "name": "Louisiana",
+      "slug": "louisiana",
+      "abbr": "LA",
+      "status": "pending"
+    },
+    {
+      "name": "Maine",
+      "slug": "maine",
+      "abbr": "ME",
+      "status": "pending"
+    },
+    {
+      "name": "Maryland",
+      "slug": "maryland",
+      "abbr": "MD",
+      "status": "pending"
+    },
+    {
+      "name": "Massachusetts",
+      "slug": "massachusetts",
+      "abbr": "MA",
+      "status": "pending"
+    },
+    {
+      "name": "Michigan",
+      "slug": "michigan",
+      "abbr": "MI",
+      "status": "pending"
+    },
+    {
+      "name": "Minnesota",
+      "slug": "minnesota",
+      "abbr": "MN",
+      "status": "pending"
+    },
+    {
+      "name": "Mississippi",
+      "slug": "mississippi",
+      "abbr": "MS",
+      "status": "pending"
+    },
+    {
+      "name": "Missouri",
+      "slug": "missouri",
+      "abbr": "MO",
+      "status": "pending"
+    },
+    {
+      "name": "Montana",
+      "slug": "montana",
+      "abbr": "MT",
+      "status": "pending"
+    },
+    {
+      "name": "Nebraska",
+      "slug": "nebraska",
+      "abbr": "NE",
+      "status": "pending"
+    },
+    {
+      "name": "Nevada",
+      "slug": "nevada",
+      "abbr": "NV",
+      "status": "pending"
+    },
+    {
+      "name": "New Hampshire",
+      "slug": "new-hampshire",
+      "abbr": "NH",
+      "status": "pending"
+    },
+    {
+      "name": "New Jersey",
+      "slug": "new-jersey",
+      "abbr": "NJ",
+      "status": "pending"
+    },
+    {
+      "name": "New Mexico",
+      "slug": "new-mexico",
+      "abbr": "NM",
+      "status": "pending"
+    },
+    {
+      "name": "North Carolina",
+      "slug": "north-carolina",
+      "abbr": "NC",
+      "status": "pending"
+    },
+    {
+      "name": "North Dakota",
+      "slug": "north-dakota",
+      "abbr": "ND",
+      "status": "pending"
+    },
+    {
+      "name": "Ohio",
+      "slug": "ohio",
+      "abbr": "OH",
+      "status": "pending"
+    },
+    {
+      "name": "Oklahoma",
+      "slug": "oklahoma",
+      "abbr": "OK",
+      "status": "pending"
+    },
+    {
+      "name": "Oregon",
+      "slug": "oregon",
+      "abbr": "OR",
+      "status": "pending"
+    },
+    {
+      "name": "Pennsylvania",
+      "slug": "pennsylvania",
+      "abbr": "PA",
+      "status": "pending"
+    },
+    {
+      "name": "Rhode Island",
+      "slug": "rhode-island",
+      "abbr": "RI",
+      "status": "pending"
+    },
+    {
+      "name": "South Carolina",
+      "slug": "south-carolina",
+      "abbr": "SC",
+      "status": "pending"
+    },
+    {
+      "name": "South Dakota",
+      "slug": "south-dakota",
+      "abbr": "SD",
+      "status": "pending"
+    },
+    {
+      "name": "Tennessee",
+      "slug": "tennessee",
+      "abbr": "TN",
+      "status": "pending"
+    },
+    {
+      "name": "Texas",
+      "slug": "texas",
+      "abbr": "TX",
+      "status": "pending"
+    },
+    {
+      "name": "Utah",
+      "slug": "utah",
+      "abbr": "UT",
+      "status": "pending"
+    },
+    {
+      "name": "Vermont",
+      "slug": "vermont",
+      "abbr": "VT",
+      "status": "pending"
+    },
+    {
+      "name": "Virginia",
+      "slug": "virginia",
+      "abbr": "VA",
+      "status": "pending"
+    },
+    {
+      "name": "Washington",
+      "slug": "washington",
+      "abbr": "WA",
+      "status": "pending"
+    },
+    {
+      "name": "West Virginia",
+      "slug": "west-virginia",
+      "abbr": "WV",
+      "status": "pending"
+    },
+    {
+      "name": "Wisconsin",
+      "slug": "wisconsin",
+      "abbr": "WI",
+      "status": "pending"
+    },
+    {
+      "name": "Wyoming",
+      "slug": "wyoming",
+      "abbr": "WY",
+      "status": "pending"
+    }
+  ]
+}
