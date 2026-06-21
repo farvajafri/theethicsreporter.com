@@ -29,7 +29,18 @@ SECRETS_DIR = "/Users/farvascott/.openclaw/workspace/.secrets"
 # ── Credentials ────────────────────────────────────────────────────────────────
 GEMINI_KEY = json.load(open(f"{SECRETS_DIR}/gemini-api.json"))["api_key"]
 ANTHROPIC_KEY = open(f"{SECRETS_DIR}/anthropic-key.txt").read().strip() if os.path.exists(f"{SECRETS_DIR}/anthropic-key.txt") else None
-DISCORD_TOKEN = os.environ.get("DISCORD_TOKEN", "")
+# Read Discord token from openclaw secrets
+def _get_discord_token():
+    token = os.environ.get("DISCORD_TOKEN", "")
+    if token and len(token) > 20:
+        return token
+    # Fall back to reading from secrets.json
+    secrets_path = os.path.expanduser("~/.openclaw/secrets.json")
+    if os.path.exists(secrets_path):
+        s = json.load(open(secrets_path))
+        return s.get("DISCORD_TOKEN", "")
+    return ""
+DISCORD_TOKEN = _get_discord_token()
 TER_CHANNEL = "1486847808362516572"
 
 ssl_ctx = ssl.create_default_context()
@@ -133,7 +144,7 @@ def call_anthropic(prompt, max_tokens=8000):
 
 def generate_image_gemini(prompt, filename):
     """Generate image using Gemini."""
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-native-image-generation:generateContent?key={GEMINI_KEY}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-preview-image-generation:generateContent?key={GEMINI_KEY}"
     payload = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"responseModalities": ["IMAGE", "TEXT"]}
