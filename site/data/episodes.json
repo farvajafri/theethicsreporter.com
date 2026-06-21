@@ -1,52 +1,62 @@
 [
-  {
-    "id": 5,
-    "title": "The House Always Wins: Congressional Insider Trading and the Law That Was Never Meant to Work",
-    "slug": "congressional-insider-trading-stock-act-pelosi-burr-tuberville",
-    "date": "2026-06-18T10:00:00",
-    "description": "On July 13, 2023, a stock disclosure was filed with the Office of the Clerk of the United States House of Representatives. It recorded the purchase of NVIDIA call options — a leveraged bet worth between $1 million and $5 million — by Paul Pelosi, husband of then-Speaker Nancy Pelosi, while the House was actively negotiating the CHIPS and Science Act, the most consequential semiconductor legislation in modern American history. Six months later, the position had returned approximately $5 million. This is where today's episode begins. For twelve years, the STOCK Act — passed with near-unanimous bipartisan support — has promised to hold Congress to the same insider trading rules as the rest of America. In those twelve years, there have been zero criminal convictions. Not one. This episode names the members and documents the trades: Senator Richard Burr, who sold up to $1.72 million in hospitality and airline stocks the same day he received a classified COVID briefing, while publicly saying the virus posed no serious threat. Senator Tommy Tuberville, who traded soybean and grain futures while sitting on the Senate Agriculture Committee, the body with direct oversight over commodity market regulation. Senator David Perdue, who executed over 22,600 individual stock transactions in six years — the highest trading volume of any Senator during that period. Senator Kelly Loeffler, who began selling millions in stock the same afternoon she attended a Senate coronavirus briefing, while simultaneously purchasing shares of a remote-work software company. Then this episode explains why the law doesn't work — the 45-day disclosure window that gives trades weeks to settle before anyone finds out, the 2013 amendment that quietly gutted the online searchable database, the reform bills introduced in every Congress since 2020 that follow an identical pattern: introduction, coverage, committee, dead. And finally: what every major democracy except the United States has already figured out, what a real ban would look like, and what you can do about it. Independently reported. No advertisers. No corporate sponsors. Just the truth.",
-    "file": "/podcasts/Congressional_Insider_Trading_STOCK_Act.mp3",
-    "duration": "29:08",
-    "durationSeconds": 1748
-  },
-  {
-    "id": 4,
-    "title": "The Watergate Office: How a President’s Personal Attorney Occupied Federal Property and What That Means for the Rule of Law",
-    "slug": "the-watergate-office-trump-personal-attorney-federal-property-rule-of-law",
-    "date": "2026-06-16T10:00:00",
-    "description": "There is a law office in the Eisenhower Executive Office Building — federal property, steps from the White House — being used by the President’s personal attorneys. Not government lawyers. Not White House Counsel. The President’s private legal team, working out of a taxpayer-funded building to conduct business that exists to protect one man from criminal and civil liability. This episode investigates what The Ethics Reporter is calling the Watergate Office: a pattern of using the physical and institutional infrastructure of the federal government to advance the personal legal interests of the president. We look at who is in that building, what they are working on, the ethics rules they may be violating, and why the line between official government business and personal legal defense has never been more deliberately blurred. From the use of federal staff on personal legal matters, to the weaponization of government resources for political and legal cover, to the silence of bar associations that should be asking hard questions — this is the story of accountability deferred, and what it costs when no one enforces the rules.",
-    "file": "/podcasts/The_Ethics_Reporter_The_Watergate_Office.mp3",
-    "duration": "33:01",
-    "durationSeconds": 1981
-  },
-  {
-    "id": 3,
-    "title": "Signed in Silence: The One Big Beautiful Bill and the Corruption You Weren't Told About",
-    "slug": "one-big-beautiful-bill-medicaid-cuts-corruption-2025",
-    "date": "2026-06-06T10:00:00",
-    "description": "On July 4, 2025, the President of the United States signed the One Big Beautiful Bill Act into law. The date was intentional — branding designed to make you feel like you were watching freedom. What you were actually watching was the largest transfer of wealth from the poor to the rich in modern American legislative history, hidden inside nearly 1,000 pages of budget reconciliation language that most members of Congress never read. This episode breaks down what the bill actually does: 70 million Americans losing Medicaid coverage, food assistance gutted nationwide, rural hospitals weeks away from shutting their doors, and a provision buried deep in the bill that strips federal courts of the authority to hold the executive branch in contempt — meaning a president who defies a court order can no longer be legally compelled to comply. The bill added $3.4 trillion to the national debt. It was passed by the same people who refused to extend the child tax credit because it would increase the deficit. It was signed on Independence Day, with fireworks in the background. The Ethics Reporter is here to tell you what was actually in it — because somebody has to. Independently reported. No advertisers. No corporate sponsors. Just the truth.",
-    "file": "/podcasts/One_Big_Beautiful_Bill_Corruption_Exposed.mp3",
-    "duration": "31:22",
-    "durationSeconds": 1883
-  },
-  {
-    "id": 2,
-    "title": "The Kill Switch, The Lone Dissenter, and the Government That Watches You Drive",
-    "slug": "kill-switch-lone-dissenter-massie",
-    "date": "2026-05-12T10:00:00",
-    "description": "In 2021, Congress passed the Infrastructure Investment and Jobs Act — a 1,100-page bill that almost no one read. Buried inside Section 24220 was a federal mandate requiring all new vehicles to be equipped with technology that monitors your driving behavior and can slow or stop your car without your consent. No opt-in. No warrant. No notice. Just government-mandated surveillance installed in every American automobile. This episode investigates how it got there, who voted for it, and why almost no one in Washington has said a word about it — except one man. Thomas Massie, Republican congressman from Kentucky, has cast more lone dissenting votes against government overreach than nearly any member of Congress in modern history. He has voted alone against warrantless surveillance of American citizens, against NDAA provisions expanding military detention authority on U.S. soil, against the so-called Big Beautiful Bill's hidden gutting of Medicaid and SNAP benefits, and against the kill switch mandate while 434 of his colleagues voted yes. He gets attacked by his own party, mocked by mainstream media, and threatened by presidents. He keeps showing up anyway. This is a deep investigation into congressional corruption, civil liberties, the erosion of Fourth Amendment protections, and what happens when the people elected to protect your freedom become the greatest threat to it. Independently reported. No advertisers. No corporate sponsors. Just the truth.",
-    "file": "/podcasts/Kill_Switch_Lone_Dissenter_Massie.mp3",
-    "duration": "36:53",
-    "durationSeconds": 2213
-  },
-  {
-    "id": 1,
-    "title": "NY Ethics Chair Linked to Corrupt Judge",
-    "slug": "ny-ethics-chair-linked-to-corrupt-judge",
-    "date": "2026-04-04T15:15:00",
-    "description": "An in-depth look at the troubling connections between New York's ethics oversight chair and a judge embroiled in corruption allegations. We examine the evidence, the institutional failures, and what it means for legal accountability in the state.",
-    "file": "/podcasts/NY_Ethics_Chair_Linked_to_Corrupt_Judge.m4a",
-    "duration": "20:07",
-    "durationSeconds": 1207
-  }
+    {
+        "id": 6,
+        "title": "How Big Law Was Broken: Nine Firms Surrendered. Four Fought. Every Court Ruled the Same Way.",
+        "slug": "how-big-law-was-broken-trump-executive-orders-paul-weiss-perkins-coie-surrender",
+        "date": "2026-06-19T10:00:00",
+        "description": "In the spring of 2025, the President of the United States signed executive orders targeting specific named law firms \u2014 stripping their lawyers of security clearances, terminating federal contracts with their clients, and banning them from federal buildings. The orders named Paul Weiss, Perkins Coie, Jenner and Block, WilmerHale, and Susman Godfrey by name. The grievances were not about misconduct. They were about cases the firms had taken, clients they had represented, lawyers they had once employed. Within weeks, nine of the country\u2019s largest and most prestigious law firms surrendered. They went to the White House, sat across from Donald Trump, and cut deals. Nine firms pledged nearly one billion dollars in free legal services for causes of the president\u2019s choosing \u2014 Paul Weiss committing  million, Skadden  million, Latham  million, Kirkland and Ellis  million, Sullivan and Cromwell  million. In exchange, he agreed not to sign orders against them. Four other firms refused. Perkins Coie, Jenner and Block, WilmerHale, and Susman Godfrey sued. Every single one of them won. Federal judges \u2014 appointed by Republicans and Democrats alike \u2014 unanimously ruled the orders unconstitutional: retaliatory, a tool of personal vengeance, a violation of due process and separation of powers. Every competent constitutional lawyer in the country knew the orders were illegal from the moment they were signed. The settling firms had the same constitutional law partners, the same access to the same case law. They settled anyway. This episode is about what that choice means. It is about the lawyers who folded and the lawyers who refused. It is about a profession that claims to exist to serve the rule of law \u2014 and what happened when the rule of law actually came under attack. It is about Brad Karp of Paul Weiss, who built a career describing himself as a defender of progressive values, and what he did when his firm\u2019s survival was on the line. It is about Danielle Sassoon, a 38-year-old federal prosecutor who resigned rather than file a dismissal motion she believed was corrupt. It is about where the American Bar Association was when all of this happened. And it is about what a billion dollars in capitulation has already cost the profession \u2014 in talent, in client trust, in the federal courtroom, and in the silence of every bar association that watched it happen and chose to say almost nothing. Independently reported. No advertisers. No corporate sponsors. Just the truth.",
+        "file": "/podcasts/Ethics_Reporter_How_Big_Law_Was_Broken.mp3",
+        "duration": "23:00",
+        "durationSeconds": 1380
+    },
+    {
+        "id": 5,
+        "title": "The House Always Wins: Congressional Insider Trading and the Law That Was Never Meant to Work",
+        "slug": "congressional-insider-trading-stock-act-pelosi-burr-tuberville",
+        "date": "2026-06-18T10:00:00",
+        "description": "On July 13, 2023, a stock disclosure was filed with the Office of the Clerk of the United States House of Representatives. It recorded the purchase of NVIDIA call options \u2014 a leveraged bet worth between $1 million and $5 million \u2014 by Paul Pelosi, husband of then-Speaker Nancy Pelosi, while the House was actively negotiating the CHIPS and Science Act, the most consequential semiconductor legislation in modern American history. Six months later, the position had returned approximately $5 million. This is where today's episode begins. For twelve years, the STOCK Act \u2014 passed with near-unanimous bipartisan support \u2014 has promised to hold Congress to the same insider trading rules as the rest of America. In those twelve years, there have been zero criminal convictions. Not one. This episode names the members and documents the trades: Senator Richard Burr, who sold up to $1.72 million in hospitality and airline stocks the same day he received a classified COVID briefing, while publicly saying the virus posed no serious threat. Senator Tommy Tuberville, who traded soybean and grain futures while sitting on the Senate Agriculture Committee, the body with direct oversight over commodity market regulation. Senator David Perdue, who executed over 22,600 individual stock transactions in six years \u2014 the highest trading volume of any Senator during that period. Senator Kelly Loeffler, who began selling millions in stock the same afternoon she attended a Senate coronavirus briefing, while simultaneously purchasing shares of a remote-work software company. Then this episode explains why the law doesn't work \u2014 the 45-day disclosure window that gives trades weeks to settle before anyone finds out, the 2013 amendment that quietly gutted the online searchable database, the reform bills introduced in every Congress since 2020 that follow an identical pattern: introduction, coverage, committee, dead. And finally: what every major democracy except the United States has already figured out, what a real ban would look like, and what you can do about it. Independently reported. No advertisers. No corporate sponsors. Just the truth.",
+        "file": "/podcasts/Congressional_Insider_Trading_STOCK_Act.mp3",
+        "duration": "29:08",
+        "durationSeconds": 1748
+    },
+    {
+        "id": 4,
+        "title": "The Watergate Office: How a President\u2019s Personal Attorney Occupied Federal Property and What That Means for the Rule of Law",
+        "slug": "the-watergate-office-trump-personal-attorney-federal-property-rule-of-law",
+        "date": "2026-06-16T10:00:00",
+        "description": "There is a law office in the Eisenhower Executive Office Building \u2014 federal property, steps from the White House \u2014 being used by the President\u2019s personal attorneys. Not government lawyers. Not White House Counsel. The President\u2019s private legal team, working out of a taxpayer-funded building to conduct business that exists to protect one man from criminal and civil liability. This episode investigates what The Ethics Reporter is calling the Watergate Office: a pattern of using the physical and institutional infrastructure of the federal government to advance the personal legal interests of the president. We look at who is in that building, what they are working on, the ethics rules they may be violating, and why the line between official government business and personal legal defense has never been more deliberately blurred. From the use of federal staff on personal legal matters, to the weaponization of government resources for political and legal cover, to the silence of bar associations that should be asking hard questions \u2014 this is the story of accountability deferred, and what it costs when no one enforces the rules.",
+        "file": "/podcasts/The_Ethics_Reporter_The_Watergate_Office.mp3",
+        "duration": "33:01",
+        "durationSeconds": 1981
+    },
+    {
+        "id": 3,
+        "title": "Signed in Silence: The One Big Beautiful Bill and the Corruption You Weren't Told About",
+        "slug": "one-big-beautiful-bill-medicaid-cuts-corruption-2025",
+        "date": "2026-06-06T10:00:00",
+        "description": "On July 4, 2025, the President of the United States signed the One Big Beautiful Bill Act into law. The date was intentional \u2014 branding designed to make you feel like you were watching freedom. What you were actually watching was the largest transfer of wealth from the poor to the rich in modern American legislative history, hidden inside nearly 1,000 pages of budget reconciliation language that most members of Congress never read. This episode breaks down what the bill actually does: 70 million Americans losing Medicaid coverage, food assistance gutted nationwide, rural hospitals weeks away from shutting their doors, and a provision buried deep in the bill that strips federal courts of the authority to hold the executive branch in contempt \u2014 meaning a president who defies a court order can no longer be legally compelled to comply. The bill added $3.4 trillion to the national debt. It was passed by the same people who refused to extend the child tax credit because it would increase the deficit. It was signed on Independence Day, with fireworks in the background. The Ethics Reporter is here to tell you what was actually in it \u2014 because somebody has to. Independently reported. No advertisers. No corporate sponsors. Just the truth.",
+        "file": "/podcasts/One_Big_Beautiful_Bill_Corruption_Exposed.mp3",
+        "duration": "31:22",
+        "durationSeconds": 1883
+    },
+    {
+        "id": 2,
+        "title": "The Kill Switch, The Lone Dissenter, and the Government That Watches You Drive",
+        "slug": "kill-switch-lone-dissenter-massie",
+        "date": "2026-05-12T10:00:00",
+        "description": "In 2021, Congress passed the Infrastructure Investment and Jobs Act \u2014 a 1,100-page bill that almost no one read. Buried inside Section 24220 was a federal mandate requiring all new vehicles to be equipped with technology that monitors your driving behavior and can slow or stop your car without your consent. No opt-in. No warrant. No notice. Just government-mandated surveillance installed in every American automobile. This episode investigates how it got there, who voted for it, and why almost no one in Washington has said a word about it \u2014 except one man. Thomas Massie, Republican congressman from Kentucky, has cast more lone dissenting votes against government overreach than nearly any member of Congress in modern history. He has voted alone against warrantless surveillance of American citizens, against NDAA provisions expanding military detention authority on U.S. soil, against the so-called Big Beautiful Bill's hidden gutting of Medicaid and SNAP benefits, and against the kill switch mandate while 434 of his colleagues voted yes. He gets attacked by his own party, mocked by mainstream media, and threatened by presidents. He keeps showing up anyway. This is a deep investigation into congressional corruption, civil liberties, the erosion of Fourth Amendment protections, and what happens when the people elected to protect your freedom become the greatest threat to it. Independently reported. No advertisers. No corporate sponsors. Just the truth.",
+        "file": "/podcasts/Kill_Switch_Lone_Dissenter_Massie.mp3",
+        "duration": "36:53",
+        "durationSeconds": 2213
+    },
+    {
+        "id": 1,
+        "title": "NY Ethics Chair Linked to Corrupt Judge",
+        "slug": "ny-ethics-chair-linked-to-corrupt-judge",
+        "date": "2026-04-04T15:15:00",
+        "description": "An in-depth look at the troubling connections between New York's ethics oversight chair and a judge embroiled in corruption allegations. We examine the evidence, the institutional failures, and what it means for legal accountability in the state.",
+        "file": "/podcasts/NY_Ethics_Chair_Linked_to_Corrupt_Judge.m4a",
+        "duration": "20:07",
+        "durationSeconds": 1207
+    }
 ]
