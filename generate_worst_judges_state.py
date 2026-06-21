@@ -332,10 +332,22 @@ def main():
     result = subprocess.run(["git", "push", "origin", "main"], cwd=REPO, capture_output=True, text=True)
     if result.returncode == 0:
         print("Pushed successfully")
-        push_status = "✅ Live on site"
     else:
         print(f"Push error: {result.stderr}")
-        push_status = f"⚠️ Push failed: {result.stderr[:100]}"
+
+    # Deploy to Vercel (not auto-connected to git)
+    print("Deploying to Vercel...")
+    deploy_result = subprocess.run(
+        ["vercel", "--prod", "--yes"],
+        cwd=f"{REPO}/site",
+        capture_output=True, text=True, timeout=300
+    )
+    if deploy_result.returncode == 0:
+        print("Vercel deploy successful")
+        push_status = "✅ Live on site"
+    else:
+        print(f"Vercel deploy error: {deploy_result.stderr[:200]}")
+        push_status = f"⚠️ Deploy failed — manual vercel --prod needed"
 
     # Report to Discord
     discord_msg = f"""📰 **New Article Published — The Ethics Reporter**
