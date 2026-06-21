@@ -1,0 +1,5408 @@
+{
+  "description": "State-by-state profession-by-profession guide: what to do after license suspension",
+  "series": "suspended-license-state-guide-2026",
+  "total": 600,
+  "articles": [
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "California",
+      "state_slug": "california",
+      "state_abbr": "CA",
+      "article_slug": "suspended-attorney-license-california-what-to-do",
+      "status": "published",
+      "published_date": "2026-06-21"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Texas",
+      "state_slug": "texas",
+      "state_abbr": "TX",
+      "article_slug": "suspended-attorney-license-texas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Florida",
+      "state_slug": "florida",
+      "state_abbr": "FL",
+      "article_slug": "suspended-attorney-license-florida-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "New York",
+      "state_slug": "new-york",
+      "state_abbr": "NY",
+      "article_slug": "suspended-attorney-license-new-york-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Illinois",
+      "state_slug": "illinois",
+      "state_abbr": "IL",
+      "article_slug": "suspended-attorney-license-illinois-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Pennsylvania",
+      "state_slug": "pennsylvania",
+      "state_abbr": "PA",
+      "article_slug": "suspended-attorney-license-pennsylvania-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Ohio",
+      "state_slug": "ohio",
+      "state_abbr": "OH",
+      "article_slug": "suspended-attorney-license-ohio-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Georgia",
+      "state_slug": "georgia",
+      "state_abbr": "GA",
+      "article_slug": "suspended-attorney-license-georgia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Michigan",
+      "state_slug": "michigan",
+      "state_abbr": "MI",
+      "article_slug": "suspended-attorney-license-michigan-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "North Carolina",
+      "state_slug": "north-carolina",
+      "state_abbr": "NC",
+      "article_slug": "suspended-attorney-license-north-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "New Jersey",
+      "state_slug": "new-jersey",
+      "state_abbr": "NJ",
+      "article_slug": "suspended-attorney-license-new-jersey-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Virginia",
+      "state_slug": "virginia",
+      "state_abbr": "VA",
+      "article_slug": "suspended-attorney-license-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Washington",
+      "state_slug": "washington",
+      "state_abbr": "WA",
+      "article_slug": "suspended-attorney-license-washington-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Arizona",
+      "state_slug": "arizona",
+      "state_abbr": "AZ",
+      "article_slug": "suspended-attorney-license-arizona-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Massachusetts",
+      "state_slug": "massachusetts",
+      "state_abbr": "MA",
+      "article_slug": "suspended-attorney-license-massachusetts-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Tennessee",
+      "state_slug": "tennessee",
+      "state_abbr": "TN",
+      "article_slug": "suspended-attorney-license-tennessee-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Indiana",
+      "state_slug": "indiana",
+      "state_abbr": "IN",
+      "article_slug": "suspended-attorney-license-indiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Missouri",
+      "state_slug": "missouri",
+      "state_abbr": "MO",
+      "article_slug": "suspended-attorney-license-missouri-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Maryland",
+      "state_slug": "maryland",
+      "state_abbr": "MD",
+      "article_slug": "suspended-attorney-license-maryland-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Wisconsin",
+      "state_slug": "wisconsin",
+      "state_abbr": "WI",
+      "article_slug": "suspended-attorney-license-wisconsin-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Colorado",
+      "state_slug": "colorado",
+      "state_abbr": "CO",
+      "article_slug": "suspended-attorney-license-colorado-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Minnesota",
+      "state_slug": "minnesota",
+      "state_abbr": "MN",
+      "article_slug": "suspended-attorney-license-minnesota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "South Carolina",
+      "state_slug": "south-carolina",
+      "state_abbr": "SC",
+      "article_slug": "suspended-attorney-license-south-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Alabama",
+      "state_slug": "alabama",
+      "state_abbr": "AL",
+      "article_slug": "suspended-attorney-license-alabama-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Louisiana",
+      "state_slug": "louisiana",
+      "state_abbr": "LA",
+      "article_slug": "suspended-attorney-license-louisiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Kentucky",
+      "state_slug": "kentucky",
+      "state_abbr": "KY",
+      "article_slug": "suspended-attorney-license-kentucky-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Oregon",
+      "state_slug": "oregon",
+      "state_abbr": "OR",
+      "article_slug": "suspended-attorney-license-oregon-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Oklahoma",
+      "state_slug": "oklahoma",
+      "state_abbr": "OK",
+      "article_slug": "suspended-attorney-license-oklahoma-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Connecticut",
+      "state_slug": "connecticut",
+      "state_abbr": "CT",
+      "article_slug": "suspended-attorney-license-connecticut-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Utah",
+      "state_slug": "utah",
+      "state_abbr": "UT",
+      "article_slug": "suspended-attorney-license-utah-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Iowa",
+      "state_slug": "iowa",
+      "state_abbr": "IA",
+      "article_slug": "suspended-attorney-license-iowa-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Nevada",
+      "state_slug": "nevada",
+      "state_abbr": "NV",
+      "article_slug": "suspended-attorney-license-nevada-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Arkansas",
+      "state_slug": "arkansas",
+      "state_abbr": "AR",
+      "article_slug": "suspended-attorney-license-arkansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Mississippi",
+      "state_slug": "mississippi",
+      "state_abbr": "MS",
+      "article_slug": "suspended-attorney-license-mississippi-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Kansas",
+      "state_slug": "kansas",
+      "state_abbr": "KS",
+      "article_slug": "suspended-attorney-license-kansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "New Mexico",
+      "state_slug": "new-mexico",
+      "state_abbr": "NM",
+      "article_slug": "suspended-attorney-license-new-mexico-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Nebraska",
+      "state_slug": "nebraska",
+      "state_abbr": "NE",
+      "article_slug": "suspended-attorney-license-nebraska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Idaho",
+      "state_slug": "idaho",
+      "state_abbr": "ID",
+      "article_slug": "suspended-attorney-license-idaho-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "West Virginia",
+      "state_slug": "west-virginia",
+      "state_abbr": "WV",
+      "article_slug": "suspended-attorney-license-west-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Hawaii",
+      "state_slug": "hawaii",
+      "state_abbr": "HI",
+      "article_slug": "suspended-attorney-license-hawaii-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "New Hampshire",
+      "state_slug": "new-hampshire",
+      "state_abbr": "NH",
+      "article_slug": "suspended-attorney-license-new-hampshire-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Maine",
+      "state_slug": "maine",
+      "state_abbr": "ME",
+      "article_slug": "suspended-attorney-license-maine-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Montana",
+      "state_slug": "montana",
+      "state_abbr": "MT",
+      "article_slug": "suspended-attorney-license-montana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Rhode Island",
+      "state_slug": "rhode-island",
+      "state_abbr": "RI",
+      "article_slug": "suspended-attorney-license-rhode-island-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Delaware",
+      "state_slug": "delaware",
+      "state_abbr": "DE",
+      "article_slug": "suspended-attorney-license-delaware-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "South Dakota",
+      "state_slug": "south-dakota",
+      "state_abbr": "SD",
+      "article_slug": "suspended-attorney-license-south-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "North Dakota",
+      "state_slug": "north-dakota",
+      "state_abbr": "ND",
+      "article_slug": "suspended-attorney-license-north-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Alaska",
+      "state_slug": "alaska",
+      "state_abbr": "AK",
+      "article_slug": "suspended-attorney-license-alaska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Vermont",
+      "state_slug": "vermont",
+      "state_abbr": "VT",
+      "article_slug": "suspended-attorney-license-vermont-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Attorney",
+      "profession_slug": "attorney",
+      "state": "Wyoming",
+      "state_slug": "wyoming",
+      "state_abbr": "WY",
+      "article_slug": "suspended-attorney-license-wyoming-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "California",
+      "state_slug": "california",
+      "state_abbr": "CA",
+      "article_slug": "suspended-doctor-license-california-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Texas",
+      "state_slug": "texas",
+      "state_abbr": "TX",
+      "article_slug": "suspended-doctor-license-texas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Florida",
+      "state_slug": "florida",
+      "state_abbr": "FL",
+      "article_slug": "suspended-doctor-license-florida-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "New York",
+      "state_slug": "new-york",
+      "state_abbr": "NY",
+      "article_slug": "suspended-doctor-license-new-york-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Illinois",
+      "state_slug": "illinois",
+      "state_abbr": "IL",
+      "article_slug": "suspended-doctor-license-illinois-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Pennsylvania",
+      "state_slug": "pennsylvania",
+      "state_abbr": "PA",
+      "article_slug": "suspended-doctor-license-pennsylvania-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Ohio",
+      "state_slug": "ohio",
+      "state_abbr": "OH",
+      "article_slug": "suspended-doctor-license-ohio-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Georgia",
+      "state_slug": "georgia",
+      "state_abbr": "GA",
+      "article_slug": "suspended-doctor-license-georgia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Michigan",
+      "state_slug": "michigan",
+      "state_abbr": "MI",
+      "article_slug": "suspended-doctor-license-michigan-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "North Carolina",
+      "state_slug": "north-carolina",
+      "state_abbr": "NC",
+      "article_slug": "suspended-doctor-license-north-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "New Jersey",
+      "state_slug": "new-jersey",
+      "state_abbr": "NJ",
+      "article_slug": "suspended-doctor-license-new-jersey-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Virginia",
+      "state_slug": "virginia",
+      "state_abbr": "VA",
+      "article_slug": "suspended-doctor-license-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Washington",
+      "state_slug": "washington",
+      "state_abbr": "WA",
+      "article_slug": "suspended-doctor-license-washington-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Arizona",
+      "state_slug": "arizona",
+      "state_abbr": "AZ",
+      "article_slug": "suspended-doctor-license-arizona-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Massachusetts",
+      "state_slug": "massachusetts",
+      "state_abbr": "MA",
+      "article_slug": "suspended-doctor-license-massachusetts-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Tennessee",
+      "state_slug": "tennessee",
+      "state_abbr": "TN",
+      "article_slug": "suspended-doctor-license-tennessee-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Indiana",
+      "state_slug": "indiana",
+      "state_abbr": "IN",
+      "article_slug": "suspended-doctor-license-indiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Missouri",
+      "state_slug": "missouri",
+      "state_abbr": "MO",
+      "article_slug": "suspended-doctor-license-missouri-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Maryland",
+      "state_slug": "maryland",
+      "state_abbr": "MD",
+      "article_slug": "suspended-doctor-license-maryland-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Wisconsin",
+      "state_slug": "wisconsin",
+      "state_abbr": "WI",
+      "article_slug": "suspended-doctor-license-wisconsin-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Colorado",
+      "state_slug": "colorado",
+      "state_abbr": "CO",
+      "article_slug": "suspended-doctor-license-colorado-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Minnesota",
+      "state_slug": "minnesota",
+      "state_abbr": "MN",
+      "article_slug": "suspended-doctor-license-minnesota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "South Carolina",
+      "state_slug": "south-carolina",
+      "state_abbr": "SC",
+      "article_slug": "suspended-doctor-license-south-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Alabama",
+      "state_slug": "alabama",
+      "state_abbr": "AL",
+      "article_slug": "suspended-doctor-license-alabama-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Louisiana",
+      "state_slug": "louisiana",
+      "state_abbr": "LA",
+      "article_slug": "suspended-doctor-license-louisiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Kentucky",
+      "state_slug": "kentucky",
+      "state_abbr": "KY",
+      "article_slug": "suspended-doctor-license-kentucky-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Oregon",
+      "state_slug": "oregon",
+      "state_abbr": "OR",
+      "article_slug": "suspended-doctor-license-oregon-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Oklahoma",
+      "state_slug": "oklahoma",
+      "state_abbr": "OK",
+      "article_slug": "suspended-doctor-license-oklahoma-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Connecticut",
+      "state_slug": "connecticut",
+      "state_abbr": "CT",
+      "article_slug": "suspended-doctor-license-connecticut-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Utah",
+      "state_slug": "utah",
+      "state_abbr": "UT",
+      "article_slug": "suspended-doctor-license-utah-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Iowa",
+      "state_slug": "iowa",
+      "state_abbr": "IA",
+      "article_slug": "suspended-doctor-license-iowa-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Nevada",
+      "state_slug": "nevada",
+      "state_abbr": "NV",
+      "article_slug": "suspended-doctor-license-nevada-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Arkansas",
+      "state_slug": "arkansas",
+      "state_abbr": "AR",
+      "article_slug": "suspended-doctor-license-arkansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Mississippi",
+      "state_slug": "mississippi",
+      "state_abbr": "MS",
+      "article_slug": "suspended-doctor-license-mississippi-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Kansas",
+      "state_slug": "kansas",
+      "state_abbr": "KS",
+      "article_slug": "suspended-doctor-license-kansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "New Mexico",
+      "state_slug": "new-mexico",
+      "state_abbr": "NM",
+      "article_slug": "suspended-doctor-license-new-mexico-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Nebraska",
+      "state_slug": "nebraska",
+      "state_abbr": "NE",
+      "article_slug": "suspended-doctor-license-nebraska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Idaho",
+      "state_slug": "idaho",
+      "state_abbr": "ID",
+      "article_slug": "suspended-doctor-license-idaho-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "West Virginia",
+      "state_slug": "west-virginia",
+      "state_abbr": "WV",
+      "article_slug": "suspended-doctor-license-west-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Hawaii",
+      "state_slug": "hawaii",
+      "state_abbr": "HI",
+      "article_slug": "suspended-doctor-license-hawaii-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "New Hampshire",
+      "state_slug": "new-hampshire",
+      "state_abbr": "NH",
+      "article_slug": "suspended-doctor-license-new-hampshire-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Maine",
+      "state_slug": "maine",
+      "state_abbr": "ME",
+      "article_slug": "suspended-doctor-license-maine-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Montana",
+      "state_slug": "montana",
+      "state_abbr": "MT",
+      "article_slug": "suspended-doctor-license-montana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Rhode Island",
+      "state_slug": "rhode-island",
+      "state_abbr": "RI",
+      "article_slug": "suspended-doctor-license-rhode-island-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Delaware",
+      "state_slug": "delaware",
+      "state_abbr": "DE",
+      "article_slug": "suspended-doctor-license-delaware-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "South Dakota",
+      "state_slug": "south-dakota",
+      "state_abbr": "SD",
+      "article_slug": "suspended-doctor-license-south-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "North Dakota",
+      "state_slug": "north-dakota",
+      "state_abbr": "ND",
+      "article_slug": "suspended-doctor-license-north-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Alaska",
+      "state_slug": "alaska",
+      "state_abbr": "AK",
+      "article_slug": "suspended-doctor-license-alaska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Vermont",
+      "state_slug": "vermont",
+      "state_abbr": "VT",
+      "article_slug": "suspended-doctor-license-vermont-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Doctor",
+      "profession_slug": "doctor",
+      "state": "Wyoming",
+      "state_slug": "wyoming",
+      "state_abbr": "WY",
+      "article_slug": "suspended-doctor-license-wyoming-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "California",
+      "state_slug": "california",
+      "state_abbr": "CA",
+      "article_slug": "suspended-nurse-license-california-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Texas",
+      "state_slug": "texas",
+      "state_abbr": "TX",
+      "article_slug": "suspended-nurse-license-texas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Florida",
+      "state_slug": "florida",
+      "state_abbr": "FL",
+      "article_slug": "suspended-nurse-license-florida-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "New York",
+      "state_slug": "new-york",
+      "state_abbr": "NY",
+      "article_slug": "suspended-nurse-license-new-york-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Illinois",
+      "state_slug": "illinois",
+      "state_abbr": "IL",
+      "article_slug": "suspended-nurse-license-illinois-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Pennsylvania",
+      "state_slug": "pennsylvania",
+      "state_abbr": "PA",
+      "article_slug": "suspended-nurse-license-pennsylvania-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Ohio",
+      "state_slug": "ohio",
+      "state_abbr": "OH",
+      "article_slug": "suspended-nurse-license-ohio-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Georgia",
+      "state_slug": "georgia",
+      "state_abbr": "GA",
+      "article_slug": "suspended-nurse-license-georgia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Michigan",
+      "state_slug": "michigan",
+      "state_abbr": "MI",
+      "article_slug": "suspended-nurse-license-michigan-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "North Carolina",
+      "state_slug": "north-carolina",
+      "state_abbr": "NC",
+      "article_slug": "suspended-nurse-license-north-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "New Jersey",
+      "state_slug": "new-jersey",
+      "state_abbr": "NJ",
+      "article_slug": "suspended-nurse-license-new-jersey-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Virginia",
+      "state_slug": "virginia",
+      "state_abbr": "VA",
+      "article_slug": "suspended-nurse-license-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Washington",
+      "state_slug": "washington",
+      "state_abbr": "WA",
+      "article_slug": "suspended-nurse-license-washington-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Arizona",
+      "state_slug": "arizona",
+      "state_abbr": "AZ",
+      "article_slug": "suspended-nurse-license-arizona-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Massachusetts",
+      "state_slug": "massachusetts",
+      "state_abbr": "MA",
+      "article_slug": "suspended-nurse-license-massachusetts-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Tennessee",
+      "state_slug": "tennessee",
+      "state_abbr": "TN",
+      "article_slug": "suspended-nurse-license-tennessee-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Indiana",
+      "state_slug": "indiana",
+      "state_abbr": "IN",
+      "article_slug": "suspended-nurse-license-indiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Missouri",
+      "state_slug": "missouri",
+      "state_abbr": "MO",
+      "article_slug": "suspended-nurse-license-missouri-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Maryland",
+      "state_slug": "maryland",
+      "state_abbr": "MD",
+      "article_slug": "suspended-nurse-license-maryland-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Wisconsin",
+      "state_slug": "wisconsin",
+      "state_abbr": "WI",
+      "article_slug": "suspended-nurse-license-wisconsin-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Colorado",
+      "state_slug": "colorado",
+      "state_abbr": "CO",
+      "article_slug": "suspended-nurse-license-colorado-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Minnesota",
+      "state_slug": "minnesota",
+      "state_abbr": "MN",
+      "article_slug": "suspended-nurse-license-minnesota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "South Carolina",
+      "state_slug": "south-carolina",
+      "state_abbr": "SC",
+      "article_slug": "suspended-nurse-license-south-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Alabama",
+      "state_slug": "alabama",
+      "state_abbr": "AL",
+      "article_slug": "suspended-nurse-license-alabama-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Louisiana",
+      "state_slug": "louisiana",
+      "state_abbr": "LA",
+      "article_slug": "suspended-nurse-license-louisiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Kentucky",
+      "state_slug": "kentucky",
+      "state_abbr": "KY",
+      "article_slug": "suspended-nurse-license-kentucky-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Oregon",
+      "state_slug": "oregon",
+      "state_abbr": "OR",
+      "article_slug": "suspended-nurse-license-oregon-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Oklahoma",
+      "state_slug": "oklahoma",
+      "state_abbr": "OK",
+      "article_slug": "suspended-nurse-license-oklahoma-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Connecticut",
+      "state_slug": "connecticut",
+      "state_abbr": "CT",
+      "article_slug": "suspended-nurse-license-connecticut-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Utah",
+      "state_slug": "utah",
+      "state_abbr": "UT",
+      "article_slug": "suspended-nurse-license-utah-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Iowa",
+      "state_slug": "iowa",
+      "state_abbr": "IA",
+      "article_slug": "suspended-nurse-license-iowa-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Nevada",
+      "state_slug": "nevada",
+      "state_abbr": "NV",
+      "article_slug": "suspended-nurse-license-nevada-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Arkansas",
+      "state_slug": "arkansas",
+      "state_abbr": "AR",
+      "article_slug": "suspended-nurse-license-arkansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Mississippi",
+      "state_slug": "mississippi",
+      "state_abbr": "MS",
+      "article_slug": "suspended-nurse-license-mississippi-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Kansas",
+      "state_slug": "kansas",
+      "state_abbr": "KS",
+      "article_slug": "suspended-nurse-license-kansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "New Mexico",
+      "state_slug": "new-mexico",
+      "state_abbr": "NM",
+      "article_slug": "suspended-nurse-license-new-mexico-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Nebraska",
+      "state_slug": "nebraska",
+      "state_abbr": "NE",
+      "article_slug": "suspended-nurse-license-nebraska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Idaho",
+      "state_slug": "idaho",
+      "state_abbr": "ID",
+      "article_slug": "suspended-nurse-license-idaho-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "West Virginia",
+      "state_slug": "west-virginia",
+      "state_abbr": "WV",
+      "article_slug": "suspended-nurse-license-west-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Hawaii",
+      "state_slug": "hawaii",
+      "state_abbr": "HI",
+      "article_slug": "suspended-nurse-license-hawaii-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "New Hampshire",
+      "state_slug": "new-hampshire",
+      "state_abbr": "NH",
+      "article_slug": "suspended-nurse-license-new-hampshire-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Maine",
+      "state_slug": "maine",
+      "state_abbr": "ME",
+      "article_slug": "suspended-nurse-license-maine-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Montana",
+      "state_slug": "montana",
+      "state_abbr": "MT",
+      "article_slug": "suspended-nurse-license-montana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Rhode Island",
+      "state_slug": "rhode-island",
+      "state_abbr": "RI",
+      "article_slug": "suspended-nurse-license-rhode-island-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Delaware",
+      "state_slug": "delaware",
+      "state_abbr": "DE",
+      "article_slug": "suspended-nurse-license-delaware-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "South Dakota",
+      "state_slug": "south-dakota",
+      "state_abbr": "SD",
+      "article_slug": "suspended-nurse-license-south-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "North Dakota",
+      "state_slug": "north-dakota",
+      "state_abbr": "ND",
+      "article_slug": "suspended-nurse-license-north-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Alaska",
+      "state_slug": "alaska",
+      "state_abbr": "AK",
+      "article_slug": "suspended-nurse-license-alaska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Vermont",
+      "state_slug": "vermont",
+      "state_abbr": "VT",
+      "article_slug": "suspended-nurse-license-vermont-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Nurse",
+      "profession_slug": "nurse",
+      "state": "Wyoming",
+      "state_slug": "wyoming",
+      "state_abbr": "WY",
+      "article_slug": "suspended-nurse-license-wyoming-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "California",
+      "state_slug": "california",
+      "state_abbr": "CA",
+      "article_slug": "suspended-real-estate-agent-license-california-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Texas",
+      "state_slug": "texas",
+      "state_abbr": "TX",
+      "article_slug": "suspended-real-estate-agent-license-texas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Florida",
+      "state_slug": "florida",
+      "state_abbr": "FL",
+      "article_slug": "suspended-real-estate-agent-license-florida-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "New York",
+      "state_slug": "new-york",
+      "state_abbr": "NY",
+      "article_slug": "suspended-real-estate-agent-license-new-york-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Illinois",
+      "state_slug": "illinois",
+      "state_abbr": "IL",
+      "article_slug": "suspended-real-estate-agent-license-illinois-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Pennsylvania",
+      "state_slug": "pennsylvania",
+      "state_abbr": "PA",
+      "article_slug": "suspended-real-estate-agent-license-pennsylvania-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Ohio",
+      "state_slug": "ohio",
+      "state_abbr": "OH",
+      "article_slug": "suspended-real-estate-agent-license-ohio-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Georgia",
+      "state_slug": "georgia",
+      "state_abbr": "GA",
+      "article_slug": "suspended-real-estate-agent-license-georgia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Michigan",
+      "state_slug": "michigan",
+      "state_abbr": "MI",
+      "article_slug": "suspended-real-estate-agent-license-michigan-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "North Carolina",
+      "state_slug": "north-carolina",
+      "state_abbr": "NC",
+      "article_slug": "suspended-real-estate-agent-license-north-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "New Jersey",
+      "state_slug": "new-jersey",
+      "state_abbr": "NJ",
+      "article_slug": "suspended-real-estate-agent-license-new-jersey-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Virginia",
+      "state_slug": "virginia",
+      "state_abbr": "VA",
+      "article_slug": "suspended-real-estate-agent-license-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Washington",
+      "state_slug": "washington",
+      "state_abbr": "WA",
+      "article_slug": "suspended-real-estate-agent-license-washington-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Arizona",
+      "state_slug": "arizona",
+      "state_abbr": "AZ",
+      "article_slug": "suspended-real-estate-agent-license-arizona-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Massachusetts",
+      "state_slug": "massachusetts",
+      "state_abbr": "MA",
+      "article_slug": "suspended-real-estate-agent-license-massachusetts-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Tennessee",
+      "state_slug": "tennessee",
+      "state_abbr": "TN",
+      "article_slug": "suspended-real-estate-agent-license-tennessee-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Indiana",
+      "state_slug": "indiana",
+      "state_abbr": "IN",
+      "article_slug": "suspended-real-estate-agent-license-indiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Missouri",
+      "state_slug": "missouri",
+      "state_abbr": "MO",
+      "article_slug": "suspended-real-estate-agent-license-missouri-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Maryland",
+      "state_slug": "maryland",
+      "state_abbr": "MD",
+      "article_slug": "suspended-real-estate-agent-license-maryland-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Wisconsin",
+      "state_slug": "wisconsin",
+      "state_abbr": "WI",
+      "article_slug": "suspended-real-estate-agent-license-wisconsin-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Colorado",
+      "state_slug": "colorado",
+      "state_abbr": "CO",
+      "article_slug": "suspended-real-estate-agent-license-colorado-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Minnesota",
+      "state_slug": "minnesota",
+      "state_abbr": "MN",
+      "article_slug": "suspended-real-estate-agent-license-minnesota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "South Carolina",
+      "state_slug": "south-carolina",
+      "state_abbr": "SC",
+      "article_slug": "suspended-real-estate-agent-license-south-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Alabama",
+      "state_slug": "alabama",
+      "state_abbr": "AL",
+      "article_slug": "suspended-real-estate-agent-license-alabama-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Louisiana",
+      "state_slug": "louisiana",
+      "state_abbr": "LA",
+      "article_slug": "suspended-real-estate-agent-license-louisiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Kentucky",
+      "state_slug": "kentucky",
+      "state_abbr": "KY",
+      "article_slug": "suspended-real-estate-agent-license-kentucky-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Oregon",
+      "state_slug": "oregon",
+      "state_abbr": "OR",
+      "article_slug": "suspended-real-estate-agent-license-oregon-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Oklahoma",
+      "state_slug": "oklahoma",
+      "state_abbr": "OK",
+      "article_slug": "suspended-real-estate-agent-license-oklahoma-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Connecticut",
+      "state_slug": "connecticut",
+      "state_abbr": "CT",
+      "article_slug": "suspended-real-estate-agent-license-connecticut-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Utah",
+      "state_slug": "utah",
+      "state_abbr": "UT",
+      "article_slug": "suspended-real-estate-agent-license-utah-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Iowa",
+      "state_slug": "iowa",
+      "state_abbr": "IA",
+      "article_slug": "suspended-real-estate-agent-license-iowa-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Nevada",
+      "state_slug": "nevada",
+      "state_abbr": "NV",
+      "article_slug": "suspended-real-estate-agent-license-nevada-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Arkansas",
+      "state_slug": "arkansas",
+      "state_abbr": "AR",
+      "article_slug": "suspended-real-estate-agent-license-arkansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Mississippi",
+      "state_slug": "mississippi",
+      "state_abbr": "MS",
+      "article_slug": "suspended-real-estate-agent-license-mississippi-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Kansas",
+      "state_slug": "kansas",
+      "state_abbr": "KS",
+      "article_slug": "suspended-real-estate-agent-license-kansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "New Mexico",
+      "state_slug": "new-mexico",
+      "state_abbr": "NM",
+      "article_slug": "suspended-real-estate-agent-license-new-mexico-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Nebraska",
+      "state_slug": "nebraska",
+      "state_abbr": "NE",
+      "article_slug": "suspended-real-estate-agent-license-nebraska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Idaho",
+      "state_slug": "idaho",
+      "state_abbr": "ID",
+      "article_slug": "suspended-real-estate-agent-license-idaho-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "West Virginia",
+      "state_slug": "west-virginia",
+      "state_abbr": "WV",
+      "article_slug": "suspended-real-estate-agent-license-west-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Hawaii",
+      "state_slug": "hawaii",
+      "state_abbr": "HI",
+      "article_slug": "suspended-real-estate-agent-license-hawaii-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "New Hampshire",
+      "state_slug": "new-hampshire",
+      "state_abbr": "NH",
+      "article_slug": "suspended-real-estate-agent-license-new-hampshire-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Maine",
+      "state_slug": "maine",
+      "state_abbr": "ME",
+      "article_slug": "suspended-real-estate-agent-license-maine-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Montana",
+      "state_slug": "montana",
+      "state_abbr": "MT",
+      "article_slug": "suspended-real-estate-agent-license-montana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Rhode Island",
+      "state_slug": "rhode-island",
+      "state_abbr": "RI",
+      "article_slug": "suspended-real-estate-agent-license-rhode-island-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Delaware",
+      "state_slug": "delaware",
+      "state_abbr": "DE",
+      "article_slug": "suspended-real-estate-agent-license-delaware-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "South Dakota",
+      "state_slug": "south-dakota",
+      "state_abbr": "SD",
+      "article_slug": "suspended-real-estate-agent-license-south-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "North Dakota",
+      "state_slug": "north-dakota",
+      "state_abbr": "ND",
+      "article_slug": "suspended-real-estate-agent-license-north-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Alaska",
+      "state_slug": "alaska",
+      "state_abbr": "AK",
+      "article_slug": "suspended-real-estate-agent-license-alaska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Vermont",
+      "state_slug": "vermont",
+      "state_abbr": "VT",
+      "article_slug": "suspended-real-estate-agent-license-vermont-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Real Estate Agent",
+      "profession_slug": "real-estate-agent",
+      "state": "Wyoming",
+      "state_slug": "wyoming",
+      "state_abbr": "WY",
+      "article_slug": "suspended-real-estate-agent-license-wyoming-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "California",
+      "state_slug": "california",
+      "state_abbr": "CA",
+      "article_slug": "suspended-teacher-license-california-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Texas",
+      "state_slug": "texas",
+      "state_abbr": "TX",
+      "article_slug": "suspended-teacher-license-texas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Florida",
+      "state_slug": "florida",
+      "state_abbr": "FL",
+      "article_slug": "suspended-teacher-license-florida-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "New York",
+      "state_slug": "new-york",
+      "state_abbr": "NY",
+      "article_slug": "suspended-teacher-license-new-york-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Illinois",
+      "state_slug": "illinois",
+      "state_abbr": "IL",
+      "article_slug": "suspended-teacher-license-illinois-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Pennsylvania",
+      "state_slug": "pennsylvania",
+      "state_abbr": "PA",
+      "article_slug": "suspended-teacher-license-pennsylvania-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Ohio",
+      "state_slug": "ohio",
+      "state_abbr": "OH",
+      "article_slug": "suspended-teacher-license-ohio-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Georgia",
+      "state_slug": "georgia",
+      "state_abbr": "GA",
+      "article_slug": "suspended-teacher-license-georgia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Michigan",
+      "state_slug": "michigan",
+      "state_abbr": "MI",
+      "article_slug": "suspended-teacher-license-michigan-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "North Carolina",
+      "state_slug": "north-carolina",
+      "state_abbr": "NC",
+      "article_slug": "suspended-teacher-license-north-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "New Jersey",
+      "state_slug": "new-jersey",
+      "state_abbr": "NJ",
+      "article_slug": "suspended-teacher-license-new-jersey-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Virginia",
+      "state_slug": "virginia",
+      "state_abbr": "VA",
+      "article_slug": "suspended-teacher-license-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Washington",
+      "state_slug": "washington",
+      "state_abbr": "WA",
+      "article_slug": "suspended-teacher-license-washington-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Arizona",
+      "state_slug": "arizona",
+      "state_abbr": "AZ",
+      "article_slug": "suspended-teacher-license-arizona-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Massachusetts",
+      "state_slug": "massachusetts",
+      "state_abbr": "MA",
+      "article_slug": "suspended-teacher-license-massachusetts-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Tennessee",
+      "state_slug": "tennessee",
+      "state_abbr": "TN",
+      "article_slug": "suspended-teacher-license-tennessee-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Indiana",
+      "state_slug": "indiana",
+      "state_abbr": "IN",
+      "article_slug": "suspended-teacher-license-indiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Missouri",
+      "state_slug": "missouri",
+      "state_abbr": "MO",
+      "article_slug": "suspended-teacher-license-missouri-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Maryland",
+      "state_slug": "maryland",
+      "state_abbr": "MD",
+      "article_slug": "suspended-teacher-license-maryland-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Wisconsin",
+      "state_slug": "wisconsin",
+      "state_abbr": "WI",
+      "article_slug": "suspended-teacher-license-wisconsin-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Colorado",
+      "state_slug": "colorado",
+      "state_abbr": "CO",
+      "article_slug": "suspended-teacher-license-colorado-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Minnesota",
+      "state_slug": "minnesota",
+      "state_abbr": "MN",
+      "article_slug": "suspended-teacher-license-minnesota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "South Carolina",
+      "state_slug": "south-carolina",
+      "state_abbr": "SC",
+      "article_slug": "suspended-teacher-license-south-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Alabama",
+      "state_slug": "alabama",
+      "state_abbr": "AL",
+      "article_slug": "suspended-teacher-license-alabama-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Louisiana",
+      "state_slug": "louisiana",
+      "state_abbr": "LA",
+      "article_slug": "suspended-teacher-license-louisiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Kentucky",
+      "state_slug": "kentucky",
+      "state_abbr": "KY",
+      "article_slug": "suspended-teacher-license-kentucky-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Oregon",
+      "state_slug": "oregon",
+      "state_abbr": "OR",
+      "article_slug": "suspended-teacher-license-oregon-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Oklahoma",
+      "state_slug": "oklahoma",
+      "state_abbr": "OK",
+      "article_slug": "suspended-teacher-license-oklahoma-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Connecticut",
+      "state_slug": "connecticut",
+      "state_abbr": "CT",
+      "article_slug": "suspended-teacher-license-connecticut-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Utah",
+      "state_slug": "utah",
+      "state_abbr": "UT",
+      "article_slug": "suspended-teacher-license-utah-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Iowa",
+      "state_slug": "iowa",
+      "state_abbr": "IA",
+      "article_slug": "suspended-teacher-license-iowa-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Nevada",
+      "state_slug": "nevada",
+      "state_abbr": "NV",
+      "article_slug": "suspended-teacher-license-nevada-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Arkansas",
+      "state_slug": "arkansas",
+      "state_abbr": "AR",
+      "article_slug": "suspended-teacher-license-arkansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Mississippi",
+      "state_slug": "mississippi",
+      "state_abbr": "MS",
+      "article_slug": "suspended-teacher-license-mississippi-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Kansas",
+      "state_slug": "kansas",
+      "state_abbr": "KS",
+      "article_slug": "suspended-teacher-license-kansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "New Mexico",
+      "state_slug": "new-mexico",
+      "state_abbr": "NM",
+      "article_slug": "suspended-teacher-license-new-mexico-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Nebraska",
+      "state_slug": "nebraska",
+      "state_abbr": "NE",
+      "article_slug": "suspended-teacher-license-nebraska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Idaho",
+      "state_slug": "idaho",
+      "state_abbr": "ID",
+      "article_slug": "suspended-teacher-license-idaho-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "West Virginia",
+      "state_slug": "west-virginia",
+      "state_abbr": "WV",
+      "article_slug": "suspended-teacher-license-west-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Hawaii",
+      "state_slug": "hawaii",
+      "state_abbr": "HI",
+      "article_slug": "suspended-teacher-license-hawaii-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "New Hampshire",
+      "state_slug": "new-hampshire",
+      "state_abbr": "NH",
+      "article_slug": "suspended-teacher-license-new-hampshire-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Maine",
+      "state_slug": "maine",
+      "state_abbr": "ME",
+      "article_slug": "suspended-teacher-license-maine-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Montana",
+      "state_slug": "montana",
+      "state_abbr": "MT",
+      "article_slug": "suspended-teacher-license-montana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Rhode Island",
+      "state_slug": "rhode-island",
+      "state_abbr": "RI",
+      "article_slug": "suspended-teacher-license-rhode-island-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Delaware",
+      "state_slug": "delaware",
+      "state_abbr": "DE",
+      "article_slug": "suspended-teacher-license-delaware-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "South Dakota",
+      "state_slug": "south-dakota",
+      "state_abbr": "SD",
+      "article_slug": "suspended-teacher-license-south-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "North Dakota",
+      "state_slug": "north-dakota",
+      "state_abbr": "ND",
+      "article_slug": "suspended-teacher-license-north-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Alaska",
+      "state_slug": "alaska",
+      "state_abbr": "AK",
+      "article_slug": "suspended-teacher-license-alaska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Vermont",
+      "state_slug": "vermont",
+      "state_abbr": "VT",
+      "article_slug": "suspended-teacher-license-vermont-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Teacher",
+      "profession_slug": "teacher",
+      "state": "Wyoming",
+      "state_slug": "wyoming",
+      "state_abbr": "WY",
+      "article_slug": "suspended-teacher-license-wyoming-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "California",
+      "state_slug": "california",
+      "state_abbr": "CA",
+      "article_slug": "suspended-cpa-accountant-license-california-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Texas",
+      "state_slug": "texas",
+      "state_abbr": "TX",
+      "article_slug": "suspended-cpa-accountant-license-texas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Florida",
+      "state_slug": "florida",
+      "state_abbr": "FL",
+      "article_slug": "suspended-cpa-accountant-license-florida-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "New York",
+      "state_slug": "new-york",
+      "state_abbr": "NY",
+      "article_slug": "suspended-cpa-accountant-license-new-york-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Illinois",
+      "state_slug": "illinois",
+      "state_abbr": "IL",
+      "article_slug": "suspended-cpa-accountant-license-illinois-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Pennsylvania",
+      "state_slug": "pennsylvania",
+      "state_abbr": "PA",
+      "article_slug": "suspended-cpa-accountant-license-pennsylvania-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Ohio",
+      "state_slug": "ohio",
+      "state_abbr": "OH",
+      "article_slug": "suspended-cpa-accountant-license-ohio-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Georgia",
+      "state_slug": "georgia",
+      "state_abbr": "GA",
+      "article_slug": "suspended-cpa-accountant-license-georgia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Michigan",
+      "state_slug": "michigan",
+      "state_abbr": "MI",
+      "article_slug": "suspended-cpa-accountant-license-michigan-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "North Carolina",
+      "state_slug": "north-carolina",
+      "state_abbr": "NC",
+      "article_slug": "suspended-cpa-accountant-license-north-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "New Jersey",
+      "state_slug": "new-jersey",
+      "state_abbr": "NJ",
+      "article_slug": "suspended-cpa-accountant-license-new-jersey-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Virginia",
+      "state_slug": "virginia",
+      "state_abbr": "VA",
+      "article_slug": "suspended-cpa-accountant-license-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Washington",
+      "state_slug": "washington",
+      "state_abbr": "WA",
+      "article_slug": "suspended-cpa-accountant-license-washington-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Arizona",
+      "state_slug": "arizona",
+      "state_abbr": "AZ",
+      "article_slug": "suspended-cpa-accountant-license-arizona-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Massachusetts",
+      "state_slug": "massachusetts",
+      "state_abbr": "MA",
+      "article_slug": "suspended-cpa-accountant-license-massachusetts-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Tennessee",
+      "state_slug": "tennessee",
+      "state_abbr": "TN",
+      "article_slug": "suspended-cpa-accountant-license-tennessee-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Indiana",
+      "state_slug": "indiana",
+      "state_abbr": "IN",
+      "article_slug": "suspended-cpa-accountant-license-indiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Missouri",
+      "state_slug": "missouri",
+      "state_abbr": "MO",
+      "article_slug": "suspended-cpa-accountant-license-missouri-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Maryland",
+      "state_slug": "maryland",
+      "state_abbr": "MD",
+      "article_slug": "suspended-cpa-accountant-license-maryland-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Wisconsin",
+      "state_slug": "wisconsin",
+      "state_abbr": "WI",
+      "article_slug": "suspended-cpa-accountant-license-wisconsin-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Colorado",
+      "state_slug": "colorado",
+      "state_abbr": "CO",
+      "article_slug": "suspended-cpa-accountant-license-colorado-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Minnesota",
+      "state_slug": "minnesota",
+      "state_abbr": "MN",
+      "article_slug": "suspended-cpa-accountant-license-minnesota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "South Carolina",
+      "state_slug": "south-carolina",
+      "state_abbr": "SC",
+      "article_slug": "suspended-cpa-accountant-license-south-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Alabama",
+      "state_slug": "alabama",
+      "state_abbr": "AL",
+      "article_slug": "suspended-cpa-accountant-license-alabama-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Louisiana",
+      "state_slug": "louisiana",
+      "state_abbr": "LA",
+      "article_slug": "suspended-cpa-accountant-license-louisiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Kentucky",
+      "state_slug": "kentucky",
+      "state_abbr": "KY",
+      "article_slug": "suspended-cpa-accountant-license-kentucky-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Oregon",
+      "state_slug": "oregon",
+      "state_abbr": "OR",
+      "article_slug": "suspended-cpa-accountant-license-oregon-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Oklahoma",
+      "state_slug": "oklahoma",
+      "state_abbr": "OK",
+      "article_slug": "suspended-cpa-accountant-license-oklahoma-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Connecticut",
+      "state_slug": "connecticut",
+      "state_abbr": "CT",
+      "article_slug": "suspended-cpa-accountant-license-connecticut-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Utah",
+      "state_slug": "utah",
+      "state_abbr": "UT",
+      "article_slug": "suspended-cpa-accountant-license-utah-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Iowa",
+      "state_slug": "iowa",
+      "state_abbr": "IA",
+      "article_slug": "suspended-cpa-accountant-license-iowa-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Nevada",
+      "state_slug": "nevada",
+      "state_abbr": "NV",
+      "article_slug": "suspended-cpa-accountant-license-nevada-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Arkansas",
+      "state_slug": "arkansas",
+      "state_abbr": "AR",
+      "article_slug": "suspended-cpa-accountant-license-arkansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Mississippi",
+      "state_slug": "mississippi",
+      "state_abbr": "MS",
+      "article_slug": "suspended-cpa-accountant-license-mississippi-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Kansas",
+      "state_slug": "kansas",
+      "state_abbr": "KS",
+      "article_slug": "suspended-cpa-accountant-license-kansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "New Mexico",
+      "state_slug": "new-mexico",
+      "state_abbr": "NM",
+      "article_slug": "suspended-cpa-accountant-license-new-mexico-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Nebraska",
+      "state_slug": "nebraska",
+      "state_abbr": "NE",
+      "article_slug": "suspended-cpa-accountant-license-nebraska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Idaho",
+      "state_slug": "idaho",
+      "state_abbr": "ID",
+      "article_slug": "suspended-cpa-accountant-license-idaho-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "West Virginia",
+      "state_slug": "west-virginia",
+      "state_abbr": "WV",
+      "article_slug": "suspended-cpa-accountant-license-west-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Hawaii",
+      "state_slug": "hawaii",
+      "state_abbr": "HI",
+      "article_slug": "suspended-cpa-accountant-license-hawaii-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "New Hampshire",
+      "state_slug": "new-hampshire",
+      "state_abbr": "NH",
+      "article_slug": "suspended-cpa-accountant-license-new-hampshire-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Maine",
+      "state_slug": "maine",
+      "state_abbr": "ME",
+      "article_slug": "suspended-cpa-accountant-license-maine-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Montana",
+      "state_slug": "montana",
+      "state_abbr": "MT",
+      "article_slug": "suspended-cpa-accountant-license-montana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Rhode Island",
+      "state_slug": "rhode-island",
+      "state_abbr": "RI",
+      "article_slug": "suspended-cpa-accountant-license-rhode-island-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Delaware",
+      "state_slug": "delaware",
+      "state_abbr": "DE",
+      "article_slug": "suspended-cpa-accountant-license-delaware-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "South Dakota",
+      "state_slug": "south-dakota",
+      "state_abbr": "SD",
+      "article_slug": "suspended-cpa-accountant-license-south-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "North Dakota",
+      "state_slug": "north-dakota",
+      "state_abbr": "ND",
+      "article_slug": "suspended-cpa-accountant-license-north-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Alaska",
+      "state_slug": "alaska",
+      "state_abbr": "AK",
+      "article_slug": "suspended-cpa-accountant-license-alaska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Vermont",
+      "state_slug": "vermont",
+      "state_abbr": "VT",
+      "article_slug": "suspended-cpa-accountant-license-vermont-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "CPA / Accountant",
+      "profession_slug": "cpa-accountant",
+      "state": "Wyoming",
+      "state_slug": "wyoming",
+      "state_abbr": "WY",
+      "article_slug": "suspended-cpa-accountant-license-wyoming-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "California",
+      "state_slug": "california",
+      "state_abbr": "CA",
+      "article_slug": "suspended-social-worker-license-california-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Texas",
+      "state_slug": "texas",
+      "state_abbr": "TX",
+      "article_slug": "suspended-social-worker-license-texas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Florida",
+      "state_slug": "florida",
+      "state_abbr": "FL",
+      "article_slug": "suspended-social-worker-license-florida-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "New York",
+      "state_slug": "new-york",
+      "state_abbr": "NY",
+      "article_slug": "suspended-social-worker-license-new-york-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Illinois",
+      "state_slug": "illinois",
+      "state_abbr": "IL",
+      "article_slug": "suspended-social-worker-license-illinois-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Pennsylvania",
+      "state_slug": "pennsylvania",
+      "state_abbr": "PA",
+      "article_slug": "suspended-social-worker-license-pennsylvania-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Ohio",
+      "state_slug": "ohio",
+      "state_abbr": "OH",
+      "article_slug": "suspended-social-worker-license-ohio-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Georgia",
+      "state_slug": "georgia",
+      "state_abbr": "GA",
+      "article_slug": "suspended-social-worker-license-georgia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Michigan",
+      "state_slug": "michigan",
+      "state_abbr": "MI",
+      "article_slug": "suspended-social-worker-license-michigan-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "North Carolina",
+      "state_slug": "north-carolina",
+      "state_abbr": "NC",
+      "article_slug": "suspended-social-worker-license-north-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "New Jersey",
+      "state_slug": "new-jersey",
+      "state_abbr": "NJ",
+      "article_slug": "suspended-social-worker-license-new-jersey-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Virginia",
+      "state_slug": "virginia",
+      "state_abbr": "VA",
+      "article_slug": "suspended-social-worker-license-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Washington",
+      "state_slug": "washington",
+      "state_abbr": "WA",
+      "article_slug": "suspended-social-worker-license-washington-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Arizona",
+      "state_slug": "arizona",
+      "state_abbr": "AZ",
+      "article_slug": "suspended-social-worker-license-arizona-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Massachusetts",
+      "state_slug": "massachusetts",
+      "state_abbr": "MA",
+      "article_slug": "suspended-social-worker-license-massachusetts-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Tennessee",
+      "state_slug": "tennessee",
+      "state_abbr": "TN",
+      "article_slug": "suspended-social-worker-license-tennessee-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Indiana",
+      "state_slug": "indiana",
+      "state_abbr": "IN",
+      "article_slug": "suspended-social-worker-license-indiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Missouri",
+      "state_slug": "missouri",
+      "state_abbr": "MO",
+      "article_slug": "suspended-social-worker-license-missouri-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Maryland",
+      "state_slug": "maryland",
+      "state_abbr": "MD",
+      "article_slug": "suspended-social-worker-license-maryland-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Wisconsin",
+      "state_slug": "wisconsin",
+      "state_abbr": "WI",
+      "article_slug": "suspended-social-worker-license-wisconsin-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Colorado",
+      "state_slug": "colorado",
+      "state_abbr": "CO",
+      "article_slug": "suspended-social-worker-license-colorado-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Minnesota",
+      "state_slug": "minnesota",
+      "state_abbr": "MN",
+      "article_slug": "suspended-social-worker-license-minnesota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "South Carolina",
+      "state_slug": "south-carolina",
+      "state_abbr": "SC",
+      "article_slug": "suspended-social-worker-license-south-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Alabama",
+      "state_slug": "alabama",
+      "state_abbr": "AL",
+      "article_slug": "suspended-social-worker-license-alabama-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Louisiana",
+      "state_slug": "louisiana",
+      "state_abbr": "LA",
+      "article_slug": "suspended-social-worker-license-louisiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Kentucky",
+      "state_slug": "kentucky",
+      "state_abbr": "KY",
+      "article_slug": "suspended-social-worker-license-kentucky-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Oregon",
+      "state_slug": "oregon",
+      "state_abbr": "OR",
+      "article_slug": "suspended-social-worker-license-oregon-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Oklahoma",
+      "state_slug": "oklahoma",
+      "state_abbr": "OK",
+      "article_slug": "suspended-social-worker-license-oklahoma-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Connecticut",
+      "state_slug": "connecticut",
+      "state_abbr": "CT",
+      "article_slug": "suspended-social-worker-license-connecticut-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Utah",
+      "state_slug": "utah",
+      "state_abbr": "UT",
+      "article_slug": "suspended-social-worker-license-utah-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Iowa",
+      "state_slug": "iowa",
+      "state_abbr": "IA",
+      "article_slug": "suspended-social-worker-license-iowa-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Nevada",
+      "state_slug": "nevada",
+      "state_abbr": "NV",
+      "article_slug": "suspended-social-worker-license-nevada-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Arkansas",
+      "state_slug": "arkansas",
+      "state_abbr": "AR",
+      "article_slug": "suspended-social-worker-license-arkansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Mississippi",
+      "state_slug": "mississippi",
+      "state_abbr": "MS",
+      "article_slug": "suspended-social-worker-license-mississippi-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Kansas",
+      "state_slug": "kansas",
+      "state_abbr": "KS",
+      "article_slug": "suspended-social-worker-license-kansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "New Mexico",
+      "state_slug": "new-mexico",
+      "state_abbr": "NM",
+      "article_slug": "suspended-social-worker-license-new-mexico-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Nebraska",
+      "state_slug": "nebraska",
+      "state_abbr": "NE",
+      "article_slug": "suspended-social-worker-license-nebraska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Idaho",
+      "state_slug": "idaho",
+      "state_abbr": "ID",
+      "article_slug": "suspended-social-worker-license-idaho-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "West Virginia",
+      "state_slug": "west-virginia",
+      "state_abbr": "WV",
+      "article_slug": "suspended-social-worker-license-west-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Hawaii",
+      "state_slug": "hawaii",
+      "state_abbr": "HI",
+      "article_slug": "suspended-social-worker-license-hawaii-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "New Hampshire",
+      "state_slug": "new-hampshire",
+      "state_abbr": "NH",
+      "article_slug": "suspended-social-worker-license-new-hampshire-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Maine",
+      "state_slug": "maine",
+      "state_abbr": "ME",
+      "article_slug": "suspended-social-worker-license-maine-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Montana",
+      "state_slug": "montana",
+      "state_abbr": "MT",
+      "article_slug": "suspended-social-worker-license-montana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Rhode Island",
+      "state_slug": "rhode-island",
+      "state_abbr": "RI",
+      "article_slug": "suspended-social-worker-license-rhode-island-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Delaware",
+      "state_slug": "delaware",
+      "state_abbr": "DE",
+      "article_slug": "suspended-social-worker-license-delaware-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "South Dakota",
+      "state_slug": "south-dakota",
+      "state_abbr": "SD",
+      "article_slug": "suspended-social-worker-license-south-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "North Dakota",
+      "state_slug": "north-dakota",
+      "state_abbr": "ND",
+      "article_slug": "suspended-social-worker-license-north-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Alaska",
+      "state_slug": "alaska",
+      "state_abbr": "AK",
+      "article_slug": "suspended-social-worker-license-alaska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Vermont",
+      "state_slug": "vermont",
+      "state_abbr": "VT",
+      "article_slug": "suspended-social-worker-license-vermont-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Social Worker",
+      "profession_slug": "social-worker",
+      "state": "Wyoming",
+      "state_slug": "wyoming",
+      "state_abbr": "WY",
+      "article_slug": "suspended-social-worker-license-wyoming-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "California",
+      "state_slug": "california",
+      "state_abbr": "CA",
+      "article_slug": "suspended-pharmacist-license-california-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Texas",
+      "state_slug": "texas",
+      "state_abbr": "TX",
+      "article_slug": "suspended-pharmacist-license-texas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Florida",
+      "state_slug": "florida",
+      "state_abbr": "FL",
+      "article_slug": "suspended-pharmacist-license-florida-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "New York",
+      "state_slug": "new-york",
+      "state_abbr": "NY",
+      "article_slug": "suspended-pharmacist-license-new-york-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Illinois",
+      "state_slug": "illinois",
+      "state_abbr": "IL",
+      "article_slug": "suspended-pharmacist-license-illinois-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Pennsylvania",
+      "state_slug": "pennsylvania",
+      "state_abbr": "PA",
+      "article_slug": "suspended-pharmacist-license-pennsylvania-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Ohio",
+      "state_slug": "ohio",
+      "state_abbr": "OH",
+      "article_slug": "suspended-pharmacist-license-ohio-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Georgia",
+      "state_slug": "georgia",
+      "state_abbr": "GA",
+      "article_slug": "suspended-pharmacist-license-georgia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Michigan",
+      "state_slug": "michigan",
+      "state_abbr": "MI",
+      "article_slug": "suspended-pharmacist-license-michigan-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "North Carolina",
+      "state_slug": "north-carolina",
+      "state_abbr": "NC",
+      "article_slug": "suspended-pharmacist-license-north-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "New Jersey",
+      "state_slug": "new-jersey",
+      "state_abbr": "NJ",
+      "article_slug": "suspended-pharmacist-license-new-jersey-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Virginia",
+      "state_slug": "virginia",
+      "state_abbr": "VA",
+      "article_slug": "suspended-pharmacist-license-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Washington",
+      "state_slug": "washington",
+      "state_abbr": "WA",
+      "article_slug": "suspended-pharmacist-license-washington-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Arizona",
+      "state_slug": "arizona",
+      "state_abbr": "AZ",
+      "article_slug": "suspended-pharmacist-license-arizona-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Massachusetts",
+      "state_slug": "massachusetts",
+      "state_abbr": "MA",
+      "article_slug": "suspended-pharmacist-license-massachusetts-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Tennessee",
+      "state_slug": "tennessee",
+      "state_abbr": "TN",
+      "article_slug": "suspended-pharmacist-license-tennessee-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Indiana",
+      "state_slug": "indiana",
+      "state_abbr": "IN",
+      "article_slug": "suspended-pharmacist-license-indiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Missouri",
+      "state_slug": "missouri",
+      "state_abbr": "MO",
+      "article_slug": "suspended-pharmacist-license-missouri-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Maryland",
+      "state_slug": "maryland",
+      "state_abbr": "MD",
+      "article_slug": "suspended-pharmacist-license-maryland-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Wisconsin",
+      "state_slug": "wisconsin",
+      "state_abbr": "WI",
+      "article_slug": "suspended-pharmacist-license-wisconsin-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Colorado",
+      "state_slug": "colorado",
+      "state_abbr": "CO",
+      "article_slug": "suspended-pharmacist-license-colorado-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Minnesota",
+      "state_slug": "minnesota",
+      "state_abbr": "MN",
+      "article_slug": "suspended-pharmacist-license-minnesota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "South Carolina",
+      "state_slug": "south-carolina",
+      "state_abbr": "SC",
+      "article_slug": "suspended-pharmacist-license-south-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Alabama",
+      "state_slug": "alabama",
+      "state_abbr": "AL",
+      "article_slug": "suspended-pharmacist-license-alabama-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Louisiana",
+      "state_slug": "louisiana",
+      "state_abbr": "LA",
+      "article_slug": "suspended-pharmacist-license-louisiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Kentucky",
+      "state_slug": "kentucky",
+      "state_abbr": "KY",
+      "article_slug": "suspended-pharmacist-license-kentucky-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Oregon",
+      "state_slug": "oregon",
+      "state_abbr": "OR",
+      "article_slug": "suspended-pharmacist-license-oregon-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Oklahoma",
+      "state_slug": "oklahoma",
+      "state_abbr": "OK",
+      "article_slug": "suspended-pharmacist-license-oklahoma-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Connecticut",
+      "state_slug": "connecticut",
+      "state_abbr": "CT",
+      "article_slug": "suspended-pharmacist-license-connecticut-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Utah",
+      "state_slug": "utah",
+      "state_abbr": "UT",
+      "article_slug": "suspended-pharmacist-license-utah-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Iowa",
+      "state_slug": "iowa",
+      "state_abbr": "IA",
+      "article_slug": "suspended-pharmacist-license-iowa-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Nevada",
+      "state_slug": "nevada",
+      "state_abbr": "NV",
+      "article_slug": "suspended-pharmacist-license-nevada-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Arkansas",
+      "state_slug": "arkansas",
+      "state_abbr": "AR",
+      "article_slug": "suspended-pharmacist-license-arkansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Mississippi",
+      "state_slug": "mississippi",
+      "state_abbr": "MS",
+      "article_slug": "suspended-pharmacist-license-mississippi-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Kansas",
+      "state_slug": "kansas",
+      "state_abbr": "KS",
+      "article_slug": "suspended-pharmacist-license-kansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "New Mexico",
+      "state_slug": "new-mexico",
+      "state_abbr": "NM",
+      "article_slug": "suspended-pharmacist-license-new-mexico-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Nebraska",
+      "state_slug": "nebraska",
+      "state_abbr": "NE",
+      "article_slug": "suspended-pharmacist-license-nebraska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Idaho",
+      "state_slug": "idaho",
+      "state_abbr": "ID",
+      "article_slug": "suspended-pharmacist-license-idaho-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "West Virginia",
+      "state_slug": "west-virginia",
+      "state_abbr": "WV",
+      "article_slug": "suspended-pharmacist-license-west-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Hawaii",
+      "state_slug": "hawaii",
+      "state_abbr": "HI",
+      "article_slug": "suspended-pharmacist-license-hawaii-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "New Hampshire",
+      "state_slug": "new-hampshire",
+      "state_abbr": "NH",
+      "article_slug": "suspended-pharmacist-license-new-hampshire-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Maine",
+      "state_slug": "maine",
+      "state_abbr": "ME",
+      "article_slug": "suspended-pharmacist-license-maine-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Montana",
+      "state_slug": "montana",
+      "state_abbr": "MT",
+      "article_slug": "suspended-pharmacist-license-montana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Rhode Island",
+      "state_slug": "rhode-island",
+      "state_abbr": "RI",
+      "article_slug": "suspended-pharmacist-license-rhode-island-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Delaware",
+      "state_slug": "delaware",
+      "state_abbr": "DE",
+      "article_slug": "suspended-pharmacist-license-delaware-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "South Dakota",
+      "state_slug": "south-dakota",
+      "state_abbr": "SD",
+      "article_slug": "suspended-pharmacist-license-south-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "North Dakota",
+      "state_slug": "north-dakota",
+      "state_abbr": "ND",
+      "article_slug": "suspended-pharmacist-license-north-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Alaska",
+      "state_slug": "alaska",
+      "state_abbr": "AK",
+      "article_slug": "suspended-pharmacist-license-alaska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Vermont",
+      "state_slug": "vermont",
+      "state_abbr": "VT",
+      "article_slug": "suspended-pharmacist-license-vermont-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Pharmacist",
+      "profession_slug": "pharmacist",
+      "state": "Wyoming",
+      "state_slug": "wyoming",
+      "state_abbr": "WY",
+      "article_slug": "suspended-pharmacist-license-wyoming-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "California",
+      "state_slug": "california",
+      "state_abbr": "CA",
+      "article_slug": "suspended-dentist-license-california-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Texas",
+      "state_slug": "texas",
+      "state_abbr": "TX",
+      "article_slug": "suspended-dentist-license-texas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Florida",
+      "state_slug": "florida",
+      "state_abbr": "FL",
+      "article_slug": "suspended-dentist-license-florida-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "New York",
+      "state_slug": "new-york",
+      "state_abbr": "NY",
+      "article_slug": "suspended-dentist-license-new-york-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Illinois",
+      "state_slug": "illinois",
+      "state_abbr": "IL",
+      "article_slug": "suspended-dentist-license-illinois-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Pennsylvania",
+      "state_slug": "pennsylvania",
+      "state_abbr": "PA",
+      "article_slug": "suspended-dentist-license-pennsylvania-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Ohio",
+      "state_slug": "ohio",
+      "state_abbr": "OH",
+      "article_slug": "suspended-dentist-license-ohio-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Georgia",
+      "state_slug": "georgia",
+      "state_abbr": "GA",
+      "article_slug": "suspended-dentist-license-georgia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Michigan",
+      "state_slug": "michigan",
+      "state_abbr": "MI",
+      "article_slug": "suspended-dentist-license-michigan-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "North Carolina",
+      "state_slug": "north-carolina",
+      "state_abbr": "NC",
+      "article_slug": "suspended-dentist-license-north-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "New Jersey",
+      "state_slug": "new-jersey",
+      "state_abbr": "NJ",
+      "article_slug": "suspended-dentist-license-new-jersey-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Virginia",
+      "state_slug": "virginia",
+      "state_abbr": "VA",
+      "article_slug": "suspended-dentist-license-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Washington",
+      "state_slug": "washington",
+      "state_abbr": "WA",
+      "article_slug": "suspended-dentist-license-washington-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Arizona",
+      "state_slug": "arizona",
+      "state_abbr": "AZ",
+      "article_slug": "suspended-dentist-license-arizona-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Massachusetts",
+      "state_slug": "massachusetts",
+      "state_abbr": "MA",
+      "article_slug": "suspended-dentist-license-massachusetts-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Tennessee",
+      "state_slug": "tennessee",
+      "state_abbr": "TN",
+      "article_slug": "suspended-dentist-license-tennessee-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Indiana",
+      "state_slug": "indiana",
+      "state_abbr": "IN",
+      "article_slug": "suspended-dentist-license-indiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Missouri",
+      "state_slug": "missouri",
+      "state_abbr": "MO",
+      "article_slug": "suspended-dentist-license-missouri-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Maryland",
+      "state_slug": "maryland",
+      "state_abbr": "MD",
+      "article_slug": "suspended-dentist-license-maryland-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Wisconsin",
+      "state_slug": "wisconsin",
+      "state_abbr": "WI",
+      "article_slug": "suspended-dentist-license-wisconsin-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Colorado",
+      "state_slug": "colorado",
+      "state_abbr": "CO",
+      "article_slug": "suspended-dentist-license-colorado-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Minnesota",
+      "state_slug": "minnesota",
+      "state_abbr": "MN",
+      "article_slug": "suspended-dentist-license-minnesota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "South Carolina",
+      "state_slug": "south-carolina",
+      "state_abbr": "SC",
+      "article_slug": "suspended-dentist-license-south-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Alabama",
+      "state_slug": "alabama",
+      "state_abbr": "AL",
+      "article_slug": "suspended-dentist-license-alabama-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Louisiana",
+      "state_slug": "louisiana",
+      "state_abbr": "LA",
+      "article_slug": "suspended-dentist-license-louisiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Kentucky",
+      "state_slug": "kentucky",
+      "state_abbr": "KY",
+      "article_slug": "suspended-dentist-license-kentucky-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Oregon",
+      "state_slug": "oregon",
+      "state_abbr": "OR",
+      "article_slug": "suspended-dentist-license-oregon-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Oklahoma",
+      "state_slug": "oklahoma",
+      "state_abbr": "OK",
+      "article_slug": "suspended-dentist-license-oklahoma-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Connecticut",
+      "state_slug": "connecticut",
+      "state_abbr": "CT",
+      "article_slug": "suspended-dentist-license-connecticut-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Utah",
+      "state_slug": "utah",
+      "state_abbr": "UT",
+      "article_slug": "suspended-dentist-license-utah-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Iowa",
+      "state_slug": "iowa",
+      "state_abbr": "IA",
+      "article_slug": "suspended-dentist-license-iowa-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Nevada",
+      "state_slug": "nevada",
+      "state_abbr": "NV",
+      "article_slug": "suspended-dentist-license-nevada-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Arkansas",
+      "state_slug": "arkansas",
+      "state_abbr": "AR",
+      "article_slug": "suspended-dentist-license-arkansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Mississippi",
+      "state_slug": "mississippi",
+      "state_abbr": "MS",
+      "article_slug": "suspended-dentist-license-mississippi-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Kansas",
+      "state_slug": "kansas",
+      "state_abbr": "KS",
+      "article_slug": "suspended-dentist-license-kansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "New Mexico",
+      "state_slug": "new-mexico",
+      "state_abbr": "NM",
+      "article_slug": "suspended-dentist-license-new-mexico-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Nebraska",
+      "state_slug": "nebraska",
+      "state_abbr": "NE",
+      "article_slug": "suspended-dentist-license-nebraska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Idaho",
+      "state_slug": "idaho",
+      "state_abbr": "ID",
+      "article_slug": "suspended-dentist-license-idaho-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "West Virginia",
+      "state_slug": "west-virginia",
+      "state_abbr": "WV",
+      "article_slug": "suspended-dentist-license-west-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Hawaii",
+      "state_slug": "hawaii",
+      "state_abbr": "HI",
+      "article_slug": "suspended-dentist-license-hawaii-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "New Hampshire",
+      "state_slug": "new-hampshire",
+      "state_abbr": "NH",
+      "article_slug": "suspended-dentist-license-new-hampshire-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Maine",
+      "state_slug": "maine",
+      "state_abbr": "ME",
+      "article_slug": "suspended-dentist-license-maine-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Montana",
+      "state_slug": "montana",
+      "state_abbr": "MT",
+      "article_slug": "suspended-dentist-license-montana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Rhode Island",
+      "state_slug": "rhode-island",
+      "state_abbr": "RI",
+      "article_slug": "suspended-dentist-license-rhode-island-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Delaware",
+      "state_slug": "delaware",
+      "state_abbr": "DE",
+      "article_slug": "suspended-dentist-license-delaware-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "South Dakota",
+      "state_slug": "south-dakota",
+      "state_abbr": "SD",
+      "article_slug": "suspended-dentist-license-south-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "North Dakota",
+      "state_slug": "north-dakota",
+      "state_abbr": "ND",
+      "article_slug": "suspended-dentist-license-north-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Alaska",
+      "state_slug": "alaska",
+      "state_abbr": "AK",
+      "article_slug": "suspended-dentist-license-alaska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Vermont",
+      "state_slug": "vermont",
+      "state_abbr": "VT",
+      "article_slug": "suspended-dentist-license-vermont-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Dentist",
+      "profession_slug": "dentist",
+      "state": "Wyoming",
+      "state_slug": "wyoming",
+      "state_abbr": "WY",
+      "article_slug": "suspended-dentist-license-wyoming-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "California",
+      "state_slug": "california",
+      "state_abbr": "CA",
+      "article_slug": "suspended-chiropractor-license-california-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Texas",
+      "state_slug": "texas",
+      "state_abbr": "TX",
+      "article_slug": "suspended-chiropractor-license-texas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Florida",
+      "state_slug": "florida",
+      "state_abbr": "FL",
+      "article_slug": "suspended-chiropractor-license-florida-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "New York",
+      "state_slug": "new-york",
+      "state_abbr": "NY",
+      "article_slug": "suspended-chiropractor-license-new-york-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Illinois",
+      "state_slug": "illinois",
+      "state_abbr": "IL",
+      "article_slug": "suspended-chiropractor-license-illinois-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Pennsylvania",
+      "state_slug": "pennsylvania",
+      "state_abbr": "PA",
+      "article_slug": "suspended-chiropractor-license-pennsylvania-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Ohio",
+      "state_slug": "ohio",
+      "state_abbr": "OH",
+      "article_slug": "suspended-chiropractor-license-ohio-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Georgia",
+      "state_slug": "georgia",
+      "state_abbr": "GA",
+      "article_slug": "suspended-chiropractor-license-georgia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Michigan",
+      "state_slug": "michigan",
+      "state_abbr": "MI",
+      "article_slug": "suspended-chiropractor-license-michigan-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "North Carolina",
+      "state_slug": "north-carolina",
+      "state_abbr": "NC",
+      "article_slug": "suspended-chiropractor-license-north-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "New Jersey",
+      "state_slug": "new-jersey",
+      "state_abbr": "NJ",
+      "article_slug": "suspended-chiropractor-license-new-jersey-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Virginia",
+      "state_slug": "virginia",
+      "state_abbr": "VA",
+      "article_slug": "suspended-chiropractor-license-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Washington",
+      "state_slug": "washington",
+      "state_abbr": "WA",
+      "article_slug": "suspended-chiropractor-license-washington-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Arizona",
+      "state_slug": "arizona",
+      "state_abbr": "AZ",
+      "article_slug": "suspended-chiropractor-license-arizona-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Massachusetts",
+      "state_slug": "massachusetts",
+      "state_abbr": "MA",
+      "article_slug": "suspended-chiropractor-license-massachusetts-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Tennessee",
+      "state_slug": "tennessee",
+      "state_abbr": "TN",
+      "article_slug": "suspended-chiropractor-license-tennessee-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Indiana",
+      "state_slug": "indiana",
+      "state_abbr": "IN",
+      "article_slug": "suspended-chiropractor-license-indiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Missouri",
+      "state_slug": "missouri",
+      "state_abbr": "MO",
+      "article_slug": "suspended-chiropractor-license-missouri-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Maryland",
+      "state_slug": "maryland",
+      "state_abbr": "MD",
+      "article_slug": "suspended-chiropractor-license-maryland-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Wisconsin",
+      "state_slug": "wisconsin",
+      "state_abbr": "WI",
+      "article_slug": "suspended-chiropractor-license-wisconsin-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Colorado",
+      "state_slug": "colorado",
+      "state_abbr": "CO",
+      "article_slug": "suspended-chiropractor-license-colorado-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Minnesota",
+      "state_slug": "minnesota",
+      "state_abbr": "MN",
+      "article_slug": "suspended-chiropractor-license-minnesota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "South Carolina",
+      "state_slug": "south-carolina",
+      "state_abbr": "SC",
+      "article_slug": "suspended-chiropractor-license-south-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Alabama",
+      "state_slug": "alabama",
+      "state_abbr": "AL",
+      "article_slug": "suspended-chiropractor-license-alabama-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Louisiana",
+      "state_slug": "louisiana",
+      "state_abbr": "LA",
+      "article_slug": "suspended-chiropractor-license-louisiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Kentucky",
+      "state_slug": "kentucky",
+      "state_abbr": "KY",
+      "article_slug": "suspended-chiropractor-license-kentucky-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Oregon",
+      "state_slug": "oregon",
+      "state_abbr": "OR",
+      "article_slug": "suspended-chiropractor-license-oregon-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Oklahoma",
+      "state_slug": "oklahoma",
+      "state_abbr": "OK",
+      "article_slug": "suspended-chiropractor-license-oklahoma-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Connecticut",
+      "state_slug": "connecticut",
+      "state_abbr": "CT",
+      "article_slug": "suspended-chiropractor-license-connecticut-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Utah",
+      "state_slug": "utah",
+      "state_abbr": "UT",
+      "article_slug": "suspended-chiropractor-license-utah-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Iowa",
+      "state_slug": "iowa",
+      "state_abbr": "IA",
+      "article_slug": "suspended-chiropractor-license-iowa-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Nevada",
+      "state_slug": "nevada",
+      "state_abbr": "NV",
+      "article_slug": "suspended-chiropractor-license-nevada-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Arkansas",
+      "state_slug": "arkansas",
+      "state_abbr": "AR",
+      "article_slug": "suspended-chiropractor-license-arkansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Mississippi",
+      "state_slug": "mississippi",
+      "state_abbr": "MS",
+      "article_slug": "suspended-chiropractor-license-mississippi-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Kansas",
+      "state_slug": "kansas",
+      "state_abbr": "KS",
+      "article_slug": "suspended-chiropractor-license-kansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "New Mexico",
+      "state_slug": "new-mexico",
+      "state_abbr": "NM",
+      "article_slug": "suspended-chiropractor-license-new-mexico-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Nebraska",
+      "state_slug": "nebraska",
+      "state_abbr": "NE",
+      "article_slug": "suspended-chiropractor-license-nebraska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Idaho",
+      "state_slug": "idaho",
+      "state_abbr": "ID",
+      "article_slug": "suspended-chiropractor-license-idaho-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "West Virginia",
+      "state_slug": "west-virginia",
+      "state_abbr": "WV",
+      "article_slug": "suspended-chiropractor-license-west-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Hawaii",
+      "state_slug": "hawaii",
+      "state_abbr": "HI",
+      "article_slug": "suspended-chiropractor-license-hawaii-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "New Hampshire",
+      "state_slug": "new-hampshire",
+      "state_abbr": "NH",
+      "article_slug": "suspended-chiropractor-license-new-hampshire-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Maine",
+      "state_slug": "maine",
+      "state_abbr": "ME",
+      "article_slug": "suspended-chiropractor-license-maine-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Montana",
+      "state_slug": "montana",
+      "state_abbr": "MT",
+      "article_slug": "suspended-chiropractor-license-montana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Rhode Island",
+      "state_slug": "rhode-island",
+      "state_abbr": "RI",
+      "article_slug": "suspended-chiropractor-license-rhode-island-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Delaware",
+      "state_slug": "delaware",
+      "state_abbr": "DE",
+      "article_slug": "suspended-chiropractor-license-delaware-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "South Dakota",
+      "state_slug": "south-dakota",
+      "state_abbr": "SD",
+      "article_slug": "suspended-chiropractor-license-south-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "North Dakota",
+      "state_slug": "north-dakota",
+      "state_abbr": "ND",
+      "article_slug": "suspended-chiropractor-license-north-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Alaska",
+      "state_slug": "alaska",
+      "state_abbr": "AK",
+      "article_slug": "suspended-chiropractor-license-alaska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Vermont",
+      "state_slug": "vermont",
+      "state_abbr": "VT",
+      "article_slug": "suspended-chiropractor-license-vermont-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Chiropractor",
+      "profession_slug": "chiropractor",
+      "state": "Wyoming",
+      "state_slug": "wyoming",
+      "state_abbr": "WY",
+      "article_slug": "suspended-chiropractor-license-wyoming-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "California",
+      "state_slug": "california",
+      "state_abbr": "CA",
+      "article_slug": "suspended-financial-advisor-license-california-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Texas",
+      "state_slug": "texas",
+      "state_abbr": "TX",
+      "article_slug": "suspended-financial-advisor-license-texas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Florida",
+      "state_slug": "florida",
+      "state_abbr": "FL",
+      "article_slug": "suspended-financial-advisor-license-florida-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "New York",
+      "state_slug": "new-york",
+      "state_abbr": "NY",
+      "article_slug": "suspended-financial-advisor-license-new-york-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Illinois",
+      "state_slug": "illinois",
+      "state_abbr": "IL",
+      "article_slug": "suspended-financial-advisor-license-illinois-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Pennsylvania",
+      "state_slug": "pennsylvania",
+      "state_abbr": "PA",
+      "article_slug": "suspended-financial-advisor-license-pennsylvania-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Ohio",
+      "state_slug": "ohio",
+      "state_abbr": "OH",
+      "article_slug": "suspended-financial-advisor-license-ohio-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Georgia",
+      "state_slug": "georgia",
+      "state_abbr": "GA",
+      "article_slug": "suspended-financial-advisor-license-georgia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Michigan",
+      "state_slug": "michigan",
+      "state_abbr": "MI",
+      "article_slug": "suspended-financial-advisor-license-michigan-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "North Carolina",
+      "state_slug": "north-carolina",
+      "state_abbr": "NC",
+      "article_slug": "suspended-financial-advisor-license-north-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "New Jersey",
+      "state_slug": "new-jersey",
+      "state_abbr": "NJ",
+      "article_slug": "suspended-financial-advisor-license-new-jersey-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Virginia",
+      "state_slug": "virginia",
+      "state_abbr": "VA",
+      "article_slug": "suspended-financial-advisor-license-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Washington",
+      "state_slug": "washington",
+      "state_abbr": "WA",
+      "article_slug": "suspended-financial-advisor-license-washington-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Arizona",
+      "state_slug": "arizona",
+      "state_abbr": "AZ",
+      "article_slug": "suspended-financial-advisor-license-arizona-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Massachusetts",
+      "state_slug": "massachusetts",
+      "state_abbr": "MA",
+      "article_slug": "suspended-financial-advisor-license-massachusetts-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Tennessee",
+      "state_slug": "tennessee",
+      "state_abbr": "TN",
+      "article_slug": "suspended-financial-advisor-license-tennessee-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Indiana",
+      "state_slug": "indiana",
+      "state_abbr": "IN",
+      "article_slug": "suspended-financial-advisor-license-indiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Missouri",
+      "state_slug": "missouri",
+      "state_abbr": "MO",
+      "article_slug": "suspended-financial-advisor-license-missouri-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Maryland",
+      "state_slug": "maryland",
+      "state_abbr": "MD",
+      "article_slug": "suspended-financial-advisor-license-maryland-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Wisconsin",
+      "state_slug": "wisconsin",
+      "state_abbr": "WI",
+      "article_slug": "suspended-financial-advisor-license-wisconsin-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Colorado",
+      "state_slug": "colorado",
+      "state_abbr": "CO",
+      "article_slug": "suspended-financial-advisor-license-colorado-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Minnesota",
+      "state_slug": "minnesota",
+      "state_abbr": "MN",
+      "article_slug": "suspended-financial-advisor-license-minnesota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "South Carolina",
+      "state_slug": "south-carolina",
+      "state_abbr": "SC",
+      "article_slug": "suspended-financial-advisor-license-south-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Alabama",
+      "state_slug": "alabama",
+      "state_abbr": "AL",
+      "article_slug": "suspended-financial-advisor-license-alabama-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Louisiana",
+      "state_slug": "louisiana",
+      "state_abbr": "LA",
+      "article_slug": "suspended-financial-advisor-license-louisiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Kentucky",
+      "state_slug": "kentucky",
+      "state_abbr": "KY",
+      "article_slug": "suspended-financial-advisor-license-kentucky-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Oregon",
+      "state_slug": "oregon",
+      "state_abbr": "OR",
+      "article_slug": "suspended-financial-advisor-license-oregon-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Oklahoma",
+      "state_slug": "oklahoma",
+      "state_abbr": "OK",
+      "article_slug": "suspended-financial-advisor-license-oklahoma-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Connecticut",
+      "state_slug": "connecticut",
+      "state_abbr": "CT",
+      "article_slug": "suspended-financial-advisor-license-connecticut-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Utah",
+      "state_slug": "utah",
+      "state_abbr": "UT",
+      "article_slug": "suspended-financial-advisor-license-utah-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Iowa",
+      "state_slug": "iowa",
+      "state_abbr": "IA",
+      "article_slug": "suspended-financial-advisor-license-iowa-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Nevada",
+      "state_slug": "nevada",
+      "state_abbr": "NV",
+      "article_slug": "suspended-financial-advisor-license-nevada-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Arkansas",
+      "state_slug": "arkansas",
+      "state_abbr": "AR",
+      "article_slug": "suspended-financial-advisor-license-arkansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Mississippi",
+      "state_slug": "mississippi",
+      "state_abbr": "MS",
+      "article_slug": "suspended-financial-advisor-license-mississippi-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Kansas",
+      "state_slug": "kansas",
+      "state_abbr": "KS",
+      "article_slug": "suspended-financial-advisor-license-kansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "New Mexico",
+      "state_slug": "new-mexico",
+      "state_abbr": "NM",
+      "article_slug": "suspended-financial-advisor-license-new-mexico-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Nebraska",
+      "state_slug": "nebraska",
+      "state_abbr": "NE",
+      "article_slug": "suspended-financial-advisor-license-nebraska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Idaho",
+      "state_slug": "idaho",
+      "state_abbr": "ID",
+      "article_slug": "suspended-financial-advisor-license-idaho-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "West Virginia",
+      "state_slug": "west-virginia",
+      "state_abbr": "WV",
+      "article_slug": "suspended-financial-advisor-license-west-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Hawaii",
+      "state_slug": "hawaii",
+      "state_abbr": "HI",
+      "article_slug": "suspended-financial-advisor-license-hawaii-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "New Hampshire",
+      "state_slug": "new-hampshire",
+      "state_abbr": "NH",
+      "article_slug": "suspended-financial-advisor-license-new-hampshire-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Maine",
+      "state_slug": "maine",
+      "state_abbr": "ME",
+      "article_slug": "suspended-financial-advisor-license-maine-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Montana",
+      "state_slug": "montana",
+      "state_abbr": "MT",
+      "article_slug": "suspended-financial-advisor-license-montana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Rhode Island",
+      "state_slug": "rhode-island",
+      "state_abbr": "RI",
+      "article_slug": "suspended-financial-advisor-license-rhode-island-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Delaware",
+      "state_slug": "delaware",
+      "state_abbr": "DE",
+      "article_slug": "suspended-financial-advisor-license-delaware-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "South Dakota",
+      "state_slug": "south-dakota",
+      "state_abbr": "SD",
+      "article_slug": "suspended-financial-advisor-license-south-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "North Dakota",
+      "state_slug": "north-dakota",
+      "state_abbr": "ND",
+      "article_slug": "suspended-financial-advisor-license-north-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Alaska",
+      "state_slug": "alaska",
+      "state_abbr": "AK",
+      "article_slug": "suspended-financial-advisor-license-alaska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Vermont",
+      "state_slug": "vermont",
+      "state_abbr": "VT",
+      "article_slug": "suspended-financial-advisor-license-vermont-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Financial Advisor",
+      "profession_slug": "financial-advisor",
+      "state": "Wyoming",
+      "state_slug": "wyoming",
+      "state_abbr": "WY",
+      "article_slug": "suspended-financial-advisor-license-wyoming-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "California",
+      "state_slug": "california",
+      "state_abbr": "CA",
+      "article_slug": "suspended-contractor-license-california-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Texas",
+      "state_slug": "texas",
+      "state_abbr": "TX",
+      "article_slug": "suspended-contractor-license-texas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Florida",
+      "state_slug": "florida",
+      "state_abbr": "FL",
+      "article_slug": "suspended-contractor-license-florida-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "New York",
+      "state_slug": "new-york",
+      "state_abbr": "NY",
+      "article_slug": "suspended-contractor-license-new-york-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Illinois",
+      "state_slug": "illinois",
+      "state_abbr": "IL",
+      "article_slug": "suspended-contractor-license-illinois-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Pennsylvania",
+      "state_slug": "pennsylvania",
+      "state_abbr": "PA",
+      "article_slug": "suspended-contractor-license-pennsylvania-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Ohio",
+      "state_slug": "ohio",
+      "state_abbr": "OH",
+      "article_slug": "suspended-contractor-license-ohio-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Georgia",
+      "state_slug": "georgia",
+      "state_abbr": "GA",
+      "article_slug": "suspended-contractor-license-georgia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Michigan",
+      "state_slug": "michigan",
+      "state_abbr": "MI",
+      "article_slug": "suspended-contractor-license-michigan-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "North Carolina",
+      "state_slug": "north-carolina",
+      "state_abbr": "NC",
+      "article_slug": "suspended-contractor-license-north-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "New Jersey",
+      "state_slug": "new-jersey",
+      "state_abbr": "NJ",
+      "article_slug": "suspended-contractor-license-new-jersey-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Virginia",
+      "state_slug": "virginia",
+      "state_abbr": "VA",
+      "article_slug": "suspended-contractor-license-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Washington",
+      "state_slug": "washington",
+      "state_abbr": "WA",
+      "article_slug": "suspended-contractor-license-washington-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Arizona",
+      "state_slug": "arizona",
+      "state_abbr": "AZ",
+      "article_slug": "suspended-contractor-license-arizona-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Massachusetts",
+      "state_slug": "massachusetts",
+      "state_abbr": "MA",
+      "article_slug": "suspended-contractor-license-massachusetts-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Tennessee",
+      "state_slug": "tennessee",
+      "state_abbr": "TN",
+      "article_slug": "suspended-contractor-license-tennessee-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Indiana",
+      "state_slug": "indiana",
+      "state_abbr": "IN",
+      "article_slug": "suspended-contractor-license-indiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Missouri",
+      "state_slug": "missouri",
+      "state_abbr": "MO",
+      "article_slug": "suspended-contractor-license-missouri-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Maryland",
+      "state_slug": "maryland",
+      "state_abbr": "MD",
+      "article_slug": "suspended-contractor-license-maryland-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Wisconsin",
+      "state_slug": "wisconsin",
+      "state_abbr": "WI",
+      "article_slug": "suspended-contractor-license-wisconsin-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Colorado",
+      "state_slug": "colorado",
+      "state_abbr": "CO",
+      "article_slug": "suspended-contractor-license-colorado-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Minnesota",
+      "state_slug": "minnesota",
+      "state_abbr": "MN",
+      "article_slug": "suspended-contractor-license-minnesota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "South Carolina",
+      "state_slug": "south-carolina",
+      "state_abbr": "SC",
+      "article_slug": "suspended-contractor-license-south-carolina-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Alabama",
+      "state_slug": "alabama",
+      "state_abbr": "AL",
+      "article_slug": "suspended-contractor-license-alabama-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Louisiana",
+      "state_slug": "louisiana",
+      "state_abbr": "LA",
+      "article_slug": "suspended-contractor-license-louisiana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Kentucky",
+      "state_slug": "kentucky",
+      "state_abbr": "KY",
+      "article_slug": "suspended-contractor-license-kentucky-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Oregon",
+      "state_slug": "oregon",
+      "state_abbr": "OR",
+      "article_slug": "suspended-contractor-license-oregon-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Oklahoma",
+      "state_slug": "oklahoma",
+      "state_abbr": "OK",
+      "article_slug": "suspended-contractor-license-oklahoma-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Connecticut",
+      "state_slug": "connecticut",
+      "state_abbr": "CT",
+      "article_slug": "suspended-contractor-license-connecticut-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Utah",
+      "state_slug": "utah",
+      "state_abbr": "UT",
+      "article_slug": "suspended-contractor-license-utah-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Iowa",
+      "state_slug": "iowa",
+      "state_abbr": "IA",
+      "article_slug": "suspended-contractor-license-iowa-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Nevada",
+      "state_slug": "nevada",
+      "state_abbr": "NV",
+      "article_slug": "suspended-contractor-license-nevada-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Arkansas",
+      "state_slug": "arkansas",
+      "state_abbr": "AR",
+      "article_slug": "suspended-contractor-license-arkansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Mississippi",
+      "state_slug": "mississippi",
+      "state_abbr": "MS",
+      "article_slug": "suspended-contractor-license-mississippi-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Kansas",
+      "state_slug": "kansas",
+      "state_abbr": "KS",
+      "article_slug": "suspended-contractor-license-kansas-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "New Mexico",
+      "state_slug": "new-mexico",
+      "state_abbr": "NM",
+      "article_slug": "suspended-contractor-license-new-mexico-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Nebraska",
+      "state_slug": "nebraska",
+      "state_abbr": "NE",
+      "article_slug": "suspended-contractor-license-nebraska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Idaho",
+      "state_slug": "idaho",
+      "state_abbr": "ID",
+      "article_slug": "suspended-contractor-license-idaho-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "West Virginia",
+      "state_slug": "west-virginia",
+      "state_abbr": "WV",
+      "article_slug": "suspended-contractor-license-west-virginia-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Hawaii",
+      "state_slug": "hawaii",
+      "state_abbr": "HI",
+      "article_slug": "suspended-contractor-license-hawaii-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "New Hampshire",
+      "state_slug": "new-hampshire",
+      "state_abbr": "NH",
+      "article_slug": "suspended-contractor-license-new-hampshire-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Maine",
+      "state_slug": "maine",
+      "state_abbr": "ME",
+      "article_slug": "suspended-contractor-license-maine-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Montana",
+      "state_slug": "montana",
+      "state_abbr": "MT",
+      "article_slug": "suspended-contractor-license-montana-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Rhode Island",
+      "state_slug": "rhode-island",
+      "state_abbr": "RI",
+      "article_slug": "suspended-contractor-license-rhode-island-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Delaware",
+      "state_slug": "delaware",
+      "state_abbr": "DE",
+      "article_slug": "suspended-contractor-license-delaware-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "South Dakota",
+      "state_slug": "south-dakota",
+      "state_abbr": "SD",
+      "article_slug": "suspended-contractor-license-south-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "North Dakota",
+      "state_slug": "north-dakota",
+      "state_abbr": "ND",
+      "article_slug": "suspended-contractor-license-north-dakota-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Alaska",
+      "state_slug": "alaska",
+      "state_abbr": "AK",
+      "article_slug": "suspended-contractor-license-alaska-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Vermont",
+      "state_slug": "vermont",
+      "state_abbr": "VT",
+      "article_slug": "suspended-contractor-license-vermont-what-to-do",
+      "status": "pending"
+    },
+    {
+      "profession": "Contractor",
+      "profession_slug": "contractor",
+      "state": "Wyoming",
+      "state_slug": "wyoming",
+      "state_abbr": "WY",
+      "article_slug": "suspended-contractor-license-wyoming-what-to-do",
+      "status": "pending"
+    }
+  ]
+}
