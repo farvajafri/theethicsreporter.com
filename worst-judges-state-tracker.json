@@ -22,7 +22,9 @@
       "name": "Alaska",
       "slug": "alaska",
       "abbr": "AK",
-      "status": "pending"
+      "status": "published",
+      "article_slug": "worst-judges-alaska-2026",
+      "published_date": "2026-06-22"
     },
     {
       "name": "Arizona",
