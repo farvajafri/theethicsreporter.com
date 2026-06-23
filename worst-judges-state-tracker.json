@@ -30,7 +30,9 @@
       "name": "Arizona",
       "slug": "arizona",
       "abbr": "AZ",
-      "status": "pending"
+      "status": "published",
+      "article_slug": "worst-judges-arizona-2026",
+      "published_date": "2026-06-23"
     },
     {
       "name": "Arkansas",
