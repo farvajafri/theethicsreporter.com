@@ -38,7 +38,9 @@
       "name": "Arkansas",
       "slug": "arkansas",
       "abbr": "AR",
-      "status": "pending"
+      "status": "published",
+      "article_slug": "worst-judges-arkansas-2026",
+      "published_date": "2026-06-24"
     },
     {
       "name": "California",
