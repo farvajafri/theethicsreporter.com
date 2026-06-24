@@ -40,7 +40,8 @@
       "state_slug": "new-york",
       "state_abbr": "NY",
       "article_slug": "suspended-attorney-license-new-york-what-to-do",
-      "status": "pending"
+      "status": "published",
+      "published_date": "2026-06-24"
     },
     {
       "profession": "Attorney",
