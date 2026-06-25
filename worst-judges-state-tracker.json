@@ -46,7 +46,9 @@
       "name": "California",
       "slug": "california",
       "abbr": "CA",
-      "status": "pending"
+      "status": "published",
+      "article_slug": "worst-judges-california-2026",
+      "published_date": "2026-06-25"
     },
     {
       "name": "Colorado",
