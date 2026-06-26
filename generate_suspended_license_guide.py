@@ -25,14 +25,16 @@ PROFESSION_DATA = {
         "license_type": "law license",
         "regulator": "State Bar / Supreme Court",
         "alternatives": [
-            "Legal consulting (non-representational advice to businesses)",
-            "Compliance analyst or risk manager roles",
-            "Legal writing, research, or document review for law firms",
-            "Paralegal or legal operations work",
-            "Law school teaching or tutoring (bar prep)",
-            "Mediation or arbitration training",
-            "Starting a legal technology or consulting business",
-            "Expert witness work in your practice area",
+            "Gig delivery work (DoorDash, Uber Eats, Instacart, Grubhub) — flexible hours, immediate income, no credential check",
+            "Rideshare driving (Uber, Lyft) — sign up online, earn the same day",
+            "Pet sitting and dog walking (Rover, Wag) — especially valuable in suburban/urban markets",
+            "Selling on eBay, Poshmark, Facebook Marketplace, or Mercari — flip thrift store finds, sell household items, or source wholesale",
+            "TaskRabbit for handyman, assembly, or moving help",
+            "Retail, restaurant, or hospitality work — no license required, immediate hire",
+            "Sales roles (insurance sales, real estate if separately licensed, B2B sales) — your communication skills transfer directly",
+            "Administrative or project management jobs — law firm experience makes you overqualified in the best way",
+            "Freelance writing, copywriting, or content work on Upwork or Fiverr",
+            "Teaching assistant or tutor roles at colleges or LSAT/bar prep companies",
         ],
         "reinstatement_tips": [
             "Complete all required CLE hours during the suspension period",
@@ -417,10 +419,11 @@ REQUIRED SECTIONS (use styled HTML — h2 with red bottom border, clean paragrap
 
 4. **Your Appeal Rights in {state}** — Explain the appeal or reconsideration process specific to {state} for {prof_name.lower()}s. Timelines matter. Most states have 30-day windows. Explain what an appeal can and cannot accomplish. Encourage them to pursue it.
 
-5. **What You Can Still Do Legally** — This is a critical section. Many suspended {prof_name.lower()}s don't realize how much they CAN still do. Cover:
+5. **How to Survive Financially During Your Suspension** — Be honest: a suspended attorney typically cannot do ANY legal work. No consulting, no document review, no 'advising' — bar rules in most states prohibit it all. So income has to come from somewhere completely outside the law. Be practical and non-judgmental about this. Cover:
 {alternatives}
+Do not sugarcoat this. Be direct that gig work and non-legal jobs are real, respectable options that pay the bills while they work toward reinstatement. Also cover: unemployment eligibility, professional hardship loans, 401k early withdrawal as a last resort, negotiating with creditors.
 
-6. **How to Survive Financially During Your Suspension** — Practical income guidance. Be honest that this is hard, but concrete about what works. Include: the alternatives above, temporary employment options, professional loans and credit options, whether unemployment may apply, whether 401k early withdrawal makes sense in extreme cases.
+6. **What You CANNOT Do — And Why It Matters** — Clearly explain that during suspension, attorneys cannot practice law in ANY form in most states: no legal advice, no client representation, no holding themselves out as an attorney, no working as a paralegal or contract attorney for a firm without explicit bar approval. Violation of this is a separate, serious offense that can result in permanent disbarment. Cite a real example of an attorney who violated suspension terms and paid the price.
 
 7. **The Path Back: How Reinstatement Works in {state}** — Specific reinstatement process for {prof_name.lower()}s in {state}. Timeline expectations. What the board is looking for. Key things that help:
 {tips}
