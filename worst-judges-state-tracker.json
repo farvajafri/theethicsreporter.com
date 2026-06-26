@@ -54,7 +54,9 @@
       "name": "Colorado",
       "slug": "colorado",
       "abbr": "CO",
-      "status": "pending"
+      "status": "published",
+      "article_slug": "worst-judges-colorado-2026",
+      "published_date": "2026-06-26"
     },
     {
       "name": "Connecticut",
