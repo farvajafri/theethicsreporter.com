@@ -62,7 +62,9 @@
       "name": "Connecticut",
       "slug": "connecticut",
       "abbr": "CT",
-      "status": "pending"
+      "status": "published",
+      "article_slug": "worst-judges-connecticut-2026",
+      "published_date": "2026-06-27"
     },
     {
       "name": "Delaware",
