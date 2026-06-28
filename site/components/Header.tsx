@@ -139,7 +139,7 @@ export default function Header() {
         </div>
 
         {/* Desktop nav */}
-        <nav className="hidden md:flex items-center justify-center flex-wrap gap-x-5 gap-y-2 pb-4 text-sm font-sans font-medium">
+        <nav className="hidden md:flex items-center justify-between pb-4 text-sm font-sans font-medium">
           {navLinks.filter(l => l.href !== '/' && !(l as { grievance?: boolean }).grievance).map((link) => (
             <Link
               key={link.href}
@@ -150,7 +150,7 @@ export default function Header() {
                   : (link as { grievance?: boolean }).grievance
                   ? "bg-[#e8c07a] hover:bg-[#d4a960] text-[#1a0000] font-bold px-3 py-1 rounded transition-colors"
                   : link.highlight
-                  ? "text-white font-bold border-b-2 border-[#8B0000] pb-0.5 hover:text-red-300 transition-colors"
+                  ? "text-white font-bold hover:text-red-300 transition-colors"
                   : "text-gray-300 hover:text-white transition-colors"
               }
             >
