@@ -111,13 +111,21 @@ export default function Header() {
           </div>
         </div>
 
-        {/* Title + hamburger row */}
+        {/* Title + Submit Grievance CTA row */}
         <div className="flex items-center justify-between py-5">
           <Link href="/" className="inline-block">
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight font-sans">
               THE ETHICS REPORTER
             </h1>
             <div className="h-1 w-20 bg-[#8B0000] mt-2" />
+          </Link>
+
+          {/* Submit Grievance CTA — desktop only */}
+          <Link
+            href="/submit-grievance"
+            className="hidden md:inline-block bg-[#e8c07a] hover:bg-[#d4a960] text-[#1a0000] font-bold px-5 py-2 rounded text-sm transition-colors"
+          >
+            Submit Grievance
           </Link>
 
           {/* Hamburger — mobile only */}
@@ -132,7 +140,7 @@ export default function Header() {
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center justify-center flex-wrap gap-x-5 gap-y-2 pb-4 text-sm font-sans font-medium">
-          {navLinks.map((link) => (
+          {navLinks.filter(l => l.href !== '/' && !(l as { grievance?: boolean }).grievance).map((link) => (
             <Link
               key={link.href}
               href={link.href}
@@ -154,7 +162,7 @@ export default function Header() {
         {/* Mobile nav dropdown */}
         {menuOpen && (
           <nav className="md:hidden border-t border-gray-700 py-4 flex flex-col gap-0">
-            {navLinks.map((link) => (
+            {navLinks.filter(l => l.href !== '/').map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
