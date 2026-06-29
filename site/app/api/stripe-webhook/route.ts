@@ -77,6 +77,25 @@ export async function POST(req: NextRequest) {
       </div>
     `;
 
+    // Discord ping to #theethicsreporter
+    try {
+      const discordToken = process.env.DISCORD_BOT_TOKEN;
+      if (discordToken) {
+        await fetch("https://discord.com/api/v10/channels/1486847808362516572/messages", {
+          method: "POST",
+          headers: {
+            "Authorization": `Bot ${discordToken}`,
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            content: `💰 **New donation on The Ethics Reporter!**\n> **${amountFormatted}** from **${customerName}** (${customerEmail})\n> ${createdAt} ET`,
+          }),
+        });
+      }
+    } catch (err) {
+      console.error("Failed to send Discord donation notification:", err);
+    }
+
     try {
       await fetch("https://api.brevo.com/v3/smtp/email", {
         method: "POST",
