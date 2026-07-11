@@ -3,9 +3,10 @@
 import { useRef, useState, useEffect, useCallback } from "react";
 
 // GA4 helper — fires if gtag is available
+type GtagFn = (cmd: string, event: string, params: Record<string, string | number>) => void;
 function trackEvent(name: string, params: Record<string, string | number>) {
-  if (typeof window !== "undefined" && typeof (window as unknown as { gtag?: Function }).gtag === "function") {
-    (window as unknown as { gtag: Function }).gtag("event", name, params);
+  if (typeof window !== "undefined" && typeof (window as unknown as { gtag?: GtagFn }).gtag === "function") {
+    (window as unknown as { gtag: GtagFn }).gtag("event", name, params);
   }
 }
 
