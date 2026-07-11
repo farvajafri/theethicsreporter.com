@@ -1,6 +1,13 @@
 "use client";
 
-import { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect, useCallback } from "react";
+
+// GA4 helper — fires if gtag is available
+function trackEvent(name: string, params: Record<string, string | number>) {
+  if (typeof window !== "undefined" && typeof (window as unknown as { gtag?: Function }).gtag === "function") {
+    (window as unknown as { gtag: Function }).gtag("event", name, params);
+  }
+}
 
 function formatTime(seconds: number): string {
   const m = Math.floor(seconds / 60);
@@ -14,14 +21,35 @@ export default function AudioPlayer({ src, title }: { src: string; title: string
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
   const [playbackRate, setPlaybackRate] = useState(1);
+  const milestonesHit = useRef<Set<number>>(new Set());
+
+  const checkMilestones = useCallback((current: number, total: number) => {
+    if (total <= 0) return;
+    const pct = (current / total) * 100;
+    for (const milestone of [25, 50, 75, 90]) {
+      if (pct >= milestone && !milestonesHit.current.has(milestone)) {
+        milestonesHit.current.add(milestone);
+        trackEvent("podcast_progress", {
+          episode_title: title,
+          percent_complete: milestone,
+        });
+      }
+    }
+  }, [title]);
 
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio) return;
 
-    const onTime = () => setCurrentTime(audio.currentTime);
+    const onTime = () => {
+      setCurrentTime(audio.currentTime);
+      checkMilestones(audio.currentTime, audio.duration);
+    };
     const onMeta = () => setDuration(audio.duration);
-    const onEnd = () => setPlaying(false);
+    const onEnd = () => {
+      setPlaying(false);
+      trackEvent("podcast_completed", { episode_title: title });
+    };
 
     audio.addEventListener("timeupdate", onTime);
     audio.addEventListener("loadedmetadata", onMeta);
@@ -32,15 +60,23 @@ export default function AudioPlayer({ src, title }: { src: string; title: string
       audio.removeEventListener("loadedmetadata", onMeta);
       audio.removeEventListener("ended", onEnd);
     };
-  }, []);
+  }, [title, checkMilestones]);
 
   const toggle = () => {
     const audio = audioRef.current;
     if (!audio) return;
     if (playing) {
       audio.pause();
+      trackEvent("podcast_pause", {
+        episode_title: title,
+        seconds_played: Math.floor(audio.currentTime),
+      });
     } else {
       audio.play();
+      trackEvent("podcast_play", {
+        episode_title: title,
+        seconds_in: Math.floor(audio.currentTime),
+      });
     }
     setPlaying(!playing);
   };
