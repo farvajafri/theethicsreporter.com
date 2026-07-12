@@ -42,7 +42,7 @@ export default function DonatePopup() {
             Reader-Supported Journalism
           </p>
           <h2 className="text-white text-2xl font-bold font-sans leading-snug">
-            We&apos;ve Published 321 Investigations.
+            We&apos;ve Published 367 Investigations.
           </h2>
           <p className="text-gray-300 text-sm font-sans mt-1">
             We haven&apos;t taken a single dollar from corporate donors or advertisers.
