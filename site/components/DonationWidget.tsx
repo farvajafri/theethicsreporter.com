@@ -17,7 +17,7 @@ const ONETIME_PRESETS = [
 ];
 
 // Goal bar constants — update when pulling live data
-const GOAL_CURRENT = 47;
+const GOAL_CURRENT = 80;
 const GOAL_TARGET = 100;
 
 type Interval = "month" | "once";
