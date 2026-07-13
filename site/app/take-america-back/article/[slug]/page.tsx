@@ -3,6 +3,8 @@ import { SITE_URL, SITE_NAME } from "@/lib/data";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
+import TabDonatePopup from "@/components/TabDonatePopup";
+import TabDonateButton from "@/components/TabDonateButton";
 
 function formatDate(dateStr: string): string {
   return new Date(dateStr).toLocaleDateString("en-US", {
@@ -120,6 +122,12 @@ export default function TabArticlePage({
           className="article-content"
           dangerouslySetInnerHTML={{ __html: article.content }}
         />
+
+        {/* End-of-article donation call to action */}
+        <TabDonateButton />
+
+        {/* Scroll-triggered donation popup (Take America Back only) */}
+        <TabDonatePopup />
 
         <div className="mt-12 pt-6 border-t border-gray-200">
           <Link
