@@ -1,0 +1,244 @@
+/**
+ * send-morning-note.ts
+ * Tucker Carlson "Morning Note" style weekly digest for The Ethics Reporter.
+ * Run via: npx tsx --env-file=.env.local scripts/send-morning-note.ts
+ */
+
+const BREVO_API_KEY = process.env.BREVO_API_KEY || "";
+const TER_LIST_ID = 17;
+const SITE_URL = "https://www.theethicsreporter.com";
+const SENDER_EMAIL = "briefing@theethicsreporter.com";
+const SENDER_NAME = "The Ethics Reporter";
+
+const NEWSLETTER_HTML = `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The Ethics Reporter — Morning Note</title>
+</head>
+<body style="margin:0;padding:0;background:#1a1a1a;font-family:Georgia,serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#1a1a1a;padding:40px 20px;">
+    <tr><td align="center">
+      <table width="620" cellpadding="0" cellspacing="0" style="background:#f5f0e8;max-width:620px;">
+
+        <!-- Header -->
+        <tr>
+          <td style="background:#0d0d0d;padding:28px 40px;border-bottom:3px solid #8B0000;">
+            <p style="margin:0 0 4px;font-family:sans-serif;font-size:10px;font-weight:bold;letter-spacing:3px;text-transform:uppercase;color:#8B0000;">The Ethics Reporter</p>
+            <p style="margin:0;font-family:Georgia,serif;font-size:26px;font-weight:bold;color:#f5f0e8;line-height:1.2;">The Morning Note</p>
+            <p style="margin:6px 0 0;font-family:sans-serif;font-size:11px;color:#999;letter-spacing:1px;">WEEK OF JUNE 22–28, 2026</p>
+          </td>
+        </tr>
+
+        <!-- Opener -->
+        <tr>
+          <td style="padding:36px 40px 20px;">
+            <p style="font-family:Georgia,serif;font-size:18px;line-height:1.8;color:#1a1a1a;margin:0 0 18px;">
+              Something happened this week that you probably didn't see covered anywhere else. Thirty-five federal judges — all active, all appointed by presidents of both parties — filed statements calling a settlement between the Trump administration and a company owned by a major Republican donor a fraud on the court. Not rhetoric. Not a press release. Thirty-five federal judges, in writing, saying the government was lying to them.
+            </p>
+            <p style="font-family:Georgia,serif;font-size:18px;line-height:1.8;color:#1a1a1a;margin:0 0 18px;">
+              The case involves the IRS. The beneficiary is a Trump ally. The details are in our piece below. But what struck us wasn't the corruption — that's almost routine now. It was the judges. When thirty-five of them say the same thing at the same time, something has gone seriously wrong. And nobody is talking about it.
+            </p>
+            <p style="font-family:Georgia,serif;font-size:18px;line-height:1.8;color:#1a1a1a;margin:0 0 18px;">
+              That's what this newsletter exists to fix.
+            </p>
+          </td>
+        </tr>
+
+        <!-- Divider -->
+        <tr><td style="padding:0 40px;"><hr style="border:none;border-top:2px solid #8B0000;margin:0;"></td></tr>
+
+        <!-- Story 1 -->
+        <tr>
+          <td style="padding:28px 40px 8px;">
+            <p style="margin:0 0 6px;font-family:sans-serif;font-size:10px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:#8B0000;">THIS WEEK'S LEAD</p>
+            <a href="${SITE_URL}/article/trump-irs-settlement-fraud-on-the-court-35-federal-judges" style="font-family:Georgia,serif;font-size:22px;font-weight:bold;color:#0d0d0d;text-decoration:none;line-height:1.3;display:block;margin-bottom:14px;">A Settlement With Himself: 35 Federal Judges Are Calling It a Fraud on the Court</a>
+            <p style="font-family:Georgia,serif;font-size:16px;line-height:1.8;color:#333;margin:0 0 14px;">
+              The IRS agreed to a settlement with a company whose owner has donated heavily to Trump causes. The deal came after the administration took office. Judges reviewing related cases started noticing that the government's representations didn't match the facts. Then a second judge said the same thing. Then a third. By the time we finished counting, thirty-five of them had weighed in. The pattern they describe has a name: fraud on the court. It means the government lied to judges to get a favorable outcome. Read the full investigation.
+            </p>
+            <a href="${SITE_URL}/article/trump-irs-settlement-fraud-on-the-court-35-federal-judges" style="font-family:sans-serif;font-size:11px;font-weight:bold;color:#8B0000;text-decoration:none;letter-spacing:1px;text-transform:uppercase;">Read the full investigation →</a>
+          </td>
+        </tr>
+
+        <!-- Divider thin -->
+        <tr><td style="padding:24px 40px 0;"><hr style="border:none;border-top:1px solid #d4c9b4;margin:0;"></td></tr>
+
+        <!-- Story 2 -->
+        <tr>
+          <td style="padding:24px 40px 8px;">
+            <p style="margin:0 0 6px;font-family:sans-serif;font-size:10px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:#8B0000;">CORRUPTION</p>
+            <a href="${SITE_URL}/article/frank-carone-eric-adams-migrant-shelter-bribery-2026" style="font-family:Georgia,serif;font-size:20px;font-weight:bold;color:#0d0d0d;text-decoration:none;line-height:1.3;display:block;margin-bottom:12px;">The Migrant Crisis Shakedown: How New York's Chief of Staff Turned a Humanitarian Emergency Into a Bribery Scheme</a>
+            <p style="font-family:Georgia,serif;font-size:16px;line-height:1.8;color:#333;margin:0 0 14px;">
+              New York City was in the middle of a migrant crisis. Tens of thousands of people needed shelter. Frank Carone — Eric Adams' chief of staff, the most powerful unelected official in city government — allegedly used that emergency to pocket $120,000 in cash from a developer who wanted a hotel contract. His brother allegedly laundered the money. The FBI arrested Carone this week on thirteen federal counts. Read what we know.
+            </p>
+            <a href="${SITE_URL}/article/frank-carone-eric-adams-migrant-shelter-bribery-2026" style="font-family:sans-serif;font-size:11px;font-weight:bold;color:#8B0000;text-decoration:none;letter-spacing:1px;text-transform:uppercase;">Read more →</a>
+          </td>
+        </tr>
+
+        <tr><td style="padding:0 40px;"><hr style="border:none;border-top:1px solid #d4c9b4;margin:0;"></td></tr>
+
+        <!-- Story 3 -->
+        <tr>
+          <td style="padding:24px 40px 8px;">
+            <p style="margin:0 0 6px;font-family:sans-serif;font-size:10px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:#8B0000;">FOREIGN INFLUENCE</p>
+            <a href="${SITE_URL}/article/david-rivera-venezuela-maduro-fara-conviction-2026" style="font-family:Georgia,serif;font-size:20px;font-weight:bold;color:#0d0d0d;text-decoration:none;line-height:1.3;display:block;margin-bottom:12px;">Congressman Turned Foreign Agent: The David Rivera Conviction and the Shadow Lobby That Sold America to Maduro</a>
+            <p style="font-family:Georgia,serif;font-size:16px;line-height:1.8;color:#333;margin:0 0 14px;">
+              For years, David Rivera stood at a microphone calling Nicolás Maduro a communist dictator. He was a Republican congressman from Florida. He knew the talking points cold. He also, a federal jury found this week, secretly lobbied the United States government on Maduro's behalf for $50 million. A convicted foreign agent who used to give speeches condemning the regime he was working for. Read the story.
+            </p>
+            <a href="${SITE_URL}/article/david-rivera-venezuela-maduro-fara-conviction-2026" style="font-family:sans-serif;font-size:11px;font-weight:bold;color:#8B0000;text-decoration:none;letter-spacing:1px;text-transform:uppercase;">Read more →</a>
+          </td>
+        </tr>
+
+        <tr><td style="padding:0 40px;"><hr style="border:none;border-top:1px solid #d4c9b4;margin:0;"></td></tr>
+
+        <!-- Story 4 -->
+        <tr>
+          <td style="padding:24px 40px 8px;">
+            <p style="margin:0 0 6px;font-family:sans-serif;font-size:10px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:#8B0000;">PARDONS FOR SALE</p>
+            <a href="${SITE_URL}/article/pardon-for-sale-trumps-pay-to-play-clemency-machine" style="font-family:Georgia,serif;font-size:20px;font-weight:bold;color:#0d0d0d;text-decoration:none;line-height:1.3;display:block;margin-bottom:12px;">Pardon for Sale: Inside Trump's Pay-to-Play Clemency Machine</a>
+            <p style="font-family:Georgia,serif;font-size:16px;line-height:1.8;color:#333;margin:0 0 14px;">
+              The pardon power exists in the Constitution. No conditions. No review. No accountability. Which is why, if you want to understand how it's being used right now, you have to follow the money. We did. What we found was a pattern: donors, lawyers, lobbyists, and political allies moving in and out of the clemency process in ways that the founders almost certainly did not contemplate. Our full investigation is here.
+            </p>
+            <a href="${SITE_URL}/article/pardon-for-sale-trumps-pay-to-play-clemency-machine" style="font-family:sans-serif;font-size:11px;font-weight:bold;color:#8B0000;text-decoration:none;letter-spacing:1px;text-transform:uppercase;">Read more →</a>
+          </td>
+        </tr>
+
+        <tr><td style="padding:0 40px;"><hr style="border:none;border-top:1px solid #d4c9b4;margin:0;"></td></tr>
+
+        <!-- Story 5 -->
+        <tr>
+          <td style="padding:24px 40px 8px;">
+            <p style="margin:0 0 6px;font-family:sans-serif;font-size:10px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:#8B0000;">JUDICIAL ACCOUNTABILITY</p>
+            <a href="${SITE_URL}/article/three-judges-three-scandals-federal-judiciary-accountability-crisis-2026" style="font-family:Georgia,serif;font-size:20px;font-weight:bold;color:#0d0d0d;text-decoration:none;line-height:1.3;display:block;margin-bottom:12px;">Three Judges, Three Scandals: The Federal Judiciary's Accountability Crisis Comes Into Focus</a>
+            <p style="font-family:Georgia,serif;font-size:16px;line-height:1.8;color:#333;margin:0 0 14px;">
+              Three federal judges. Three separate scandals. One week. If this were happening in any other country, we'd be calling it a constitutional crisis. Because it's happening here, most people don't know about it. We're naming the judges, describing what they did, and explaining what — if anything — can be done about it.
+            </p>
+            <a href="${SITE_URL}/article/three-judges-three-scandals-federal-judiciary-accountability-crisis-2026" style="font-family:sans-serif;font-size:11px;font-weight:bold;color:#8B0000;text-decoration:none;letter-spacing:1px;text-transform:uppercase;">Read more →</a>
+          </td>
+        </tr>
+
+        <tr><td style="padding:0 40px;"><hr style="border:none;border-top:1px solid #d4c9b4;margin:0;"></td></tr>
+
+        <!-- Story 6 — International -->
+        <tr>
+          <td style="padding:24px 40px 8px;">
+            <p style="margin:0 0 6px;font-family:sans-serif;font-size:10px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:#8B0000;">AROUND THE WORLD</p>
+            <a href="${SITE_URL}/article/kim-keon-hee-bribery-sentence-south-korea-2026" style="font-family:Georgia,serif;font-size:20px;font-weight:bold;color:#0d0d0d;text-decoration:none;line-height:1.3;display:block;margin-bottom:12px;">A Dior Bag and a Diamond Necklace: South Korea Sentences Its Former First Lady to Seven Years</a>
+            <p style="font-family:Georgia,serif;font-size:16px;line-height:1.8;color:#333;margin:0 0 14px;">
+              Kim Keon Hee — wife of impeached, imprisoned president Yoon Suk Yeol — was sentenced to seven years in prison this week for accepting luxury bribes: a Van Cleef &amp; Arpels diamond necklace, a Dior bag, a Tiffany brooch. She took them in exchange for political favors. A Seoul court said so on the record. What's striking isn't the verdict. It's the contrast. We'll let you draw your own conclusions.
+            </p>
+            <a href="${SITE_URL}/article/kim-keon-hee-bribery-sentence-south-korea-2026" style="font-family:sans-serif;font-size:11px;font-weight:bold;color:#8B0000;text-decoration:none;letter-spacing:1px;text-transform:uppercase;">Read more →</a>
+          </td>
+        </tr>
+
+        <!-- Worst Judges Series callout -->
+        <tr>
+          <td style="padding:20px 40px 0;">
+            <div style="background:#0d0d0d;padding:22px 28px;border-left:4px solid #8B0000;">
+              <p style="margin:0 0 8px;font-family:sans-serif;font-size:10px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:#8B0000;">ONGOING SERIES</p>
+              <p style="margin:0 0 10px;font-family:Georgia,serif;font-size:17px;font-weight:bold;color:#f5f0e8;">The Worst Judges in America — State by State</p>
+              <p style="margin:0 0 14px;font-family:Georgia,serif;font-size:15px;line-height:1.7;color:#ccc;">This week we published sourced accountability reports on the worst judges in Alabama, Alaska, Arizona, Arkansas, California, Colorado, and Connecticut. Forty-three states still to go. Every report names names, cites records, and documents what the bar associations won't touch.</p>
+              <a href="${SITE_URL}/article/worst-judges-connecticut-2026" style="font-family:sans-serif;font-size:11px;font-weight:bold;color:#8B0000;text-decoration:none;letter-spacing:1px;text-transform:uppercase;">Browse the series →</a>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Closing note -->
+        <tr>
+          <td style="padding:32px 40px 20px;">
+            <p style="font-family:Georgia,serif;font-size:17px;line-height:1.8;color:#333;margin:0 0 16px;">That's the week. Thirty-five judges calling a government deal fraudulent. A chief of staff arrested at the midpoint of a humanitarian crisis. A congressman who spent years denouncing a dictator while secretly working for him. A former first lady in handcuffs. And a federal judiciary with three new scandals nobody's reporting on.</p>
+            <p style="font-family:Georgia,serif;font-size:17px;line-height:1.8;color:#333;margin:0 0 16px;">If any of this bothers you — and it should — the best thing you can do is share this newsletter with someone who ought to know about it. That's how independent journalism stays independent.</p>
+            <p style="font-family:Georgia,serif;font-size:17px;line-height:1.8;color:#333;margin:0;">See you next week.</p>
+            <p style="font-family:Georgia,serif;font-size:16px;font-style:italic;color:#555;margin:16px 0 0;">— The Ethics Reporter</p>
+          </td>
+        </tr>
+
+        <!-- Donate CTA — prominent ask -->
+        <tr>
+          <td style="padding:0 40px 32px;">
+            <div style="background:#0d0d0d;border-left:4px solid #8B0000;padding:28px 32px;">
+              <p style="margin:0 0 10px;font-family:sans-serif;font-size:10px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:#8B0000;">Before You Go — A Direct Ask</p>
+              <p style="margin:0 0 14px;font-family:Georgia,serif;font-size:17px;line-height:1.8;color:#f5f0e8;font-weight:bold;">This newsletter costs money to produce. We're asking you to help pay for it.</p>
+              <p style="margin:0 0 14px;font-family:Georgia,serif;font-size:16px;line-height:1.8;color:#ccc;">The Ethics Reporter has no advertisers. No hedge fund backing us. No corporate parent deciding what we can and can't say. Every investigation you read here — every named judge, every documented bribe, every case the mainstream press ignored — exists because individual readers decided it was worth supporting.</p>
+              <p style="margin:0 0 20px;font-family:Georgia,serif;font-size:16px;line-height:1.8;color:#ccc;">We're not asking for much. <strong style="color:#f5f0e8;">$10. $25. Whatever you can spare.</strong> If this morning note told you something you didn't know, and you think that matters — please donate right now. It genuinely keeps us going.</p>
+              <table cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="background:#8B0000;border-radius:3px;">
+                    <a href="${SITE_URL}/donate" style="display:inline-block;padding:14px 32px;font-family:sans-serif;font-size:14px;font-weight:bold;color:#fff;text-decoration:none;letter-spacing:0.5px;">Yes, I'll Donate to The Ethics Reporter →</a>
+                  </td>
+                </tr>
+              </table>
+              <p style="margin:14px 0 0;font-family:sans-serif;font-size:11px;color:#666;">Secure. One-time or monthly. Takes 60 seconds.</p>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+          <td style="padding:20px 40px;background:#0d0d0d;border-top:1px solid #333;">
+            <p style="font-family:sans-serif;font-size:11px;color:#666;margin:0;line-height:1.6;">
+              You're receiving this because you subscribed at <a href="${SITE_URL}" style="color:#8B0000;">theethicsreporter.com</a>.<br>
+              <a href="${SITE_URL}/unsubscribe?email={{contact.EMAIL}}" style="color:#666;">Unsubscribe</a> &nbsp;·&nbsp; <a href="${SITE_URL}" style="color:#666;">Read online</a>
+            </p>
+          </td>
+        </tr>
+
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>`;
+
+async function sendMorningNote() {
+  console.log("Creating Brevo campaign for Morning Note...");
+
+  const campaignPayload = {
+    name: `TER Morning Note — Week of Jun 22-28, 2026`,
+    subject: "35 Judges Just Called It Fraud. Nobody Covered It.",
+    sender: { name: SENDER_NAME, email: SENDER_EMAIL },
+    type: "classic",
+    htmlContent: NEWSLETTER_HTML,
+    recipients: { listIds: [TER_LIST_ID] },
+    scheduledAt: new Date(Date.now() + 60000).toISOString(), // send immediately after creation
+  };
+
+  const createRes = await fetch("https://api.brevo.com/v3/emailCampaigns", {
+    method: "POST",
+    headers: { "api-key": BREVO_API_KEY, "Content-Type": "application/json" },
+    body: JSON.stringify(campaignPayload),
+  });
+
+  if (!createRes.ok) {
+    const err = await createRes.json().catch(() => ({}));
+    throw new Error(`Campaign creation failed: ${JSON.stringify(err)}`);
+  }
+
+  const campaign = await createRes.json();
+  const campaignId = campaign.id;
+  console.log(`Campaign created: ID ${campaignId}`);
+
+  // Send now
+  const sendRes = await fetch(`https://api.brevo.com/v3/emailCampaigns/${campaignId}/sendNow`, {
+    method: "POST",
+    headers: { "api-key": BREVO_API_KEY },
+  });
+
+  if (!sendRes.ok && sendRes.status !== 204) {
+    const err = await sendRes.json().catch(() => ({}));
+    throw new Error(`Send failed: ${JSON.stringify(err)}`);
+  }
+
+  console.log(`Morning Note sent. Campaign ID: ${campaignId}`);
+  return campaignId;
+}
+
+sendMorningNote()
+  .then((id) => {
+    console.log(`✅ Morning Note delivered. Brevo campaign: ${id}`);
+    process.exit(0);
+  })
+  .catch((err) => {
+    console.error("❌ Failed:", err.message);
+    process.exit(1);
+  });
