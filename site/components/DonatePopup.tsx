@@ -4,8 +4,8 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const STORAGE_KEY = "ter_donate_popup_dismissed";
-const DISMISS_DAYS = 5; // don't show again for 5 days after dismiss
-const DELAY_MS = 6000;  // show after 6 seconds
+const DISMISS_DAYS = 1; // don't show again for 1 day after dismiss
+const DELAY_MS = 2500;  // show after 2.5 seconds
 
 export default function DonatePopup() {
   const [visible, setVisible] = useState(false);

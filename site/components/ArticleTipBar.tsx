@@ -21,7 +21,7 @@ export default function ArticleTipBar() {
       const scrolled = window.scrollY;
       const total = document.documentElement.scrollHeight - window.innerHeight;
       const pct = total > 0 ? scrolled / total : 0;
-      setVisible(pct >= 0.55);
+      setVisible(pct >= 0.25);
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });

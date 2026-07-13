@@ -157,6 +157,36 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
               dangerouslySetInnerHTML={{ __html: post.content || "" }}
             />
 
+            {/* Mid-article donation break — always visible, no JS */}
+            <div className="my-10 rounded-xl border border-[#c8a45a] bg-[#1a0000] px-6 py-7 text-center">
+              <p className="text-[#e8c07a] text-xs font-bold uppercase tracking-widest font-sans mb-2">
+                Reader-Supported Journalism
+              </p>
+              <p className="text-white font-sans text-base font-semibold leading-snug mb-1">
+                We don&apos;t have corporate backers. We have you.
+              </p>
+              <p className="text-gray-400 text-sm font-sans mb-5">
+                No ads. No paywalls. No sponsor influence — ever. If this reporting matters to you, please help us keep going.
+              </p>
+              <div className="flex flex-wrap justify-center gap-3">
+                {[5, 10, 25, 50].map((amt) => (
+                  <Link
+                    key={amt}
+                    href={`/donate?amount=${amt}`}
+                    className="px-5 py-2 rounded-lg border-2 border-[#8B0000] text-[#ff8888] hover:bg-[#8B0000] hover:text-white font-bold text-sm font-sans transition-colors"
+                  >
+                    ${amt}
+                  </Link>
+                ))}
+                <Link
+                  href="/donate"
+                  className="px-5 py-2 rounded-lg bg-[#8B0000] hover:bg-[#a00000] text-white font-bold text-sm font-sans transition-colors"
+                >
+                  Other Amount →
+                </Link>
+              </div>
+            </div>
+
             {(post.tags || []).length > 0 && (
               <div className="mt-10 pt-6 border-t border-gray-200">
                 <div className="flex flex-wrap gap-2">
