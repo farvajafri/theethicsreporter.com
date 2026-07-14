@@ -2,6 +2,7 @@ import { getAllEpisodes, type Episode } from "@/lib/episodes";
 import { SITE_NAME, SITE_URL } from "@/lib/data";
 import type { Metadata } from "next";
 import Link from "next/link";
+import DonateCTA from "@/components/DonateCTA";
 
 export const metadata: Metadata = {
   title: "Podcast",
@@ -78,6 +79,14 @@ export default function PodcastPage() {
           ))}
         </div>
       )}
+
+      {/* Reader-support ask */}
+      <DonateCTA
+        className="mt-12"
+        heading="This podcast is 100% listener-funded."
+        body="No ads, no sponsors, no corporate money — just listeners like you. If The Ethics Reporter Podcast is worth your time, please help us keep producing it. Even $1 makes a real difference."
+        trackPrefix="podcast_list"
+      />
     </div>
   );
 }

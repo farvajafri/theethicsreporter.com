@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NewsletterSignup from "@/components/NewsletterSignup";
+import DonateButton from "@/components/DonateButton";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -9,9 +10,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-white font-bold text-lg mb-3 font-sans">The Ethics Reporter</h3>
-            <p className="text-sm leading-relaxed">
+            <p className="text-sm leading-relaxed mb-4">
               Independent legal ethics journalism — holding the legal profession accountable.
+              No ads, no corporate money. 100% reader-funded.
             </p>
+            <DonateButton variant="footer" label="❤ Donate" trackLabel="footer_button" />
           </div>
 
           <div>
@@ -20,7 +23,6 @@ export default function Footer() {
               <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
               <li><Link href="/about" className="hover:text-white transition-colors">About</Link></li>
               <li><Link href="/tip" className="hover:text-white transition-colors">Submit a Tip</Link></li>
-              <li><Link href="/donate" className="hover:text-white transition-colors">Donate</Link></li>
               <li><Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
             </ul>
           </div>

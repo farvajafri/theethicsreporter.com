@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import DonateButton from "@/components/DonateButton";
 
 function InstagramIcon() {
   return (
@@ -140,37 +141,51 @@ export default function Header() {
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center justify-between pb-4 text-sm font-sans font-medium">
-          {navLinks.filter(l => l.href !== '/' && !(l as { grievance?: boolean }).grievance).map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={
-                link.donate
-                  ? "bg-[#8B0000] hover:bg-[#6b0000] text-white font-bold px-3 py-1 rounded transition-colors"
-                  : (link as { grievance?: boolean }).grievance
-                  ? "bg-[#e8c07a] hover:bg-[#d4a960] text-[#1a0000] font-bold px-3 py-1 rounded transition-colors"
-                  : link.highlight
-                  ? "text-white font-bold hover:text-red-300 transition-colors"
-                  : "text-gray-300 hover:text-white transition-colors"
-              }
-            >
-              {link.label}
-            </Link>
-          ))}
+          {navLinks.filter(l => l.href !== '/' && !(l as { grievance?: boolean }).grievance).map((link) =>
+            link.donate ? (
+              <DonateButton
+                key={link.href}
+                variant="nav"
+                label={link.label}
+                trackLabel="header_nav"
+              />
+            ) : (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={
+                  (link as { grievance?: boolean }).grievance
+                    ? "bg-[#e8c07a] hover:bg-[#d4a960] text-[#1a0000] font-bold px-3 py-1 rounded transition-colors"
+                    : link.highlight
+                    ? "text-white font-bold hover:text-red-300 transition-colors"
+                    : "text-gray-300 hover:text-white transition-colors"
+                }
+              >
+                {link.label}
+              </Link>
+            )
+          )}
         </nav>
 
         {/* Mobile nav dropdown */}
         {menuOpen && (
           <nav className="md:hidden border-t border-gray-700 py-4 flex flex-col gap-0">
-            {navLinks.filter(l => l.href !== '/').map((link) => (
+            {navLinks.filter(l => l.href !== '/').map((link) =>
+              link.donate ? (
+                <div key={link.href} onClick={() => setMenuOpen(false)}>
+                  <DonateButton
+                    variant="navMobile"
+                    label={link.label}
+                    trackLabel="header_nav_mobile"
+                  />
+                </div>
+              ) : (
               <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
                 className={
-                  link.donate
-                    ? "block px-2 py-3 text-base font-bold text-red-400 border-b border-gray-800"
-                    : (link as { grievance?: boolean }).grievance
+                  (link as { grievance?: boolean }).grievance
                     ? "block px-2 py-3 text-base font-bold text-[#e8c07a] border-b border-gray-800"
                     : link.highlight
                     ? "block px-2 py-3 text-base font-bold text-red-400 border-b border-gray-800"
@@ -179,7 +194,8 @@ export default function Header() {
               >
                 {link.label}
               </Link>
-            ))}
+              )
+            )}
           </nav>
         )}
       </div>

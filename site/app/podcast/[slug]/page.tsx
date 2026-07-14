@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import AudioPlayer from "@/components/AudioPlayer";
+import DonateCTA from "@/components/DonateCTA";
+import FloatingDonate from "@/components/FloatingDonate";
 
 function formatDate(dateStr: string): string {
   return new Date(dateStr).toLocaleDateString("en-US", {
@@ -73,6 +75,7 @@ export default function EpisodePage({ params }: { params: { slug: string } }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <FloatingDonate />
       <div className="max-w-3xl mx-auto px-4 py-10">
         <div className="mb-2">
           <Link
@@ -101,6 +104,14 @@ export default function EpisodePage({ params }: { params: { slug: string } }) {
         <div className="prose font-serif text-lg leading-relaxed text-gray-700">
           <p>{episode.description}</p>
         </div>
+
+        {/* Reader-support ask on every episode page */}
+        <DonateCTA
+          className="mt-10"
+          heading="Like the show? Help keep it going."
+          body="The Ethics Reporter Podcast has no advertisers and no sponsors reading ad copy between segments — it's funded entirely by listeners like you. If these investigations are worth your time, please consider chipping in. Even $1 keeps the mics on."
+          trackPrefix="podcast_episode"
+        />
 
         <div className="mt-10 pt-6 border-t border-gray-200 flex gap-4">
           <a

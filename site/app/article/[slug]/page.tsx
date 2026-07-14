@@ -5,6 +5,7 @@ import Link from "next/link";
 import ArticleSidebar from "@/components/ArticleSidebar";
 import DonationWidget from "@/components/DonationWidget";
 import ArticleTipBar from "@/components/ArticleTipBar";
+import FloatingDonate from "@/components/FloatingDonate";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function decodeEntities(text: any): string {
@@ -127,6 +128,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <ArticleTipBar />
+      <FloatingDonate />
       <div className="max-w-6xl mx-auto px-4 py-10">
         <div className="flex flex-col lg:flex-row lg:gap-10">
           {/* Sidebar — left on desktop, bottom on mobile */}
