@@ -10,6 +10,8 @@ import { getAllKevinNutterSlugs } from "@/lib/kevin-nutter-data";
 import { getAllAttorneySlugs } from "@/lib/attorneys-data";
 import { getAllRuleSlugs } from "@/lib/rules-data";
 import { getAllCitySlugs } from "@/lib/cities-data";
+import { merch, merchCategories, merchThemes } from "@/lib/merch";
+import { US_STATES, FOUNDERS, GIFT_OCCASIONS } from "@/lib/merch-seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts();
@@ -158,8 +160,38 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   };
 
+  // ===== Merch / Shop SEO URLs =====
+  const shopHubUrl = { url: `${SITE_URL}/shop`, lastModified: new Date(), changeFrequency: "weekly" as const, priority: 0.9 };
+  const merchProductUrls = merch.map((p) => ({
+    url: `${SITE_URL}/shop/${p.id}`, lastModified: new Date(), changeFrequency: "weekly" as const, priority: 0.8,
+  }));
+  const merchCategoryUrls = merchCategories.filter((c) => c.id !== "all").map((c) => ({
+    url: `${SITE_URL}/shop/category/${c.slug}`, lastModified: new Date(), changeFrequency: "weekly" as const, priority: 0.7,
+  }));
+  const merchThemeUrls = merchThemes.map((t) => ({
+    url: `${SITE_URL}/shop/collections/${t.id}`, lastModified: new Date(), changeFrequency: "weekly" as const, priority: 0.7,
+  }));
+  const merchFounderUrls = FOUNDERS.map((f) => ({
+    url: `${SITE_URL}/shop/quotes/${f.slug}`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7,
+  }));
+  const merchGiftUrls = GIFT_OCCASIONS.map((g) => ({
+    url: `${SITE_URL}/shop/gifts/${g.slug}`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.6,
+  }));
+  const merchStateUrls = merch.flatMap((p) =>
+    US_STATES.map((s) => ({
+      url: `${SITE_URL}/shop/${p.id}/${s.slug}`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.5,
+    }))
+  );
+
   return [
     ...staticPages,
+    shopHubUrl,
+    ...merchProductUrls,
+    ...merchCategoryUrls,
+    ...merchThemeUrls,
+    ...merchFounderUrls,
+    ...merchGiftUrls,
+    ...merchStateUrls,
     ...articleUrls,
     ...tabUrls,
     ...stateUrls,

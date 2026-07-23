@@ -1,0 +1,764 @@
+[
+  {
+    "id": "tree-of-liberty-tee",
+    "name": "Tree of Liberty",
+    "description": "Jefferson's most incendiary line, printed full-width across the chest on a garment-dyed heavyweight tee. The quote that reminds every generation what freedom actually costs.",
+    "price": 38,
+    "baseCost": 16.5,
+    "category": "tshirt",
+    "image": "/products/tree-of-liberty-tee.jpg",
+    "quote": "The tree of liberty must be refreshed from time to time with the blood of patriots and tyrants. It is its natural manure.",
+    "attribution": "Thomas Jefferson, 1787",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black",
+      "Faded Red",
+      "Military Green"
+    ],
+    "printMethod": "dtg",
+    "blank": "Comfort Colors C1717 Garment-Dyed Heavyweight",
+    "theme": "revolution"
+  },
+  {
+    "id": "give-me-liberty-tee",
+    "name": "Give Me Liberty",
+    "description": "Patrick Henry's war cry that lit the fuse of the American Revolution. Bold, unmistakable, and as urgent now as it was in 1775.",
+    "price": 35,
+    "baseCost": 16.5,
+    "category": "tshirt",
+    "image": "/products/give-me-liberty-tee.jpg",
+    "quote": "Give me liberty, or give me death!",
+    "attribution": "Patrick Henry, 1775",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black",
+      "Faded Red",
+      "Military Green"
+    ],
+    "printMethod": "dtg",
+    "blank": "Comfort Colors C1717 Garment-Dyed Heavyweight",
+    "theme": "revolution"
+  },
+  {
+    "id": "times-that-try-tee",
+    "name": "Times That Try Men's Souls",
+    "description": "Thomas Paine wrote these words to a freezing, retreating army. They rallied a revolution. A full-quote vintage tee for those who don't quit when it gets hard.",
+    "price": 38,
+    "baseCost": 16.5,
+    "category": "tshirt",
+    "image": "/products/times-that-try-tee.jpg",
+    "quote": "These are the times that try men's souls. The summer soldier and the sunshine patriot will, in this crisis, shrink from the service of their country; but he that stands it now, deserves the love and thanks of man and woman.",
+    "attribution": "Thomas Paine, The Crisis, 1776",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black",
+      "Faded Red",
+      "Military Green"
+    ],
+    "printMethod": "dtg",
+    "blank": "Comfort Colors C1717 Garment-Dyed Heavyweight",
+    "theme": "revolution"
+  },
+  {
+    "id": "take-america-back-tee",
+    "name": "Take America Back",
+    "description": "The flagship. Military stencil lettering with an intentional distressed finish via DTF printing on a garment-dyed blank. This is the movement, worn on your chest.",
+    "price": 35,
+    "baseCost": 18.5,
+    "category": "tshirt",
+    "image": "/products/shirt-takeback.jpg",
+    "quote": "Take America Back",
+    "attribution": "The Ethics Reporter",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      "Military Green",
+      "Vintage Navy",
+      "Vintage Black"
+    ],
+    "printMethod": "dtf",
+    "blank": "Comfort Colors C1717 (DTF Distressed Print)",
+    "theme": "revolution"
+  },
+  {
+    "id": "sons-of-liberty-hoodie",
+    "name": "Sons of Liberty",
+    "description": "The original American resistance movement. Pigment-dyed heavyweight hoodie with the Sons of Liberty banner and founding date. Broken-in from the first wear.",
+    "price": 55,
+    "baseCost": 28,
+    "category": "hoodie",
+    "image": "/products/sons-of-liberty-hoodie.jpg",
+    "quote": "No taxation without representation.",
+    "attribution": "Sons of Liberty, 1765",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black",
+      "Heather Grey"
+    ],
+    "printMethod": "dtg",
+    "blank": "Independent Trading Co. Pigment-Dyed Hoodie",
+    "theme": "revolution"
+  },
+  {
+    "id": "liberty-safety-tee",
+    "name": "Liberty Over Safety",
+    "description": "Franklin's warning about trading freedom for the illusion of security. A full-quote tee for anyone who's watched liberty erode in the name of \"safety.\"",
+    "price": 38,
+    "baseCost": 16.5,
+    "category": "tshirt",
+    "image": "/products/liberty-safety-tee.jpg",
+    "quote": "Those who would give up essential Liberty, to purchase a little temporary Safety, deserve neither Liberty nor Safety.",
+    "attribution": "Benjamin Franklin, 1755",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black",
+      "Faded Red",
+      "Military Green"
+    ],
+    "printMethod": "dtg",
+    "blank": "Comfort Colors C1717 Garment-Dyed Heavyweight",
+    "theme": "liberty"
+  },
+  {
+    "id": "dont-tread-hat",
+    "name": "Don't Tread On Me",
+    "description": "Premium vintage trucker cap with structured crown. The Gadsden snake embroidered in flat 2D thread — the oldest symbol of American defiance. Snap-back closure.",
+    "price": 34,
+    "baseCost": 16.5,
+    "category": "hat",
+    "image": "/products/hat-gadsden.jpg",
+    "quote": "Don't Tread On Me",
+    "attribution": "Christopher Gadsden, 1775",
+    "colors": [
+      "Navy/Cream",
+      "Black/Cream",
+      "Military Green"
+    ],
+    "printMethod": "embroidery",
+    "blank": "Otto Cap Vintage Trucker (Structured)",
+    "theme": "liberty"
+  },
+  {
+    "id": "liberty-once-lost-tee",
+    "name": "Liberty Once Lost",
+    "description": "John Adams understood that freedom, once surrendered, rarely returns. A sobering full-quote tee for those paying attention.",
+    "price": 38,
+    "baseCost": 16.5,
+    "category": "tshirt",
+    "image": "/products/liberty-once-lost-tee.jpg",
+    "quote": "Liberty, once lost, is lost forever.",
+    "attribution": "John Adams, 1775",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black",
+      "Faded Red",
+      "Military Green"
+    ],
+    "printMethod": "dtg",
+    "blank": "Comfort Colors C1717 Garment-Dyed Heavyweight",
+    "theme": "liberty"
+  },
+  {
+    "id": "god-liberty-mug",
+    "name": "Almighty God Hath Created The Mind Free",
+    "description": "15oz ceramic mug carrying Jefferson's conviction that freedom of the mind is a God-given right. For the morning patriot.",
+    "price": 22,
+    "baseCost": 7.5,
+    "category": "mug",
+    "image": "/products/god-liberty-mug.jpg",
+    "quote": "Almighty God hath created the mind free.",
+    "attribution": "Thomas Jefferson, 1779",
+    "colors": [
+      "White",
+      "Black"
+    ],
+    "printMethod": "dtg",
+    "blank": "White Ceramic Mug 15oz",
+    "theme": "liberty"
+  },
+  {
+    "id": "price-of-liberty-longsleeve",
+    "name": "The Price of Liberty",
+    "description": "Long sleeve garment-dyed shirt with the eternal warning: freedom demands vigilance. Softens with every wash.",
+    "price": 42,
+    "baseCost": 18.5,
+    "category": "longsleeve",
+    "image": "/products/price-of-liberty-longsleeve.jpg",
+    "quote": "The condition upon which God hath given liberty to man is eternal vigilance.",
+    "attribution": "John Philpot Curran, 1790",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black"
+    ],
+    "printMethod": "dtg",
+    "blank": "Comfort Colors Long Sleeve (Garment-Dyed)",
+    "theme": "liberty"
+  },
+  {
+    "id": "gadsden-sticker",
+    "name": "Don't Tread On Me (Sticker)",
+    "description": "Pack of 5 die-cut vinyl Gadsden flag stickers. Weatherproof and fade-resistant. For your truck, laptop, or anywhere you want to make a stand.",
+    "price": 9,
+    "baseCost": 2.5,
+    "category": "sticker",
+    "image": "/products/gadsden-sticker.jpg",
+    "quote": "Don't Tread On Me",
+    "attribution": "Gadsden Flag, 1775",
+    "printMethod": "dtf",
+    "blank": "Die-Cut Vinyl Sticker (pack of 5)",
+    "theme": "liberty"
+  },
+  {
+    "id": "freedom-not-free-tee",
+    "name": "Liberty Is the Great Parent",
+    "description": "Washington understood that free thought and free speech are the root of everything a free nation grows. A bold-quote tee for defenders of the first freedom.",
+    "price": 38,
+    "baseCost": 16.5,
+    "category": "tshirt",
+    "image": "/products/freedom-not-free-tee.jpg",
+    "quote": "Liberty, when it begins to take root, is a plant of rapid growth.",
+    "attribution": "George Washington, 1788",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black",
+      "Faded Red",
+      "Military Green"
+    ],
+    "printMethod": "dtg",
+    "blank": "Comfort Colors C1717 Garment-Dyed Heavyweight",
+    "theme": "freedom"
+  },
+  {
+    "id": "freedom-of-speech-tee",
+    "name": "Freedom of Speech",
+    "description": "Franklin's defense of the first freedom — the one that protects all others. A full-quote tee for a moment when speech itself is under siege.",
+    "price": 38,
+    "baseCost": 16.5,
+    "category": "tshirt",
+    "image": "/products/freedom-of-speech-tee.jpg",
+    "quote": "Whoever would overthrow the liberty of a nation must begin by subduing the freeness of speech.",
+    "attribution": "Benjamin Franklin, 1722",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black",
+      "Faded Red",
+      "Military Green"
+    ],
+    "printMethod": "dtg",
+    "blank": "Comfort Colors C1717 Garment-Dyed Heavyweight",
+    "theme": "freedom"
+  },
+  {
+    "id": "where-liberty-dwells-tee",
+    "name": "Where Liberty Dwells",
+    "description": "Franklin declared his allegiance not to a place, but to freedom itself. A vintage tee for citizens of liberty everywhere.",
+    "price": 35,
+    "baseCost": 16.5,
+    "category": "tshirt",
+    "image": "/products/where-liberty-dwells-tee.jpg",
+    "quote": "Where liberty dwells, there is my country.",
+    "attribution": "Benjamin Franklin",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black",
+      "Faded Red",
+      "Military Green"
+    ],
+    "printMethod": "dtg",
+    "blank": "Comfort Colors C1717 Garment-Dyed Heavyweight",
+    "theme": "freedom"
+  },
+  {
+    "id": "freedom-hoodie",
+    "name": "Freedom Hoodie",
+    "description": "Pigment-dyed hoodie carrying Jefferson's timeless line on the price of freedom. Heavyweight, broken-in, built to last.",
+    "price": 55,
+    "baseCost": 28,
+    "category": "hoodie",
+    "image": "/products/freedom-hoodie.jpg",
+    "quote": "Timid men prefer the calm of despotism to the tempestuous sea of liberty.",
+    "attribution": "Thomas Jefferson, 1796",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black",
+      "Heather Grey"
+    ],
+    "printMethod": "dtg",
+    "blank": "Independent Trading Co. Pigment-Dyed Hoodie",
+    "theme": "freedom"
+  },
+  {
+    "id": "freedom-hat",
+    "name": "Land of the Free Hat",
+    "description": "Structured vintage cap with \"LAND OF THE FREE\" embroidered in classic flat thread. Understated, timeless, American.",
+    "price": 34,
+    "baseCost": 16.5,
+    "category": "hat",
+    "image": "/products/freedom-hat.jpg",
+    "quote": "Land of the Free",
+    "attribution": "The Ethics Reporter",
+    "colors": [
+      "Navy/Cream",
+      "Black/Cream",
+      "Sand"
+    ],
+    "printMethod": "embroidery",
+    "blank": "Otto Cap Vintage Trucker (Structured)",
+    "theme": "freedom"
+  },
+  {
+    "id": "resistance-tyranny-tee",
+    "name": "Resistance to Tyranny",
+    "description": "Jefferson's creed, and the founding principle of the republic. A full-quote tee for those who refuse to comply with injustice.",
+    "price": 38,
+    "baseCost": 16.5,
+    "category": "tshirt",
+    "image": "/products/resistance-tyranny-tee.jpg",
+    "quote": "Resistance to tyrants is obedience to God.",
+    "attribution": "Thomas Jefferson",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black",
+      "Faded Red",
+      "Military Green"
+    ],
+    "printMethod": "dtg",
+    "blank": "Comfort Colors C1717 Garment-Dyed Heavyweight",
+    "theme": "resistance"
+  },
+  {
+    "id": "when-injustice-tee",
+    "name": "When Injustice Becomes Law",
+    "description": "The rallying cry of every resistance movement. Bold full-quote tee on a garment-dyed blank.",
+    "price": 38,
+    "baseCost": 16.5,
+    "category": "tshirt",
+    "image": "/products/when-injustice-tee.jpg",
+    "quote": "When injustice becomes law, resistance becomes duty.",
+    "attribution": "Attributed to Thomas Jefferson",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black",
+      "Faded Red",
+      "Military Green"
+    ],
+    "printMethod": "dtg",
+    "blank": "Comfort Colors C1717 Garment-Dyed Heavyweight",
+    "theme": "resistance"
+  },
+  {
+    "id": "disobedience-tee",
+    "name": "Rebellion to Tyrants",
+    "description": "Franklin proposed this as the motto of the United States itself. A full-quote tee reclaiming the founders' rebellious spirit.",
+    "price": 35,
+    "baseCost": 16.5,
+    "category": "tshirt",
+    "image": "/products/disobedience-tee.jpg",
+    "quote": "Rebellion to tyrants is obedience to God.",
+    "attribution": "Benjamin Franklin, proposed U.S. motto, 1776",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black",
+      "Faded Red",
+      "Military Green"
+    ],
+    "printMethod": "dtg",
+    "blank": "Comfort Colors C1717 Garment-Dyed Heavyweight",
+    "theme": "resistance"
+  },
+  {
+    "id": "resistance-mug",
+    "name": "Resistance Is Duty (Mug)",
+    "description": "15oz ceramic mug. Franklin's principle for the morning patriot. Dishwasher safe.",
+    "price": 22,
+    "baseCost": 7.5,
+    "category": "mug",
+    "image": "/products/mug-franklin.jpg",
+    "quote": "Resistance to tyranny is obedience to God.",
+    "attribution": "Benjamin Franklin (attributed)",
+    "colors": [
+      "White",
+      "Black"
+    ],
+    "printMethod": "dtg",
+    "blank": "White Ceramic Mug 15oz",
+    "theme": "resistance"
+  },
+  {
+    "id": "we-the-people-tee",
+    "name": "We The People",
+    "description": "The three words that begin the whole experiment. Garment-dyed heavyweight tee with soft-hand DTG that looks like it's been in your closet for 200 years.",
+    "price": 35,
+    "baseCost": 16.5,
+    "category": "tshirt",
+    "image": "/products/shirt-people.jpg",
+    "quote": "We The People of the United States, in Order to form a more perfect Union...",
+    "attribution": "U.S. Constitution, Preamble",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black",
+      "Faded Red",
+      "Military Green"
+    ],
+    "printMethod": "dtg",
+    "blank": "Comfort Colors C1717 Garment-Dyed Heavyweight",
+    "theme": "constitution"
+  },
+  {
+    "id": "constitution-guide-hoodie",
+    "name": "Constitution Is My Guide",
+    "description": "Washington's pledge on a pigment-dyed hoodie. For the patriot who puts the founding document above any politician.",
+    "price": 55,
+    "baseCost": 28,
+    "category": "hoodie",
+    "image": "/products/hoodie-washington.jpg",
+    "quote": "The Constitution is the guide which I never will abandon.",
+    "attribution": "George Washington, 1796",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black",
+      "Heather Grey"
+    ],
+    "printMethod": "dtg",
+    "blank": "Independent Trading Co. Pigment-Dyed Hoodie",
+    "theme": "constitution"
+  },
+  {
+    "id": "facts-are-stubborn-longsleeve",
+    "name": "Facts Are Stubborn Things",
+    "description": "Long sleeve garment-dyed shirt with John Adams' defense of truth. For the patriot who refuses to bend to the narrative.",
+    "price": 42,
+    "baseCost": 18.5,
+    "category": "longsleeve",
+    "image": "/products/longsleeve-adams.jpg",
+    "quote": "Facts are stubborn things; and whatever may be our wishes, our inclinations, or the dictates of our passions, they cannot alter the state of facts and evidence.",
+    "attribution": "John Adams, 1770",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black"
+    ],
+    "printMethod": "dtg",
+    "blank": "Comfort Colors Long Sleeve (Garment-Dyed)",
+    "theme": "constitution"
+  },
+  {
+    "id": "tree-of-liberty-hoodie",
+    "name": "Tree of Liberty (Hoodie)",
+    "description": "Jefferson's warning on a pigment-dyed heavyweight hoodie. For the patriot who understands freedom has a cost.",
+    "price": 55,
+    "baseCost": 28,
+    "category": "hoodie",
+    "image": "/products/hoodie-jefferson.jpg",
+    "quote": "The tree of liberty must be refreshed from time to time with the blood of patriots and tyrants.",
+    "attribution": "Thomas Jefferson, 1787",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black",
+      "Heather Grey"
+    ],
+    "printMethod": "dtg",
+    "blank": "Independent Trading Co. Pigment-Dyed Hoodie",
+    "theme": "revolution"
+  },
+  {
+    "id": "liberty-safety-sticker",
+    "name": "Liberty Over Safety (Sticker)",
+    "description": "Pack of 5 die-cut vinyl bumper stickers. Franklin's eternal warning, weatherproof and ready for your truck or laptop.",
+    "price": 9,
+    "baseCost": 2.5,
+    "category": "sticker",
+    "image": "/products/sticker-franklin.jpg",
+    "quote": "Those who would give up essential Liberty, to purchase a little temporary Safety, deserve neither Liberty nor Safety.",
+    "attribution": "Benjamin Franklin, 1755",
+    "printMethod": "dtf",
+    "blank": "Die-Cut Vinyl Sticker (pack of 5)",
+    "theme": "liberty"
+  },
+  {
+    "id": "dont-tread-beanie",
+    "name": "Don't Tread On Me Beanie",
+    "description": "Cuffed knit beanie with the Gadsden snake embroidered on the fold. Warm, structured, and unmistakably defiant.",
+    "price": 28,
+    "baseCost": 12.5,
+    "category": "beanie",
+    "image": "/products/dont-tread-beanie.jpg",
+    "quote": "Don't Tread On Me",
+    "attribution": "Christopher Gadsden, 1775",
+    "colors": [
+      "Black",
+      "Navy",
+      "Heather Grey"
+    ],
+    "printMethod": "embroidery",
+    "blank": "Cuffed Knit Beanie",
+    "theme": "liberty"
+  },
+  {
+    "id": "liberty-beanie",
+    "name": "1776 Liberty Beanie",
+    "description": "Cuffed knit beanie with \"1776\" embroidered in classic flat thread. Understated, timeless, American.",
+    "price": 28,
+    "baseCost": 12.5,
+    "category": "beanie",
+    "image": "/products/liberty-beanie.jpg",
+    "quote": "1776",
+    "attribution": "The Ethics Reporter",
+    "colors": [
+      "Black",
+      "Navy",
+      "Military Green"
+    ],
+    "printMethod": "embroidery",
+    "blank": "Cuffed Knit Beanie",
+    "theme": "revolution"
+  },
+  {
+    "id": "we-the-people-crewneck",
+    "name": "We The People Crewneck",
+    "description": "Heavyweight pigment-dyed crewneck sweatshirt. The Preamble across the chest in vintage serif. Soft, broken-in, built to last.",
+    "price": 58,
+    "baseCost": 29,
+    "category": "crewneck",
+    "image": "/products/we-the-people-crewneck.jpg",
+    "quote": "We The People of the United States, in Order to form a more perfect Union...",
+    "attribution": "U.S. Constitution, Preamble",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      "Vintage Navy",
+      "Vintage Black",
+      "Heather Grey"
+    ],
+    "printMethod": "dtg",
+    "blank": "Independent Trading Co. Pigment-Dyed Crewneck",
+    "theme": "constitution"
+  },
+  {
+    "id": "liberty-tote",
+    "name": "Liberty Canvas Tote",
+    "description": "Heavyweight natural canvas tote. \"WHERE LIBERTY DWELLS, THERE IS MY COUNTRY\" printed across the front. For the market, the library, or the protest.",
+    "price": 26,
+    "baseCost": 11,
+    "category": "tote",
+    "image": "/products/liberty-tote.jpg",
+    "quote": "Where liberty dwells, there is my country.",
+    "attribution": "Benjamin Franklin",
+    "printMethod": "dtg",
+    "blank": "Organic Cotton Canvas Tote",
+    "theme": "liberty"
+  },
+  {
+    "id": "liberty-tumbler",
+    "name": "Give Me Liberty Tumbler",
+    "description": "20oz stainless steel insulated tumbler. Patrick Henry's war cry wrapped around it. Keeps coffee hot and convictions hotter.",
+    "price": 32,
+    "baseCost": 15,
+    "category": "tumbler",
+    "image": "/products/liberty-tumbler.jpg",
+    "quote": "Give me liberty, or give me death!",
+    "attribution": "Patrick Henry, 1775",
+    "colors": [
+      "Stainless",
+      "Black",
+      "Navy"
+    ],
+    "printMethod": "sublimation",
+    "blank": "20oz Stainless Steel Insulated Tumbler",
+    "theme": "revolution"
+  },
+  {
+    "id": "gadsden-socks",
+    "name": "Don't Tread On Me Socks",
+    "description": "All-over-print crew socks with the Gadsden snake and stripes. A little defiance from the ankle down.",
+    "price": 16,
+    "baseCost": 8,
+    "category": "socks",
+    "image": "/products/gadsden-socks.jpg",
+    "quote": "Don't Tread On Me",
+    "attribution": "Gadsden Flag, 1775",
+    "sizes": [
+      "S/M",
+      "L/XL"
+    ],
+    "printMethod": "sublimation",
+    "blank": "All-Over-Print Crew Socks",
+    "theme": "liberty"
+  },
+  {
+    "id": "take-america-back-yardsign",
+    "name": "Take America Back Yard Sign",
+    "description": "Weatherproof double-sided yard sign with H-stake. Plant your convictions in your front lawn.",
+    "price": 24,
+    "baseCost": 10,
+    "category": "yardsign",
+    "image": "/products/take-america-back-yardsign.jpg",
+    "quote": "Take America Back",
+    "attribution": "The Ethics Reporter",
+    "printMethod": "sublimation",
+    "blank": "Double-Sided Corrugated Yard Sign + Stake",
+    "theme": "revolution"
+  },
+  {
+    "id": "gadsden-pin",
+    "name": "Gadsden Enamel Pin",
+    "description": "Hard enamel lapel pin of the coiled Gadsden snake. Rubber clutch backing. For your jacket, bag, or hat.",
+    "price": 12,
+    "baseCost": 5,
+    "category": "pin",
+    "image": "/products/gadsden-pin.jpg",
+    "quote": "Don't Tread On Me",
+    "attribution": "Gadsden Flag, 1775",
+    "printMethod": "engraving",
+    "blank": "Hard Enamel Lapel Pin",
+    "theme": "liberty"
+  }
+]
