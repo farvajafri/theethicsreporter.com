@@ -183,16 +183,19 @@ async function handleMerchSale(session: Stripe.Checkout.Session) {
     console.error("Failed to send Discord merch notification:", err);
   }
 
-  // Email to theethicsreporter@gmail.com via Brevo
+  // Email to theethicsreporter@gmail.com via Resend (theethicsreporter.com is verified)
   try {
-    await fetch("https://api.brevo.com/v3/smtp/email", {
+    await fetch("https://api.resend.com/emails", {
       method: "POST",
-      headers: { "Content-Type": "application/json", "api-key": BREVO_API_KEY },
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
+      },
       body: JSON.stringify({
-        sender: { name: "Take America Back Store", email: "noreply@theethicsreporter.com" },
-        to: [{ email: "theethicsreporter@gmail.com", name: "The Ethics Reporter" }],
+        from: "Take America Back Store <store@theethicsreporter.com>",
+        to: ["theethicsreporter@gmail.com"],
         subject: `🛒 New Merch Sale: ${amountFormatted} — ${productId}`,
-        htmlContent,
+        html: htmlContent,
       }),
     });
   } catch (err) {
