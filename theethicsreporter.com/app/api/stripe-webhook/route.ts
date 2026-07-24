@@ -1,5 +1,6 @@
 import Stripe from "stripe";
 import { NextRequest, NextResponse } from "next/server";
+import merch from "@/data/merch.json";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   httpClient: Stripe.createFetchHttpClient(),
@@ -130,6 +131,8 @@ async function handleMerchSale(session: Stripe.Checkout.Session) {
   const customerEmail = session.customer_details?.email ?? "Unknown";
   const customerName = session.customer_details?.name ?? "Unknown";
   const productId = session.metadata?.productId ?? "Unknown";
+  const merchList = merch as { id: string; name: string }[];
+  const productName = merchList.find((m) => m.id === productId)?.name ?? productId;
   const variant = session.metadata?.variant ?? "";
   const sessionId = session.id;
   const createdAt = new Date(session.created * 1000).toLocaleString("en-US", {
@@ -183,7 +186,7 @@ async function handleMerchSale(session: Stripe.Checkout.Session) {
     console.error("Failed to send Discord merch notification:", err);
   }
 
-  // Email to theethicsreporter@gmail.com via Resend (theethicsreporter.com is verified)
+  // Internal alert to theethicsreporter@gmail.com via Resend (theethicsreporter.com is verified)
   try {
     await fetch("https://api.resend.com/emails", {
       method: "POST",
@@ -200,5 +203,54 @@ async function handleMerchSale(session: Stripe.Checkout.Session) {
     });
   } catch (err) {
     console.error("Failed to send merch sale notification email:", err);
+  }
+
+  // Customer order confirmation via Resend
+  if (customerEmail && customerEmail !== "Unknown") {
+    const customerHtml = `
+      <div style="font-family: Georgia, serif; max-width: 600px; margin: 0 auto; padding: 20px; background:#0a1628;">
+        <div style="background:#c41e3a; padding: 26px 20px; border-radius: 8px 8px 0 0; text-align:center;">
+          <h1 style="color:#fff; margin:0; font-size: 26px; letter-spacing:1px;">TAKE AMERICA BACK</h1>
+          <p style="color:#fff; opacity:0.85; margin:6px 0 0; font-size: 13px; letter-spacing:2px; text-transform:uppercase;">The Ethics Reporter Store</p>
+        </div>
+        <div style="background:#fdf8f0; border:2px solid #c41e3a; border-top:none; padding: 32px; border-radius: 0 0 8px 8px;">
+          <h2 style="color:#0a1628; margin:0 0 12px;">Thank you for your order, ${customerName !== "Unknown" ? customerName : "Patriot"}! 🇺🇸</h2>
+          <p style="color:#333; line-height:1.6; margin:0 0 20px;">
+            Your order is confirmed. We&rsquo;re preparing your gear now &mdash; it will ship within 3&ndash;5 business days
+            with tracking to follow. Every purchase directly funds independent journalism at The Ethics Reporter. Thank you for standing with us.
+          </p>
+          <table style="width:100%; border-collapse:collapse; margin: 10px 0 20px;">
+            <tr><td style="padding:10px 12px; border-bottom:1px solid #e5d9c5; font-weight:bold; color:#c41e3a; width:130px;">Item</td><td style="padding:10px 12px; border-bottom:1px solid #e5d9c5;">${productName}</td></tr>
+            ${variant ? `<tr><td style="padding:10px 12px; border-bottom:1px solid #e5d9c5; font-weight:bold; color:#c41e3a;">Options</td><td style="padding:10px 12px; border-bottom:1px solid #e5d9c5;">${variant}</td></tr>` : ""}
+            <tr><td style="padding:10px 12px; border-bottom:1px solid #e5d9c5; font-weight:bold; color:#c41e3a;">Total</td><td style="padding:10px 12px; border-bottom:1px solid #e5d9c5; font-size:18px; font-weight:bold;">${amountFormatted}</td></tr>
+            <tr><td style="padding:10px 12px; font-weight:bold; color:#c41e3a;">Ship To</td><td style="padding:10px 12px;">${shippingBlock}</td></tr>
+          </table>
+          <p style="color:#666; font-size:13px; margin:0 0 4px;">Order reference: ${sessionId}</p>
+          <p style="color:#666; font-size:13px; margin:0;">Questions? Reply to this email or reach us at theethicsreporter@gmail.com.</p>
+          <div style="text-align:center; margin-top:26px;">
+            <a href="https://www.theethicsreporter.com/shop" style="display:inline-block; background:#c41e3a; color:#fff; text-decoration:none; padding:12px 30px; border-radius:6px; font-weight:bold; letter-spacing:1px; text-transform:uppercase;">Keep Shopping</a>
+          </div>
+        </div>
+        <p style="text-align:center; color:#6b8cae; font-size:12px; margin:16px 0 0;">The Ethics Reporter &middot; Independent journalism, funded by patriots like you.</p>
+      </div>
+    `;
+    try {
+      await fetch("https://api.resend.com/emails", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
+        },
+        body: JSON.stringify({
+          from: "Take America Back Store <store@theethicsreporter.com>",
+          to: [customerEmail],
+          reply_to: "theethicsreporter@gmail.com",
+          subject: `Your Take America Back order is confirmed 🇺🇸`,
+          html: customerHtml,
+        }),
+      });
+    } catch (err) {
+      console.error("Failed to send customer confirmation email:", err);
+    }
   }
 }
